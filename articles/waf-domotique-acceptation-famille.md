@@ -1,7 +1,7 @@
 ---
 layout: article.njk
 title: "WAF (Wife Acceptance Factor) : pourquoi votre famille déteste votre domotique"
-date: 2026-03-11
+date: 2026-02-19
 tags: ["article", "Architecture", "Débutant"]
 image: "https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?q=80&w=1200&auto=format&fit=crop"
 summary: "C'est le concept le plus important (et le plus ignoré) de l'intégration domotique. Si votre conjoint(e) ou vos enfants subissent votre installation au lieu d'en profiter, vous avez échoué en tant qu'architecte de votre propre maison."

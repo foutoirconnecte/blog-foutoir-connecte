@@ -1,7 +1,7 @@
 ---
 layout: article.njk
 title: "La folie du cloud chinois : ce qui se passe vraiment quand vous utilisez l'application Smart Life"
-date: 2026-03-11
+date: 2026-03-06
 tags: ["article", "Architecture", "Réseau"]
 image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=1200&auto=format&fit=crop"
 summary: "Derrière les dizaines de marques d'objets connectés à bas prix se cache souvent une seule et unique gigantesque plateforme : Tuya. Découvrez les risques de sécurité, de confidentialité et de fiabilité liés à cette dépendance technologique massive, et comment la contourner."

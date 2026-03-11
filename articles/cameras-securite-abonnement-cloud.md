@@ -1,7 +1,7 @@
 ---
 layout: article.njk
 title: "Le piège des abonnements : pourquoi vos caméras de sécurité vous ruinent (et comment passer au local)"
-date: 2026-03-11
+date: 2026-01-08
 tags: ["article", "Sécurité", "Matériel"]
 image: "https://images.unsplash.com/photo-1557597774-9d273605dfa9?q=80&w=1200&auto=format&fit=crop"
 summary: "Vous avez acheté une caméra à 40 euros en promotion, pour découvrir ensuite qu'il faut payer 10 euros par mois pour visionner les enregistrements ? Décryptage de la plus grande illusion de la domotique moderne et guide complet pour construire un système de vidéosurveillance 100% local, privé et sans frais cachés."
