@@ -8,4 +8,11 @@ title: Accueil - Le Foutoir Connecté
 Ce blog va vous aider à ranger votre domotique en la rendant fiable et invisible. Fini les interrupteurs hors ligne.
 
 ### Les articles récents :
-*(La liste s'affichera ici dès la première publication)*
+
+<ul>
+{% for post in collections.article | reverse %}
+  <li>
+    <a href="{{ post.url }}">{{ post.data.title }}</a>
+  </li>
+{% endfor %}
+</ul>
