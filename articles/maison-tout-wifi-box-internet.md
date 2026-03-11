@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: article.njk
 title: "La Box Internet qui Suffoque : Le Syndrome de la Maison Tout Wi-Fi"
 date: 2026-03-11
 tags: ["article", "Réseau", "Fondations"]

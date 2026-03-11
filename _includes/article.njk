@@ -9,7 +9,7 @@ layout: layout.njk
   .post-header { margin-bottom: 30px; }
   .post-title { font-size: 2.6rem; margin-bottom: 20px; line-height: 1.2; }
   
-  .post-tags { display: flex; gap: 10px; margin-bottom: 20px; }
+  .post-tags { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
   .post-tag {
     background: #e2e8f0;
     color: #334155;
@@ -91,7 +91,7 @@ layout: layout.njk
       {% endfor %}
     </div>
     
-    <h1 class="post-title">{{ title }}</h1>
+    <h1 class="post-title" data-pagefind-meta="title">{{ title }}</h1>
     
     <div class="post-meta">
       <span>
@@ -108,7 +108,7 @@ layout: layout.njk
   <div class="post-intro-block">
     {% if image %}
     <div class="post-intro-image">
-      <img src="{{ image }}" alt="Illustration pour {{ title }}" class="post-cover">
+      <img src="{{ image }}" alt="Illustration pour {{ title }}" class="post-cover" data-pagefind-meta="image[src], image_alt[alt]">
     </div>
     {% endif %}
 
