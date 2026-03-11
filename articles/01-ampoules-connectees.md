@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: article.njk
 title: "Pourquoi votre ampoule connectée est toujours hors ligne (et comment domotiser un plafonnier)"
 date: 2026-03-11
 tags: ["post", "domotique", "débutant"]

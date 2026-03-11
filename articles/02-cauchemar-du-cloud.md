@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: article.njk
 title: "Le Cauchemar du Cloud : Pourquoi votre domotique doit fonctionner sans Internet"
 date: 2026-03-11
 tags: ["post", "domotique", "architecture"]
