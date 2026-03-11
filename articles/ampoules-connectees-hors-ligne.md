@@ -1,8 +1,10 @@
 ---
-layout: article.njk
+layout: layout.njk
 title: "Pourquoi votre ampoule connectée est toujours hors ligne (et comment domotiser un plafonnier)"
 date: 2026-03-11
-tags: ["post", "domotique", "débutant"]
+tags: ["post", "domotique", "débutant", "article"]
+image: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?q=80&w=800&auto=format&fit=crop"
+summary: "Découvrez pourquoi remplacer vos ampoules classiques par des ampoules connectées est une erreur d'architecture fondamentale, et pourquoi la vraie solution se trouve derrière vos interrupteurs muraux avec les micromodules."
 ---
 
 L'histoire est toujours la même. Vous achetez une ampoule connectée à 40 euros. Vous la vissez au plafond du salon. Vous passez une heure à configurer des scènes lumineuses parfaites sur votre téléphone. Tout fonctionne à merveille. Puis, quelqu'un entre dans la pièce et appuie sur l'interrupteur mural par pur réflexe.
@@ -25,7 +27,7 @@ Le problème va beaucoup plus loin qu'une simple lumière qui refuse de s'allume
 
 Dans un réseau Wi-Fi classique, chaque appareil parle directement à votre box internet. Dans un réseau maillé Zigbee, les appareils branchés sur le secteur font office de relais pour les autres. Votre ampoule du couloir sert très probablement de pont radio pour le petit capteur de température de la chambre qui est trop loin de la box centrale pour communiquer tout seul.
 
-Quand on coupe l'interrupteur mural de cette ampoule, on ne fait pas qu'éteindre la lumière. On détruit un nœud vital du réseau. Le capteur de la chambre perd sa connexion. Les messages doivent trouver d'autres chemins. Toute l'installation devient instable et les commandes mettent soudainement plusieurs secondes à s'exécuter. C'est un désastre invisible qui pousse beaucoup de débutants à tout abandonner en pensant que la domotique n'est pas au point.
+Quand on coupe l'interrupteur mural de cette ampoule, on ne fait pas qu'éteindre la lumière. On détruit un nœud vital du réseau. Le capteur de la chambre perd sa connexion. Les messages doivent trouver d'autres chemins. Toute l'installation devient instable et les commandes mettent soudainement plusieurs secondes à s'exécuter. Si vous voulez comprendre pourquoi il faut absolument passer vos appareils au contrôle local, je vous invite à lire notre guide expliquant pourquoi **[le cloud est un cauchemar en domotique](/articles/domotique-sans-internet-cloud/)**.
 
 ## Le Fix : Le micromodule encastré
 
@@ -62,7 +64,7 @@ Attention cependant : un module sans neutre ne fait jamais office de relais dans
 
 L'approche du module bat l'ampoule connectée sur le plan financier. Une bonne ampoule connectée colorée coûte entre 30 et 50 euros. Les LED finissent toujours par vieillir ou griller. Quand elle mourra, il faudra repayer le prix fort pour retrouver la fonctionnalité.
 
-À l'inverse, un micromodule coûte environ 15 euros et possède une durée de vie extrêmement longue puisqu'il est protégé dans le mur. Vous l'associez à des ampoules LED classiques de supermarché à 2 euros. Sur cinq ou dix ans, l'investissement est largement rentabilisé.
+À l'inverse, un micromodule coûte environ 15 euros et possède une durée de vie extrêmement longue puisqu'il est protégé dans le mur. Vous l'associez à des ampoules LED classiques de supermarché à 2 euros. Sur cinq ou dix ans, l'investissement est largement rentabilisé. Et croyez-moi, cela évite aussi de **[saturer votre box internet avec des dizaines d'adresses IP Wi-Fi](/articles/maison-tout-wifi-box-internet/)**.
 
 ## Quand faut-il vraiment utiliser des ampoules connectées ?
 

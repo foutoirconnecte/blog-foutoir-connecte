@@ -1,7 +1,59 @@
 ---
 layout: layout.njk
 ---
+<style>
+  .post-header { margin-bottom: 30px; text-align: center; }
+  .post-title { font-size: 2.2rem; margin-bottom: 15px; }
+  .post-meta { 
+    color: var(--text-muted); 
+    font-size: 0.95rem; 
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  .post-meta span { display: flex; align-items: center; gap: 5px; }
+  .post-cover {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  .post-summary {
+    background: #ecfdf5; /* Vert très très clair */
+    border-left: 4px solid var(--primary-color);
+    padding: 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #064e3b;
+    border-radius: 0 8px 8px 0;
+    margin-bottom: 40px;
+  }
+</style>
+
 <article>
-  <h1>{{ title }}</h1>
-  {{ content | safe }}
+  <header class="post-header">
+    <h1 class="post-title">{{ title }}</h1>
+    <div class="post-meta">
+      <span>📅 {{ date | readableDate }}</span>
+      <span>⏱️ {{ content | readingTime }} min de lecture</span>
+    </div>
+  </header>
+
+  {% if image %}
+    <img src="{{ image }}" alt="Illustration pour {{ title }}" class="post-cover">
+  {% endif %}
+
+  {% if summary %}
+    <div class="post-summary">
+      <strong>En résumé :</strong> {{ summary }}
+    </div>
+  {% endif %}
+
+  <div class="post-content">
+    {{ content | safe }}
+  </div>
 </article>

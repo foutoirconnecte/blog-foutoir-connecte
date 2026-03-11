@@ -1,8 +1,10 @@
 ---
-layout: article.njk
+layout: layout.njk
 title: "Le Cauchemar du Cloud : Pourquoi votre domotique doit fonctionner sans Internet"
 date: 2026-03-11
-tags: ["post", "domotique", "architecture"]
+tags: ["post", "domotique", "architecture", "article"]
+image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=800&auto=format&fit=crop"
+summary: "Découvrez l'aberration technique du contrôle déporté (Cloud). La latence, le risque de faillite des serveurs, et surtout, pourquoi le passage au contrôle réseau local via Zigbee et Home Assistant est indispensable pour une vraie tranquillité d'esprit."
 ---
 
 La scène se répète à chaque panne de fournisseur d'accès internet. Vous rentrez chez vous, la box clignote en rouge, et soudainement, votre maison entière refuse de vous obéir. L'application Smart Life tourne dans le vide. Vos prises connectées ne s'activent plus. Vous êtes littéralement incapable d'allumer la lumière de votre propre salon depuis votre smartphone, simplement parce qu'un câble fibre a été coupé à trois kilomètres de là.
@@ -23,7 +25,9 @@ Tant que tout fonctionne, la latence reste acceptable. Le problème survient au 
 
 Beaucoup d'utilisateurs confondent la connexion physique et la connexion logique. Vos prises connectées ou vos ampoules Wi-Fi à bas coût se connectent effectivement à votre réseau local physique. Mais la communication s'arrête là. Elles sont programmées en usine pour ignorer toute commande directe venant de votre propre réseau. Elles n'écoutent que les ordres signés venant du serveur Cloud du fabricant.
 
-Pire encore, la domotique est un marché extrêmement volatil. Lorsqu'une entreprise qui base tout son modèle sur le Cloud fait faillite, elle éteint ses serveurs pour faire des économies. Du jour au lendemain, votre matériel parfaitement fonctionnel se transforme en déchet électronique de luxe, impossible à rallumer. Personne ne devrait investir des centaines d'euros dans une installation qui peut être désactivée à distance par la fermeture d'une startup.
+Pire encore, la domotique est un marché extrêmement volatil. Lorsqu'une entreprise qui base tout son modèle sur le Cloud fait faillite, elle éteint ses serveurs pour faire des économies. Du jour au lendemain, votre matériel parfaitement fonctionnel se transforme en déchet électronique de luxe, impossible à rallumer. C'est exactement l'inverse d'une infrastructure pérenne comme le **[micromodule derrière vos interrupteurs](/articles/ampoules-connectees-hors-ligne/)** que nous recommandons chaudement.
+
+Personne ne devrait investir des centaines d'euros dans une installation qui peut être désactivée à distance par la fermeture d'une startup.
 
 ## Le Fix : L'architecture en contrôle local
 
@@ -33,7 +37,7 @@ Le contrôle local signifie que le cerveau de votre installation se trouve physi
 
 Pour passer au contrôle local, il faut s'éloigner des périphériques fonctionnant exclusivement en Wi-Fi via des applications propriétaires. C'est ici que les protocoles dédiés à la domotique pure, comme le Zigbee, le Z-Wave ou le standard Thread, prennent tout leur sens.
 
-Ces protocoles radio sont conçus dès le départ pour une communication de machine à machine sans passer par le web. Ils nécessitent ce qu'on appelle un coordinateur, ou une passerelle. Ce coordinateur joue le rôle de chef d'orchestre. Il discute directement avec vos capteurs et vos relais, en totale autarcie.
+Ces protocoles radio sont conçus dès le départ pour une communication de machine à machine sans passer par le web. Ils nécessitent ce qu'on appelle un coordinateur, ou une passerelle. Ce coordinateur joue le rôle de chef d'orchestre. Il discute directement avec vos capteurs et vos relais, en totale autarcie. Et en prime, **[votre box internet s'en portera beaucoup mieux](/articles/maison-tout-wifi-box-internet/)**.
 
 ## Comment reprendre le contrôle de sa maison
 

@@ -7,7 +7,7 @@ title: Accueil - Le Foutoir Connecté
 
 Tout commence généralement par une simple ampoule colorée ou une prise Wi-Fi en promotion. C'est amusant, facile à installer, et on a l'impression de vivre dans le futur. Puis, sans vraiment s'en rendre compte, on ajoute un thermostat, des caméras, des détecteurs d'ouverture sur les fenêtres... 
 
-Quelques mois plus tard, la réalité technique vous rattrape : vous avez six applications différentes sur votre smartphone, votre routeur Wi-Fi est à l'agonie, et votre famille s'énerve parce que la lumière du couloir refuse de s'allumer quand la box internet décide de faire une mise à jour. 
+Quelques mois plus tard, la réalité technique vous rattrape : vous avez six applications différentes sur votre smartphone, votre routeur Wi-Fi est à l'agonie, et votre famille s'énerve parce la lumière du couloir refuse de s'allumer quand la box internet décide de faire une mise à jour. 
 
 Félicitations, vous êtes l'heureux propriétaire d'un **foutoir connecté**.
 
@@ -30,10 +30,19 @@ Que vous soyez un débutant cherchant à comprendre pourquoi votre ampoule clign
 
 ### Nos derniers dossiers de fond :
 
-<ul class="article-list">
+<div class="articles-grid">
 {% for post in collections.article | reverse %}
-  <li>
-    <a href="{{ post.url }}">{{ post.data.title }}</a>
-  </li>
+  <div class="article-card">
+    {% if post.data.image %}
+    <a href="{{ post.url }}"><img src="{{ post.data.image }}" alt="{{ post.data.title }}" class="article-card-img"></a>
+    {% endif %}
+    <div class="article-card-content">
+      <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+      <div class="article-card-meta">📅 {{ post.data.date | readableDate }} &nbsp;•&nbsp; ⏱️ {{ post.content | readingTime }} min</div>
+      {% if post.data.summary %}
+      <p style="font-size: 0.95rem; color: #475569; margin-top: 5px;">{{ post.data.summary }}</p>
+      {% endif %}
+    </div>
+  </div>
 {% endfor %}
-</ul>
+</div>

@@ -1,8 +1,10 @@
 ---
-layout: article.njk
+layout: layout.njk
 title: "La Box Internet qui Suffoque : Le Syndrome de la Maison Tout Wi-Fi"
 date: 2026-03-11
-tags: ["post", "réseau", "domotique", "wi-fi"]
+tags: ["post", "réseau", "domotique", "wi-fi", "article"]
+image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=800&auto=format&fit=crop"
+summary: "Trop d'objets connectés tuent le réseau. Découvrez pourquoi votre box internet opérateur n'est pas taillée pour supporter cinquante prises intelligentes, et comment le réseau maillé (Zigbee/Thread) peut sauver vos soirées Netflix."
 ---
 
 L'enthousiasme des débuts pousse souvent à une erreur fatale. Vous découvrez les joies de la domotique avec une première prise connectée. Le mois suivant, vous équipez tout le salon d'ampoules intelligentes. Six mois plus tard, la maison compte une cinquantaine de périphériques bon marché, tous connectés au réseau sans fil. 
@@ -31,7 +33,7 @@ Votre box internet intègre un service appelé serveur DHCP. Son rôle est de di
 
 Quand vous ajoutez massivement des interrupteurs, des prises et des capteurs, le serveur DHCP est sollicité en permanence. Les baux DHCP expirent, se renouvellent, se croisent. Les conflits d'adresses IP apparaissent rapidement. Votre smartphone tente de se connecter en rentrant du travail, la box lui attribue par erreur l'adresse IP déjà utilisée par une prise connectée du salon. Résultat : le téléphone refuse d'afficher internet, et la prise connectée disparaît de votre application domotique. 
 
-La maison connectée devient un environnement instable où les appareils jouent aux chaises musicales avec les adresses réseau.
+La maison connectée devient un environnement instable où les appareils jouent aux chaises musicales avec les adresses réseau. C'est aussi pour cela qu'il est crucial de **[passer au contrôle local et délaisser le Cloud](/articles/domotique-sans-internet-cloud/)**.
 
 ## L'embouteillage de la bande des 2.4 GHz
 
@@ -53,7 +55,7 @@ Contrairement au Wi-Fi où chaque appareil tape directement et lourdement sur la
 
 ## Renforcer l'infrastructure Wi-Fi pour les équipements inévitables
 
-Parfois, l'usage du Wi-Fi reste indispensable en domotique. C'est le cas si vous optez pour des micromodules encastrés d'excellente qualité comme ceux de la marque Shelly, ou si vous multipliez les assistants vocaux et les caméras.
+Parfois, l'usage du Wi-Fi reste indispensable en domotique. C'est le cas si vous optez pour des **[micromodules encastrés d'excellente qualité comme les Shelly](/articles/ampoules-connectees-hors-ligne/)**, ou si vous multipliez les assistants vocaux et les caméras.
 
 Si vous dépassez la vingtaine d'appareils Wi-Fi à domicile, la box de votre opérateur doit être reléguée au rang de simple modem. Son antenne Wi-Fi intégrée doit être désactivée définitivement.
 
