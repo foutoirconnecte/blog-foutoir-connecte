@@ -1,7 +1,7 @@
 ---
 layout: article.njk
-title: "WAF (Wife Acceptance Factor) : pourquoi votre famille déteste votre domotique"
-date: 2026-02-19
+title: "Le WAF (Wife Acceptance Factor) : pourquoi votre famille déteste votre domotique"
+date: 2026-03-11
 tags: ["article", "Architecture", "Débutant"]
 image: "https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?q=80&w=1200&auto=format&fit=crop"
 summary: "C'est le concept le plus important (et le plus ignoré) de l'intégration domotique. Si votre conjoint(e) ou vos enfants subissent votre installation au lieu d'en profiter, vous avez échoué en tant qu'architecte de votre propre maison."
@@ -9,7 +9,7 @@ summary: "C'est le concept le plus important (et le plus ignoré) de l'intégrat
 
 Il y a un moment fatidique dans la vie de tout passionné de domotique. Vous venez de passer votre dimanche après-midi à programmer un magnifique scénario complexe : *"Quand j'ouvre la porte d'entrée, que le soleil est couché, et que l'alarme était mise, allume le couloir en bleu tamisé et joue ma playlist Spotify"*.
 
-Vous êtes fier. Puis, votre conjoint(e) rentre du travail chargé(e) de courses, ouvre la porte... et se retrouve dans un couloir baigné d'une lumière bleue lugubre, accueilli par du gros métal hurlant dans les haut-parleurs, alors qu'il ou elle cherchait simplement le bouton pour allumer la lumière blanche normale. 
+Vous êtes fier. Puis, votre conjoint(e) rentre tard du travail, chargé(e) de courses, ouvre la porte... et se retrouve dans un couloir baigné d'une lumière bleue lugubre, accueilli par du gros métal hurlant dans les haut-parleurs, alors qu'il ou elle cherchait simplement le bouton pour allumer la lumière blanche normale.
 
 Le regard noir que vous recevrez à cet instant précis porte un nom dans le monde des ingénieurs et de l'intégration : **le WAF**.
 
@@ -44,7 +44,7 @@ La solution matérielle existe : les micromodules encastrés. Ils se cachent der
 
 Même lorsque l'on veut ajouter de nouvelles commandes (par exemple un bouton près de la table de nuit pour éteindre toute la maison), la simplicité doit primer.
 
-Ne mettez pas un écran tactile complexe avec 15 sous-menus sur la table de chevet. Achetez un simple bouton sans fil Zigbee (comme un bouton Aqara ou un interrupteur Philips Hue Dimmer). Collez-le au mur ou posez-le sur la table.
+Ne mettez pas un écran tactile complexe avec 15 sous-menus sur la table de chevet. Achetez un simple bouton sans fil Zigbee (comme un bouton Aqara ou une télécommande Philips Hue). Collez-le au mur ou posez-le sur la table.
 Programmez-le pour qu'une simple pression éteigne tout (lumières, télévision) et active l'alarme de nuit. 
 
 La courbe d'apprentissage pour votre conjoint(e) passera de 3 jours à 3 secondes. "Tu appuies là avant de dormir, et ça ferme la maison". C'est ça, un système qui se fait accepter.
