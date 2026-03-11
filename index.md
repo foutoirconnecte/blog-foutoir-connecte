@@ -9,7 +9,7 @@ Ce blog va vous aider à ranger votre domotique en la rendant fiable et invisibl
 
 ### Les articles récents :
 
-<ul>
+<ul class="article-list">
 {% for post in collections.article | reverse %}
   <li>
     <a href="{{ post.url }}">{{ post.data.title }}</a>
