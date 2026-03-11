@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: article.njk
 title: "Le piège des abonnements : pourquoi vos caméras de sécurité vous ruinent (et comment passer au local)"
 date: 2026-03-11
 tags: ["article", "Sécurité", "Matériel"]

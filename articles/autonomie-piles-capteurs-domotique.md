@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: article.njk
 title: "La pile bouton au mauvais moment : comment optimiser l'autonomie de vos capteurs"
 date: 2026-03-11
 tags: ["article", "Matériel", "Réseau"]

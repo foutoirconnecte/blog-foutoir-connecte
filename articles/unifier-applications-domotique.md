@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: article.njk
 title: "L'enfer des 6 applications : comment unifier toute votre domotique dans une seule interface"
 date: 2026-03-11
 tags: ["article", "Architecture", "Débutant"]

@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: article.njk
 title: "Agiter les bras dans le noir : pourquoi vos capteurs de mouvement ruinent votre domotique"
 date: 2026-03-11
 tags: ["article", "Matériel", "Architecture"]
