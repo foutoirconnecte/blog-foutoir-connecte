@@ -12,6 +12,7 @@
       --text-muted: #64748b;
       --bg-body: #f1f5f9;
       --bg-card: #ffffff;
+      --header-bg: #1e293b; /* Bleu Nuit sobre mais coloré */
     }
     body { 
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; 
@@ -47,44 +48,64 @@
       color: var(--primary-dark);
       text-decoration: underline; 
     }
+    
+    /* Header & Navbar */
     .site-header { 
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      background: var(--header-bg);
+      color: #f8fafc;
       margin-bottom: 40px; 
-      padding: 30px 20px; 
-      background: var(--bg-card);
-      border-bottom: 1px solid #e2e8f0;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+      padding: 20px 20px; 
+      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+      border-bottom: 4px solid var(--primary-color);
     }
     .header-content {
       max-width: 1100px;
-      width: 100%;
+      margin: 0 auto;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
     }
     .logo-area h1 {
       margin: 0 0 5px 0;
-      font-size: 2.2rem;
+      font-size: 2rem;
       letter-spacing: -0.02em;
+      color: #ffffff;
     }
-    .logo-area h1 a { color: #0f172a; }
-    .logo-area p { margin: 0; color: var(--text-muted); font-size: 1.05rem; }
+    .logo-area h1 a { color: #ffffff; }
+    .logo-area p { margin: 0; color: #94a3b8; font-size: 0.95rem; }
     
+    .header-nav {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+    .header-nav a {
+      color: #e2e8f0;
+      font-weight: 500;
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .header-nav a:hover {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+
     .search-icon {
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 44px;
-      height: 44px;
-      background: var(--bg-body);
+      width: 40px;
+      height: 40px;
+      background: rgba(255,255,255,0.1);
       border-radius: 50%;
-      color: var(--text-main);
+      color: #ffffff;
       transition: background 0.2s;
     }
     .search-icon:hover {
-      background: #e2e8f0;
+      background: rgba(255,255,255,0.2);
     }
 
     main {
@@ -94,11 +115,43 @@
       box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
     }
     
+    /* Articles Grid used in multiple places */
+    .articles-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 35px;
+      margin-top: 40px;
+    }
+    .article-card {
+      background: var(--bg-card);
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+      transition: transform 0.2s, box-shadow 0.2s;
+      display: flex;
+      flex-direction: column;
+    }
+    .article-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 25px -5px rgba(0,0,0,0.1);
+      border-color: #cbd5e1;
+    }
+    .article-card-img { width: 100%; height: 200px; object-fit: cover; }
+    .article-card-content { padding: 25px; flex: 1; display: flex; flex-direction: column; }
+    .article-card-content h3 { margin: 0 0 15px 0; font-size: 1.35rem; line-height: 1.4; }
+    .article-card-meta {
+      font-size: 0.85rem; color: var(--text-muted); margin-bottom: 15px;
+      display: flex; align-items: center; gap: 12px; text-transform: uppercase; font-weight: 500;
+    }
+    .article-card-meta svg { width: 14px; height: 14px; fill: currentColor; }
+    .article-card-summary { font-size: 0.95rem; color: #475569; margin-top: auto; line-height: 1.6; }
+
     /* Footer */
     .site-footer {
       text-align: center;
       padding: 30px 20px;
-      background: #0f172a;
+      background: var(--header-bg);
       color: #94a3b8;
       font-size: 0.9rem;
       margin-top: auto;
@@ -106,7 +159,8 @@
     .site-footer a { color: #e2e8f0; margin: 0 10px; }
     
     @media (max-width: 768px) {
-      .header-content { flex-direction: column; gap: 20px; text-align: center; }
+      .header-content { flex-direction: column; text-align: center; }
+      .header-nav { flex-wrap: wrap; justify-content: center; }
       main { padding: 30px 20px; }
     }
   </style>
@@ -116,11 +170,17 @@
     <div class="header-content">
       <div class="logo-area">
         <h1><a href="/">Le Foutoir Connecté</a></h1>
-        <p>Reprenez le contrôle de votre domotique.</p>
+        <p>Le guide d'architecture de votre domotique locale.</p>
       </div>
-      <a href="/pages/recherche/" class="search-icon" aria-label="Recherche">
-        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
-      </a>
+      <nav class="header-nav">
+        <a href="/tags/architecture/">Architecture</a>
+        <a href="/tags/réseau/">Réseau</a>
+        <a href="/tags/débutant/">Débutant</a>
+        <a href="/tags/matériel/">Matériel</a>
+        <a href="/pages/recherche/" class="search-icon" aria-label="Recherche">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+        </a>
+      </nav>
     </div>
   </header>
   <div class="container">

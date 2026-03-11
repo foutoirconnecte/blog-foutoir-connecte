@@ -76,7 +76,7 @@ title: Accueil - Le Foutoir Connecté
 }
 </style>
 
-<img src="https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=1200&auto=format&fit=crop" class="hero-banner" alt="Maison connectée moderne">
+<img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1200&auto=format&fit=crop" class="hero-banner" alt="Maison connectée moderne">
 
 <div class="intro-text" data-pagefind-ignore>
   <h2>Votre maison est devenue un enfer numérique ? Rassurez-vous, c'est normal.</h2>

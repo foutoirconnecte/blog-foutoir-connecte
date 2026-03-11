@@ -3,33 +3,59 @@ layout: layout.njk
 ---
 <style>
   .article-container {
-    max-width: 850px;
+    max-width: 900px;
     margin: 0 auto;
   }
-  .post-header { margin-bottom: 30px; text-align: center; }
-  .post-title { font-size: 2.5rem; margin-bottom: 20px; line-height: 1.2; }
+  .post-header { margin-bottom: 30px; }
+  .post-title { font-size: 2.6rem; margin-bottom: 20px; line-height: 1.2; }
+  
+  .post-tags { display: flex; gap: 10px; margin-bottom: 20px; }
+  .post-tag {
+    background: #e2e8f0;
+    color: #334155;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .post-tag:hover { background: var(--primary-color); color: #fff; text-decoration: none; }
+
   .post-meta { 
     color: var(--text-muted); 
     font-size: 0.95rem; 
     font-weight: 500;
     display: flex;
-    justify-content: center;
     gap: 20px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e2e8f0;
   }
   .post-meta span { display: flex; align-items: center; gap: 6px; }
   .post-meta svg { width: 16px; height: 16px; fill: currentColor; }
+
+  /* Le bloc Image + Résumé */
+  .post-intro-block {
+    display: flex;
+    gap: 30px;
+    margin: 40px 0;
+    align-items: stretch;
+  }
+  .post-intro-image {
+    flex: 1;
+    min-width: 50%;
+  }
   .post-cover {
     width: 100%;
-    height: auto;
-    max-height: 450px;
+    height: 100%;
+    min-height: 250px;
     object-fit: cover;
     border-radius: 12px;
-    margin-bottom: 40px;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   }
-  .post-summary {
+  .post-intro-summary {
+    flex: 1;
     background: #f8fafc;
     border-left: 5px solid var(--primary-color);
     padding: 25px 30px;
@@ -37,8 +63,11 @@ layout: layout.njk
     font-style: italic;
     color: var(--text-main);
     border-radius: 0 12px 12px 0;
-    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
+
   .post-content {
     font-size: 1.15rem;
     line-height: 1.8;
@@ -48,12 +77,22 @@ layout: layout.njk
   
   @media (max-width: 768px) {
     .post-title { font-size: 2rem; }
+    .post-intro-block { flex-direction: column; }
   }
 </style>
 
 <article class="article-container" data-pagefind-body>
   <header class="post-header">
+    <div class="post-tags">
+      {% for tag in tags %}
+        {% if tag != "post" and tag != "article" %}
+          <a href="/tags/{{ tag | slugify }}/" class="post-tag">{{ tag }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+    
     <h1 class="post-title">{{ title }}</h1>
+    
     <div class="post-meta">
       <span>
         <svg viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2z"/></svg>
@@ -66,15 +105,20 @@ layout: layout.njk
     </div>
   </header>
 
-  {% if image %}
-    <img src="{{ image }}" alt="Illustration pour {{ title }}" class="post-cover">
-  {% endif %}
-
-  {% if summary %}
-    <div class="post-summary">
-      <strong>En résumé :</strong> {{ summary }}
+  <div class="post-intro-block">
+    {% if image %}
+    <div class="post-intro-image">
+      <img src="{{ image }}" alt="Illustration pour {{ title }}" class="post-cover">
     </div>
-  {% endif %}
+    {% endif %}
+
+    {% if summary %}
+    <div class="post-intro-summary">
+      <strong style="display:block; margin-bottom: 10px; color: var(--primary-dark); font-style: normal; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.05em;">En résumé</strong>
+      {{ summary }}
+    </div>
+    {% endif %}
+  </div>
 
   <div class="post-content">
     {{ content | safe }}
