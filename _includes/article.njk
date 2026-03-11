@@ -53,17 +53,30 @@ layout: layout.njk
   .related-card {
     background: #f8fafc;
     border-radius: 10px;
-    padding: 20px;
+    overflow: hidden;
     transition: transform 0.2s;
     border: 1px solid #e2e8f0;
+    display: flex;
+    flex-direction: column;
   }
   .related-card:hover {
     transform: translateY(-3px);
     border-color: #cbd5e1;
   }
+  .related-card-img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+  }
+  .related-card-content {
+    padding: 15px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
   .related-card h4 {
     margin: 0 0 10px 0;
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     line-height: 1.4;
   }
   .related-card a {
@@ -73,6 +86,17 @@ layout: layout.njk
     color: var(--primary-color);
     text-decoration: none;
   }
+  .related-meta {
+    font-size: 0.85rem; 
+    color: var(--text-muted); 
+    margin-top: auto;
+    display: flex; 
+    align-items: center; 
+    gap: 6px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .related-meta svg { width: 14px; height: 14px; fill: currentColor; }
   
   @media (max-width: 768px) {
     .post-title { font-size: 2rem; }
@@ -127,13 +151,20 @@ layout: layout.njk
   <aside class="related-posts" data-pagefind-ignore>
     <h3>À lire aussi dans le Foutoir</h3>
     <div class="related-grid">
-      {# On récupère 3 articles aléatoires ou les derniers (ici les 3 derniers autres que l'actuel) #}
       {% set count = 0 %}
       {% for post in collections.article | reverse %}
-        {% if post.url != page.url and count < 3 %}
+        {% if post.url != page.url and count < 6 %}
           <div class="related-card">
-            <h4><a href="{{ post.url }}">{{ post.data.title }}</a></h4>
-            <div style="font-size: 0.85rem; color: var(--text-muted);">⏱️ {{ post.content | readingTime }} min</div>
+            {% if post.data.image %}
+              <a href="{{ post.url }}"><img src="{{ post.data.image }}" alt="{{ post.data.title }}" class="related-card-img"></a>
+            {% endif %}
+            <div class="related-card-content">
+              <h4><a href="{{ post.url }}">{{ post.data.title }}</a></h4>
+              <div class="related-meta">
+                <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 
+                {{ post.content | readingTime }} min
+              </div>
+            </div>
           </div>
           {% set count = count + 1 %}
         {% endif %}
