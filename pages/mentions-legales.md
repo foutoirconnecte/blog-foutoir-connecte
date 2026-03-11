@@ -8,7 +8,7 @@ permalink: /pages/mentions-legales/
 
 ## Éditeur du site
 Le site **Le Foutoir Connecté** (accessible à l'adresse www.foutoirconnecte.com) est édité à titre personnel par :
-* François-Xavier Dohet
+* FX (Le Foutoir Connecté)
 * E-mail de contact : contact@foutoirconnecte.com
 
 ## Hébergement

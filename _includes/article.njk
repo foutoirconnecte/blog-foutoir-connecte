@@ -2,44 +2,67 @@
 layout: layout.njk
 ---
 <style>
+  .article-container {
+    max-width: 850px;
+    margin: 0 auto;
+  }
   .post-header { margin-bottom: 30px; text-align: center; }
-  .post-title { font-size: 2.2rem; margin-bottom: 15px; }
+  .post-title { font-size: 2.5rem; margin-bottom: 20px; line-height: 1.2; }
   .post-meta { 
     color: var(--text-muted); 
     font-size: 0.95rem; 
     font-weight: 500;
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
   }
-  .post-meta span { display: flex; align-items: center; gap: 5px; }
+  .post-meta span { display: flex; align-items: center; gap: 6px; }
+  .post-meta svg { width: 16px; height: 16px; fill: currentColor; }
   .post-cover {
     width: 100%;
     height: auto;
-    max-height: 400px;
+    max-height: 450px;
     object-fit: cover;
     border-radius: 12px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   }
   .post-summary {
-    background: #ecfdf5; /* Vert très très clair */
-    border-left: 4px solid var(--primary-color);
-    padding: 20px;
-    font-size: 1.1rem;
-    font-weight: 500;
-    color: #064e3b;
-    border-radius: 0 8px 8px 0;
+    background: #f8fafc;
+    border-left: 5px solid var(--primary-color);
+    padding: 25px 30px;
+    font-size: 1.15rem;
+    font-style: italic;
+    color: var(--text-main);
+    border-radius: 0 12px 12px 0;
     margin-bottom: 40px;
+  }
+  .post-content {
+    font-size: 1.15rem;
+    line-height: 1.8;
+  }
+  .post-content h2 { font-size: 2rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 10px; margin-top: 2em; }
+  .post-content h3 { font-size: 1.5rem; }
+  
+  @media (max-width: 768px) {
+    .post-title { font-size: 2rem; }
   }
 </style>
 
-<article>
+<article class="article-container" data-pagefind-body>
   <header class="post-header">
     <h1 class="post-title">{{ title }}</h1>
     <div class="post-meta">
-      <span>📅 {{ date | readableDate }}</span>
-      <span>⏱️ {{ content | readingTime }} min de lecture</span>
+      <span>
+        <svg viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2z"/></svg>
+        {{ date | readableDate }}
+      </span>
+      <span>
+        <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+        {{ content | readingTime }} min de lecture
+      </span>
     </div>
   </header>
 

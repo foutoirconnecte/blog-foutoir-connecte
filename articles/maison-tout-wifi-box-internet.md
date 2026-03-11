@@ -3,7 +3,7 @@ layout: layout.njk
 title: "La Box Internet qui Suffoque : Le Syndrome de la Maison Tout Wi-Fi"
 date: 2026-03-11
 tags: ["post", "réseau", "domotique", "wi-fi", "article"]
-image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=800&auto=format&fit=crop"
+image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=800&auto=format&fit=crop"
 summary: "Trop d'objets connectés tuent le réseau. Découvrez pourquoi votre box internet opérateur n'est pas taillée pour supporter cinquante prises intelligentes, et comment le réseau maillé (Zigbee/Thread) peut sauver vos soirées Netflix."
 ---
 
