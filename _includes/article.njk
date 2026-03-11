@@ -2,78 +2,77 @@
 layout: layout.njk
 ---
 <style>
-  .article-container {
-    max-width: 900px;
-    margin: 0 auto;
-  }
+  .article-container { max-width: 900px; margin: 0 auto; }
   .post-header { margin-bottom: 30px; }
   .post-title { font-size: 2.6rem; margin-bottom: 20px; line-height: 1.2; }
-  
   .post-tags { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
   .post-tag {
-    background: #e2e8f0;
-    color: #334155;
-    padding: 4px 12px;
-    border-radius: 20px;
-    font-size: 0.85rem;
-    font-weight: 600;
-    text-transform: uppercase;
+    background: #e2e8f0; color: #334155; padding: 4px 12px;
+    border-radius: 20px; font-size: 0.85rem; font-weight: 600; text-transform: uppercase;
   }
   .post-tag:hover { background: var(--primary-color); color: #fff; text-decoration: none; }
-
   .post-meta { 
-    color: var(--text-muted); 
-    font-size: 0.95rem; 
-    font-weight: 500;
-    display: flex;
-    gap: 20px;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #e2e8f0;
+    color: var(--text-muted); font-size: 0.95rem; font-weight: 500; display: flex;
+    gap: 20px; text-transform: uppercase; letter-spacing: 0.05em; padding-bottom: 20px; border-bottom: 1px solid #e2e8f0;
   }
   .post-meta span { display: flex; align-items: center; gap: 6px; }
   .post-meta svg { width: 16px; height: 16px; fill: currentColor; }
 
-  /* Le bloc Image + Résumé */
-  .post-intro-block {
-    display: flex;
-    gap: 30px;
-    margin: 40px 0;
-    align-items: stretch;
-  }
-  .post-intro-image {
-    flex: 1;
-    min-width: 50%;
-  }
+  .post-intro-block { display: flex; gap: 30px; margin: 40px 0; align-items: stretch; }
+  .post-intro-image { flex: 1; min-width: 50%; }
   .post-cover {
-    width: 100%;
-    height: 100%;
-    min-height: 250px;
-    object-fit: cover;
-    border-radius: 12px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    width: 100%; height: 100%; min-height: 250px; object-fit: cover;
+    border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   }
   .post-intro-summary {
-    flex: 1;
-    background: #f8fafc;
-    border-left: 5px solid var(--primary-color);
-    padding: 25px 30px;
-    font-size: 1.15rem;
-    font-style: italic;
-    color: var(--text-main);
-    border-radius: 0 12px 12px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex: 1; background: #f8fafc; border-left: 5px solid var(--primary-color);
+    padding: 25px 30px; font-size: 1.15rem; font-style: italic; color: var(--text-main);
+    border-radius: 0 12px 12px 0; display: flex; flex-direction: column; justify-content: center;
   }
-
-  .post-content {
-    font-size: 1.15rem;
-    line-height: 1.8;
-  }
+  .post-content { font-size: 1.15rem; line-height: 1.8; }
   .post-content h2 { font-size: 2rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 10px; margin-top: 2em; }
   .post-content h3 { font-size: 1.5rem; }
+  
+  /* CSS pour les articles liés (Related Posts) */
+  .related-posts {
+    margin-top: 80px;
+    padding-top: 40px;
+    border-top: 2px solid #e2e8f0;
+  }
+  .related-posts h3 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--primary-dark);
+  }
+  .related-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  .related-card {
+    background: #f8fafc;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.2s;
+    border: 1px solid #e2e8f0;
+  }
+  .related-card:hover {
+    transform: translateY(-3px);
+    border-color: #cbd5e1;
+  }
+  .related-card h4 {
+    margin: 0 0 10px 0;
+    font-size: 1.15rem;
+    line-height: 1.4;
+  }
+  .related-card a {
+    color: #1e293b;
+  }
+  .related-card a:hover {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
   
   @media (max-width: 768px) {
     .post-title { font-size: 2rem; }
@@ -108,7 +107,7 @@ layout: layout.njk
   <div class="post-intro-block">
     {% if image %}
     <div class="post-intro-image">
-      <img src="{{ image }}" alt="Illustration pour {{ title }}" class="post-cover" data-pagefind-meta="image[src], image_alt[alt]">
+      <img src="{{ image }}" alt="Illustration pour {{ title }}" class="post-cover" data-pagefind-meta="image[src], image_alt[alt]" onerror="this.style.display='none'">
     </div>
     {% endif %}
 
@@ -123,4 +122,23 @@ layout: layout.njk
   <div class="post-content">
     {{ content | safe }}
   </div>
+
+  <!-- Articles recommandés (Related Posts) -->
+  <aside class="related-posts" data-pagefind-ignore>
+    <h3>À lire aussi dans le Foutoir</h3>
+    <div class="related-grid">
+      {# On récupère 3 articles aléatoires ou les derniers (ici les 3 derniers autres que l'actuel) #}
+      {% set count = 0 %}
+      {% for post in collections.article | reverse %}
+        {% if post.url != page.url and count < 3 %}
+          <div class="related-card">
+            <h4><a href="{{ post.url }}">{{ post.data.title }}</a></h4>
+            <div style="font-size: 0.85rem; color: var(--text-muted);">⏱️ {{ post.content | readingTime }} min</div>
+          </div>
+          {% set count = count + 1 %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </aside>
+
 </article>
