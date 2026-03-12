@@ -1,6 +1,6 @@
 ---
 layout: article.njk
-title: "Sonnettes Connectées en 2026 : Le Comparatif Ultime (Action, Wi-Fi, Zigbee, Local vs Cloud)"
+title: "Sonnettes Connectées en 2026 : Le Comparatif Ultime (Action, Wi-Fi, Zigbee, Tuya)"
 date: 2026-03-12
 tags: ["article", "Sécurité", "Matériel", "Réseau"]
 image: "/images/sonnettes-connectees-2026-cloud-vs-local.webp"
