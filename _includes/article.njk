@@ -153,7 +153,7 @@ layout: layout.njk
     <div class="related-grid">
       {% set count = 0 %}
       {% for post in collections.article | reverse %}
-        {% if post.url != page.url and count < 6 %}
+        {% if post.url != page.url and count < 15 %}
           <div class="related-card">
             {% if post.data.image %}
               <a href="{{ post.url }}"><img src="{{ post.data.image }}" alt="{{ post.data.title }}" class="related-card-img"></a>
