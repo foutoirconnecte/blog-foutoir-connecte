@@ -121,9 +121,19 @@
     /* Articles Grid used in multiple places */
     .articles-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      grid-template-columns: repeat(3, minmax(300px, 1fr)); /* Aim for 3 columns by default */
       gap: 35px;
       margin-top: 40px;
+    }
+    @media (max-width: 992px) { /* For screens smaller than large desktops */
+      .articles-grid {
+        grid-template-columns: repeat(2, minmax(300px, 1fr)); /* 2 columns */
+      }
+    }
+    @media (max-width: 768px) { /* For tablets and smaller */
+      .articles-grid {
+        grid-template-columns: repeat(1, minmax(300px, 1fr)); /* 1 column */
+      }
     }
     .article-card {
       background: var(--bg-card);
