@@ -1,6 +1,6 @@
 ---
 layout: article.njk
-title: "L'arnaque des 8K : pourquoi vos caméras 4K saturent déjà votre Wi-Fi"
+title: "L'arnaque des 8K : pourquoi vos caméras 4K et 8K saturent déjà votre Wi-Fi"
 date: 2026-03-12
 tags: ["article", "Matériel", "Réseau"]
 image: "/images/arnaque-8k-cameras-wifi.webp"
@@ -42,6 +42,33 @@ Si vous utilisez des solutions de stockage local comme des cartes Micro-SD dans 
 
 Même si vous utilisez un système NVR (Network Video Recorder) avec un disque dur de 4 To, vous ne conserverez que quelques semaines d'historique. En passant à une résolution plus raisonnable (2K/1440p) avec un excellent encodage, vous pourriez conserver trois mois d'historique sur le même disque dur, tout en conservant une qualité d'image suffisante pour identifier sans aucun doute n'importe quel visage.
 
+## La physique derrière la compression : H.264 vs H.265
+
+Le choix de l'encodage est crucial. Le H.264 est la norme historique, compatible avec tout, mais inefficace pour la haute résolution. Le H.265 (ou HEVC) est le successeur indispensable pour la 4K. Il offre un taux de compression bien plus élevé à qualité égale.
+
+Cependant, le H.265 demande beaucoup plus de puissance de calcul pour la compression, ce qui peut chauffer la caméra, et beaucoup plus de puissance de calcul pour la décompression (sur votre téléphone ou votre NVR). Si votre NVR n'est pas optimisé pour le H.265, vous risquez d'avoir des ralentissements dans la lecture.
+
+## La réalité du débit réel vs débit marketing
+
+Les fabricants vous vendent une caméra 4K, mais dans les réglages, ils brident souvent le débit pour que la caméra fonctionne sur Wi-Fi. Ils appliquent une compression si violente que les détails que vous pensiez obtenir en 4K sont complètement gommés par des artefacts de compression. Vous payez pour une résolution que vous n'utilisez jamais.
+
+C'est une tromperie marketing classique. Vous payez pour 8 millions de pixels, mais vous en recevez l'équivalent de 1 ou 2 millions après compression.
+
+## L'impact sur la latence : Le cauchemar du streaming
+
+Plus la résolution est élevée, plus le temps de traitement de l'image (l'encodage) est long. C'est la latence d'encodage. 
+
+Lorsque vous ouvrez votre application pour voir votre porte d'entrée en direct, il y a un délai entre la réalité et ce que vous voyez sur votre écran. Sur une caméra 1080p bien configurée, ce délai est négligeable (moins de 500ms). Sur une caméra 4K/8K mal optimisée, ce délai peut monter à 3, 5, voire 10 secondes. Si vous essayez de parler à un visiteur via la caméra, vous vous retrouverez à vous couper la parole, rendant la communication impossible.
+
+## Pourquoi le PoE est la seule solution sérieuse
+
+Si vous tenez vraiment à la qualité d'image 4K, vous ne pouvez pas utiliser le Wi-Fi. C'est une impossibilité technique. Pour un système de vidéosurveillance fiable, le câble est roi.
+
+Le PoE (Power Over Ethernet) fait transiter à la fois les données et l'alimentation sur un seul câble réseau. C'est la solution ultime :
+*   **Stabilité absolue :** Aucun brouillage, aucune latence, aucun besoin de Wi-Fi.
+*   **Puissance garantie :** La caméra reçoit toujours assez de courant pour fonctionner à pleine puissance, même la nuit avec les infrarouges activés.
+*   **Sécurité accrue :** Il est beaucoup plus difficile de brouiller une connexion filaire qu'une connexion sans fil.
+
 ## La solution : Le compromis intelligent
 
 La vidéosurveillance ne doit pas être une démonstration de force technique, mais un outil efficace. Voici les règles d'or pour vos caméras en 2026 :
@@ -56,3 +83,5 @@ La vidéosurveillance ne doit pas être une démonstration de force technique, m
 Les chiffres impressionnants comme "4K" ou "8K" sont faits pour vous faire acheter, pas pour vous assurer une meilleure sécurité. Dans 90% des cas, ces résolutions sont surdimensionnées pour l'usage domestique et ne font que polluer votre réseau Wi-Fi, saturer vos disques durs, et vous pousser à payer des abonnements Cloud toujours plus chers.
 
 Une installation domotique bien pensée privilégie la pertinence à la démesure. En choisissant des résolutions adaptées et une infrastructure réseau solide, vous gagnerez non seulement en sérénité, mais vous aurez une installation beaucoup plus réactive, lisible et facile à gérer. Ne laissez pas les services marketing dicter l'architecture de votre sécurité domestique.
+
+Investir dans une caméra, c'est avant tout investir dans une vision claire et fiable. Ne vous laissez pas aveugler par le mirage des mégapixels. Choisissez la qualité optique, la stabilité de la connexion et l'intelligence de traitement locale. C'est la seule façon d'avoir une sécurité qui protège vraiment, sans devenir une charge technique pour votre maison.
