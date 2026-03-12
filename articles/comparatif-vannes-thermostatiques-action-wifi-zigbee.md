@@ -1,6 +1,6 @@
 ---
 layout: article.njk
-title: "Vannes Thermostatiques Connectées : Le Comparatif 2026 (Action, Wi-Fi, Zigbee, Local vs Cloud)"
+title: "Vannes Thermostatiques Connectées : Le Comparatif 2026 (Action, Wi-Fi, Zigbee, Tuya)"
 date: 2026-03-12
 tags: ["article", "Matériel", "Chauffage"]
 image: "/images/comparatif-vannes-thermostatiques-action-wifi-zigbee.webp"
