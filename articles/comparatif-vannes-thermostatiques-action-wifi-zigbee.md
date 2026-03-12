@@ -1,6 +1,6 @@
 ---
 layout: article.njk
-title: "Vannes Thermostatiques Connectées : Le Comparatif (Action, Wi-Fi, Bluetooth, Zigbee)"
+title: "Vannes Thermostatiques Connectées : Le Comparatif"
 date: 2026-03-12
 tags: ["article", "Matériel", "Chauffage"]
 image: "/images/comparatif-vannes-thermostatiques-action-wifi-zigbee.webp"
