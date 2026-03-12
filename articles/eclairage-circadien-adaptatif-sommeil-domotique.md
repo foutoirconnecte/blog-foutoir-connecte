@@ -3,7 +3,7 @@ layout: article.njk
 title: "L'éclairage circadien : pourquoi la couleur de vos ampoules influence votre sommeil"
 date: 2026-03-11
 tags: ["article", "Matériel", "Débutant"]
-image: "https://images.unsplash.com/photo-1616046229478-9901c5536a45?q=80&w=1200&auto=format&fit=crop"
+image: "/images/eclairage-circadien-adaptatif-sommeil-domotique.webp"
 summary: "Avoir des ampoules qui changent de couleur ne sert pas qu'à transformer son salon en boîte de nuit. Découvrez comment utiliser la température de couleur (les degrés Kelvin) pour synchroniser votre maison sur le rythme naturel du soleil et améliorer drastiquement la qualité de votre sommeil."
 ---
 

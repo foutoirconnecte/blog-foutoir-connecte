@@ -3,7 +3,7 @@ layout: article.njk
 title: "Le thermostat intelligent qui chauffe dans le vide : l'erreur du radiateur et de la fenêtre ouverte"
 date: 2026-02-05
 tags: ["article", "Matériel", "Débutant"]
-image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=1200&auto=format&fit=crop"
+image: "/images/thermostat-intelligent-fenetre-ouverte-multizone.webp"
 summary: "Vous avez investi des centaines d'euros dans des têtes thermostatiques connectées pour économiser sur votre facture d'énergie, mais vos radiateurs chauffent à fond pendant que vous aérez la maison ? Découvrez comment le multi-zone et les capteurs d'ouverture transforment un chauffage capricieux en un véritable gestionnaire d'énergie."
 ---
 

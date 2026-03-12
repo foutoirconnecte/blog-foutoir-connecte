@@ -3,7 +3,7 @@ layout: article.njk
 title: "Agiter les bras dans le noir : pourquoi vos capteurs de mouvement ruinent votre domotique"
 date: 2025-12-18
 tags: ["article", "Matériel", "Architecture"]
-image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1200&auto=format&fit=crop"
+image: "/images/capteur-presence-mmwave-vs-mouvement-pir.webp"
 summary: "Vous êtes fatigué de devoir faire de grands gestes aux toilettes ou sous la douche pour rallumer la lumière ? Découvrez la différence fondamentale entre la détection de mouvement (PIR) et la véritable détection de présence (mmWave), et comment repenser l'éclairage automatisé de vos pièces à vivre."
 ---
 

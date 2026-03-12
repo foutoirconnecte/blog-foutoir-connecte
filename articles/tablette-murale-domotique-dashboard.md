@@ -3,7 +3,7 @@ layout: article.njk
 title: "Tablettes murales domotiques : la fausse bonne idée (et comment bien le faire)"
 date: 2026-03-11
 tags: ["article", "Architecture", "Matériel"]
-image: "https://images.unsplash.com/photo-1585338107529-13afc5f02586?q=80&w=1200&auto=format&fit=crop"
+image: "/images/tablette-murale-domotique-dashboard.webp"
 summary: "Accrocher un vieil iPad au mur du salon pour piloter toute la maison est le fantasme de tout domoticien. C'est aussi le projet qui échoue le plus souvent. Découvrez les erreurs fatales qui détruisent la batterie de la tablette et les solutions professionnelles pour créer un vrai tableau de bord de contrôle."
 ---
 

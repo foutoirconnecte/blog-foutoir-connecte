@@ -3,7 +3,7 @@ layout: article.njk
 title: "Le Faux Bon Plan Domotique : Les Dangers Cachés des Modules Électriques à 2 Euros"
 date: 2026-03-11
 tags: ["article", "Matériel", "Sécurité"]
-image: "https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?q=80&w=1200&auto=format&fit=crop"
+image: "/images/faux-bon-plan-domotique-modules-dangereux.webp"
 summary: "Il est tentant de commander des modules électriques domotiques anonymes sur les plateformes asiatiques pour faire des économies. Découvrez pourquoi c'est un jeu dangereux pour la sécurité de votre réseau, et surtout, pour la sécurité incendie de votre maison."
 ---
 
