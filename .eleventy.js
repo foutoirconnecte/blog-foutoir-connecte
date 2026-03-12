@@ -1,5 +1,6 @@
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("CNAME");
+  eleventyConfig.addPassthroughCopy("images");
   
   // Filtre de date
   eleventyConfig.addFilter("readableDate", (dateObj) => {
