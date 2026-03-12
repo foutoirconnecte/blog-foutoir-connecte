@@ -1,90 +1,114 @@
 ---
 layout: article.njk
-title: "Agiter les bras dans le noir : pourquoi vos capteurs de mouvement ruinent votre domotique"
-date: 2025-12-18
-tags: ["article", "Matériel", "Architecture"]
+title: "Capteurs de présence vs Mouvement : pourquoi votre salon vous oublie sur le canapé"
+date: 2026-03-12
+tags: ["article", "Matériel", "Débutant"]
 image: "/images/capteur-presence-mmwave-vs-mouvement-pir.webp"
-summary: "Vous êtes fatigué de devoir faire de grands gestes aux toilettes ou sous la douche pour rallumer la lumière ? Découvrez la différence fondamentale entre la détection de mouvement (PIR) et la véritable détection de présence (mmWave), et comment repenser l'éclairage automatisé de vos pièces à vivre."
+summary: "La lumière qui s'éteint alors que vous lisez tranquillement dans le canapé est le premier facteur de rejet de la domotique. Découvrez la révolution des capteurs mmWave qui détectent votre présence immobile."
 ---
 
-La scène est universelle et profondément humiliante. Vous êtes tranquillement installé aux toilettes en train de lire un article sur votre smartphone, ou sous la douche en train de vous détendre après une longue journée de travail. Soudainement, le noir complet. L'automatisme domotique que vous aviez si fièrement configuré le week-end précédent vient de décider que la pièce était vide. Vous voilà contraint d'agiter frénétiquement les bras en l'air, comme un naufragé sur une île déserte, dans l'espoir qu'un petit capteur blanc collé au plafond daigne rallumer la lumière.
+C’est un classique de la vie en maison connectée : vous êtes confortablement installé dans votre canapé, plongé dans un livre passionnant ou en train de regarder un film, et soudainement, la lumière du salon s'éteint brusquement. Vous agitez les bras dans le vide en espérant que la domotique se rende compte de votre présence, vous vous levez pour marcher, et finalement, la lumière daigne se rallumer.
 
-C'est l'expérience exacte qui fait détester la maison connectée au reste de la famille. L'automatisation de l'éclairage est censée apporter du confort et de l'invisibilité. Lorsqu'elle force un humain à modifier son comportement naturel pour satisfaire une machine, l'architecture globale est un échec.
+Cette situation est non seulement frustrante, mais elle est aussi le premier facteur de rejet massif de la domotique par le reste de la famille (le fameux WAF - Wife/Husband Acceptance Factor). Si la technologie rend votre maison moins confortable qu'elle ne l'était avant, elle échoue à sa mission première.
 
-Le responsable de ce fiasco technologique n'est pas votre box domotique, ni vos scénarios. Le coupable est le capteur matériel lui-même, et plus précisément la technologie infrarouge sur laquelle repose l'immense majorité des équipements du marché grand public. 
+La faute ne revient pas à votre programmation, mais à une erreur architecturale fondamentale sur le choix du capteur. Pendant quinze ans, nous avons essayé de domotiser la "présence" humaine avec des capteurs de "mouvement" (PIR). C'est comme essayer de mesurer la température avec une règle : l'outil n'est tout simplement pas fait pour ça.
 
-Pour corriger ce problème définitivement, il faut comprendre les limites physiques de la détection de mouvement classique et basculer vers une technologie radicalement différente : le radar millimétrique.
+## Le mensonge du capteur PIR (Mouvement)
 
-## L'illusion de la présence : comment fonctionne vraiment le PIR
+La quasi-totalité des capteurs que vous trouvez dans les rayons domotique (ou chez les marques comme Aqara ou Sonoff basiques) sont des capteurs infrarouges passifs (PIR - Passive Infrared).
 
-Quasiment tous les détecteurs vendus à bas prix (qu'ils soient de marque Xiaomi, Aqara standard, Sonoff ou Philips Hue) utilisent la technologie PIR pour "Passive Infrared" (Infrarouge Passif). 
+### Comment ça marche ?
+Un capteur PIR possède une lentille de Fresnel (cette coque en plastique blanc qui ressemble à un dôme) qui segmente le champ de vision en plusieurs zones. Il détecte uniquement la différence de température entre deux zones. Si un corps chaud (vous) traverse une zone "froide" puis une zone "chaude" devant la lentille, le capteur génère une impulsion électrique : "Mouvement détecté".
 
-Le fonctionnement d'un capteur PIR est basique et éprouvé depuis des décennies dans les alarmes de sécurité. Le boîtier contient un capteur pyroélectrique caché derrière une lentille en plastique striée (la lentille de Fresnel). Ce composant ne "voit" pas la pièce comme une caméra. Il se contente de mesurer la température ambiante sous forme de rayonnement infrarouge. 
+### La limite fatale
+Le capteur PIR ne détecte pas une "présence", il détecte un "déplacement". 
+Si vous entrez dans une pièce et que vous vous asseyez sur le canapé pour ne plus bouger, le capteur PIR ne détecte plus aucune variation de chaleur entre les secteurs de sa lentille. Pour lui, la pièce est vide. Il va donc déclencher sa temporisation (souvent réglée sur 2, 5 ou 10 minutes) puis couper la lumière.
 
-Lorsqu'un corps humain chaud (environ 37°C) traverse le champ de vision du capteur, il crée une perturbation thermique. La lentille de Fresnel découpe l'espace en plusieurs faisceaux invisibles. Pour que le capteur déclenche l'alerte "Mouvement détecté", il faut qu'une source de chaleur passe d'un faisceau à un autre. Il faut donc un mouvement physique ample et transversal.
+C'est un capteur binaire : mouvement = actif, calme = vide. Ce n'est pas un capteur de présence. Utiliser un PIR pour automatiser un éclairage de salon, de bureau ou de salle de bain est voué à l'échec technique. C'est une technologie parfaite pour un couloir (où l'on ne fait que passer), mais totalement inadaptée pour une pièce de vie.
 
-Le capteur PIR est aveugle à la présence statique. Si vous êtes assis sur le canapé devant un film, ou immobile sur le trône de vos toilettes, votre signature thermique ne traverse plus les différents faisceaux de la lentille. Pour le composant électronique, vous avez littéralement disparu de la pièce. La temporisation de votre scénario d'éclairage commence son décompte, et la lumière s'éteint.
+## La révolution mmWave : Le capteur qui voit tout
 
-## Le piège matériel de la batterie et du temps de "refroidissement"
+La domotique a basculé dans une nouvelle ère avec l'arrivée des capteurs de présence basés sur la technologie millimétrique (mmWave - Millimeter Wave).
 
-La limitation technologique du PIR est aggravée par une contrainte énergétique. Pour qu'un capteur PIR soit facile à placer n'importe où (au plafond, dans un coin de mur), les fabricants les conçoivent pour fonctionner sur de simples piles boutons (CR2032 ou CR2450) pendant un à deux ans.
+### Le radar domestique
+Contrairement au PIR qui regarde les variations thermiques, le capteur mmWave émet des ondes radio à haute fréquence. Ces ondes rebondissent sur les surfaces de la pièce et reviennent vers le capteur. 
+Le processeur interne analyse la signature de ces ondes réfléchies. Si un humain est présent, même s'il ne bouge pas, son corps provoque des micro-modifications de ces ondes réfléchies. 
+Le mouvement de votre cage thoracique dû à votre respiration, le battement de votre cœur, ou le très léger tressaillement d'un membre suffisent au capteur pour comprendre qu'il y a une masse biologique qui occupe l'espace.
 
-Pour atteindre une telle autonomie, le capteur ne peut pas communiquer en permanence avec votre serveur domotique. Il intègre un mécanisme de mise en veille matérielle appelé le "blind time" ou temps d'aveuglement (hardware cooldown). 
+Le résultat est stupéfiant. Vous pouvez lire, dormir, ou rester concentré sur votre écran d'ordinateur pendant des heures sans bouger, la lumière restera allumée. La domotique bascule enfin d'une gestion "par mouvement" à une gestion "par présence".
 
-Concrètement, lorsqu'il détecte votre entrée dans la salle de bain, il envoie le signal radio (Zigbee ou Wi-Fi) pour allumer la lumière, puis il se désactive complètement sur le plan matériel pendant 60 à 90 secondes pour économiser sa pile. Pendant cette minute d'aveuglement, vous pouvez danser la salsa, le capteur ne verra rien et n'enverra aucune mise à jour à votre système central. Il ne se réveillera qu'à la fin de son cycle de sommeil pour vérifier si ça bouge encore. C'est cette latence matérielle incompressible qui rend la détection de présence si hasardeuse avec des composants sur pile.
+## Les enjeux techniques des capteurs mmWave
 
-## L'échec des rustines logicielles
+Si le mmWave est supérieur, pourquoi ne l'utilise-t-on pas partout ? Parce que cette technologie est beaucoup plus complexe et sensible que le PIR.
 
-Face à cette limite matérielle, les débutants en domotique tentent systématiquement de résoudre le problème via des solutions logicielles (des "hacks" dans les scénarios). Ces rustines finissent toujours par montrer leurs failles.
+### 1. La sensibilité aux interférences
+Le radar mmWave est tellement sensible qu'il peut détecter des mouvements parasites. 
+*   **Les ventilateurs de plafond :** Un ventilateur qui tourne peut être confondu avec une présence humaine par des modèles bas de gamme.
+*   **Les rideaux :** Un rideau qui bouge au vent peut tromper le capteur.
+*   **Les animaux de compagnie :** Un gros chat ou un chien qui bouge peut maintenir la zone "présente" activée indéfiniment.
 
-La première tentative consiste à augmenter la minuterie de la lumière. Au lieu de couper après 2 minutes sans mouvement, vous paramétrez l'extinction après 15 ou 20 minutes. Le problème des bras agités aux toilettes est partiellement masqué, mais vous venez de détruire l'intérêt écologique et économique de la domotique. La lumière restera allumée un quart d'heure pour rien à chaque fois que quelqu'un entrera 10 secondes dans la pièce pour se laver les mains.
+Il faut donc paramétrer la zone de détection dans le capteur. La plupart des capteurs mmWave modernes (comme l'Aqara FP2) permettent de définir des "zones d'exclusion". Vous pouvez dire au capteur d'ignorer la zone du ventilateur, ou la zone où se trouve le bac à chat, tout en restant vigilant sur votre zone de canapé. C'est une configuration qui demande quelques minutes, mais qui garantit une précision de chirurgien.
 
-La seconde tentative, plus élégante sur le papier, consiste à croiser les données avec un capteur d'ouverture de porte. Le scénario devient complexe : "Si la porte se ferme et qu'un mouvement a été détecté juste avant, alors la pièce est occupée, ignorer le capteur de mouvement et laisser allumé jusqu'à la réouverture de la porte". 
-Cette logique d'état (State Machine) fonctionne jusqu'à ce qu'elle se confronte à la réalité du quotidien. Que se passe-t-il si un enfant laisse la porte entrouverte ? Que se passe-t-il si deux personnes entrent l'une après l'autre et qu'une seule ressort ? Le système perd le fil de la réalité, la lumière reste bloquée allumée toute la journée, et la confiance de la famille dans l'installation chute à zéro.
+### 2. Le câblage et l'alimentation
+Le PIR fonctionne sur pile bouton pendant deux ans. Le mmWave, à cause du traitement numérique en temps réel du signal radar, consomme beaucoup trop pour une pile. Ces capteurs doivent être branchés sur le secteur (généralement via un connecteur USB). 
 
-J'ai personnellement passé des nuits entières à coder des algorithmes bayésiens dans Home Assistant pour essayer de deviner si une pièce était occupée en me basant sur des capteurs PIR. Le résultat n'a jamais été fiable à 100%. Il n'y a pas de miracle logiciel pour compenser un capteur matériel inadapté.
+Cela impose une contrainte d'aménagement : il faut une prise électrique ou un point d'alimentation proche de l'endroit où vous voulez installer le capteur. C'est une contrainte, certes, mais c'est le prix à payer pour l'intelligence de présence.
 
-## La révolution du radar millimétrique (mmWave)
+## Choisir le bon capteur : Le guide d'usage
 
-La solution définitive à ce problème porte un nom barbare : le radar à ondes millimétriques (mmWave). C'est la technologie qui sépare aujourd'hui les installations amateurs des véritables maisons intelligentes haut de gamme.
+La domotique n'est pas une solution universelle. Vous devez mixer les technologies pour créer un réseau robuste.
 
-Contrairement au PIR qui attend passivement qu'une source de chaleur croise son champ de vision, le capteur mmWave est actif. Il émet en permanence un signal radar à très haute fréquence (généralement dans la bande des 24 GHz, 58 GHz ou 60 GHz) et analyse l'onde qui rebondit sur les objets et les murs pour revenir vers lui. C'est le principe de l'écholocation utilisé par les chauves-souris ou les sonars de sous-marins, appliqué aux ondes électromagnétiques.
+### Où utiliser le PIR (Mouvement)
+Le capteur PIR reste un outil indispensable pour les zones de passage :
+- **Couloirs :** Un PIR suffit largement à allumer la lumière quand vous passez.
+- **Entrées :** Pour une détection rapide lors de votre arrivée.
+- **Escaliers :** Idéal pour accompagner votre montée/descente sans allumer toute la maison.
+- **Garages :** Détecter une entrée rapide.
+Ils sont peu chers, faciles à cacher, et leur batterie dure une éternité.
 
-La précision de ces radars est chirurgicale. Ils ne cherchent pas un bras qui s'agite. Ils sont capables de détecter le micro-mouvement de votre cage thoracique qui se soulève lorsque vous respirez. Ils peuvent capter les infimes vibrations de vos doigts tapant sur l'écran d'un smartphone. Même si vous êtes parfaitement immobile, caché derrière le rideau de douche ou en train de lire un livre sur le canapé, le radar sait que vous êtes là, avec une précision millimétrique. L'état du capteur reste sur "Occupé" de manière continue, ininterrompue, jusqu'à ce que la masse biologique quitte physiquement la pièce.
+### Où utiliser le mmWave (Présence)
+Le mmWave est indispensable dans les pièces où vous restez statique :
+- **Salons :** Pour lire ou regarder la télévision sans que tout s'éteigne.
+- **Bureaux :** Pour automatiser le chauffage ou l'éclairage de travail en fonction de votre présence devant l'écran.
+- **Salles de bain :** Pour éviter que la lumière ne s'éteigne pendant que vous êtes sous la douche ou sur vos toilettes.
+- **Chambres à coucher :** Pour automatiser des scènes "nuit" sans risque de réveil inopiné.
 
-Les modèles les plus avancés du marché, comme le très populaire Aqara FP2, exploitent cette technologie pour aller encore plus loin. Ils ne se contentent pas de dire si la pièce est vide ou pleine. Ils cartographient l'espace en 3D. Ils permettent de définir des zones virtuelles dans une seule pièce : le coin télévision, le coin repas, le canapé. Un seul capteur peut allumer la liseuse si vous êtes sur le fauteuil, et l'éteindre si vous passez à la table de la salle à manger, avec une latence quasi nulle.
+## L'architecture logicielle : Fusionner les deux
 
-## La contrainte énergétique de l'excellence
+La méthode d'architecte domotique consiste à utiliser les deux technologies ensemble pour une redondance parfaite.
 
-Cette perfection technologique s'accompagne d'une exigence incontournable : l'alimentation électrique.
+Dans une pièce de vie, vous pouvez placer un capteur mmWave au centre pour gérer la présence statique (le canapé, le coin lecture), et un PIR à l'entrée pour gérer la réactivité. 
+En utilisant des outils comme Home Assistant, vous créez un groupe de capteurs. 
+*   *SI (PIR détecte mouvement) OU (mmWave détecte présence) ALORS Allumer lumière.*
 
-Un radar mmWave émettant et analysant des ondes en continu consomme infiniment plus d'énergie qu'un capteur infrarouge passif qui dort 99% du temps. Il est technologiquement impossible de faire tourner un capteur de présence mmWave performant sur une pile bouton. 
+Cela permet d'avoir la rapidité de déclenchement du PIR (0,5s) alliée à la constance de la présence du mmWave. Vous avez le meilleur des deux mondes.
 
-Tous les vrais capteurs mmWave du marché exigent une alimentation filaire permanente. Ils se branchent en USB sur une prise secteur (avec un chargeur 5V classique). Cette contrainte de câblage oblige à repenser le placement de l'équipement. Vous ne pourrez plus le coller discrètement avec du double face au milieu du plafond sans tirer un câble disgracieux. Il faudra le poser sur un meuble, l'intégrer dans une bibliothèque, ou le brancher directement sur une prise murale en hauteur.
+## L'avenir du mmWave : Vers la reconnaissance de posture
 
-C'est le prix à payer pour l'infaillibilité. Un capteur alimenté sur secteur ne s'endort jamais. Il n'a aucun "blind time". Il signale votre présence à la seconde où vous franchissez le pas de la porte, et confirme que la pièce est vide à la seconde où vous en sortez. L'extinction de la lumière peut alors être réglée sur une minuterie extrêmement agressive (par exemple 10 secondes après la détection de vide), ce qui engendre de réelles économies d'électricité, impossibles à obtenir avec du PIR sur batterie.
+La technologie mmWave ne s'arrête pas à la détection de présence immobile. La nouvelle génération de capteurs, qui commence à arriver sur le marché en 2026, intègre des fonctions de "reconnaissance de posture".
 
-## 24 GHz contre 60 GHz : la guerre des fréquences
+En analysant de manière encore plus fine les ondes radar, le processeur du capteur peut maintenant faire la différence entre une personne qui est debout, une personne assise sur un canapé, et une personne allongée sur le sol. 
 
-Le marché des radars domotiques est en pleine explosion, et de nombreux modèles asiatiques inondent les boutiques à des prix très variables. Le critère technique majeur à vérifier avant l'achat est la fréquence de fonctionnement du radar.
+Pourquoi est-ce révolutionnaire ? 
+*   **Sécurité des personnes âgées :** Le capteur peut détecter une chute. Contrairement aux caméras qui posent des problèmes de vie privée, le radar mmWave détecte une position anormale (allongé sur le sol dans une zone de non-mouvement) et envoie une alerte critique sans jamais filmer quoi que ce soit. C'est la solution ultime pour le maintien à domicile.
+*   **Automatisation de sommeil :** Le capteur peut savoir que vous êtes allongé dans votre lit. Il peut alors déclencher une automatisation "Sommeil" (fermeture des volets, extinction totale, armement de l'alarme périmétrique) de manière automatique, sans aucune intervention de votre part.
 
-Les modèles d'entrée de gamme (souvent sous l'écosystème Tuya) utilisent la bande des 24 GHz. Cette fréquence est très efficace, traverse parfois les murs fins (le placo), ce qui peut être un avantage ou un énorme inconvénient. Un radar 24 GHz mal réglé dans une salle de bain risque de détecter la personne qui marche dans le couloir juste derrière la cloison, et gardera la lumière allumée. Il demande un travail de calibrage minutieux de la sensibilité.
+Cette technologie de reconnaissance de posture va transformer les futurs capteurs domotiques en véritables gardiens de la santé et du confort, bien au-delà de la simple gestion de l'éclairage.
 
-Les modèles plus récents et plus onéreux basculent sur la bande des 58 GHz ou 60 GHz. Plus la fréquence est élevée, plus la longueur d'onde est courte. Un radar 60 GHz est d'une précision diabolique sur les micro-mouvements (comme le rythme cardiaque) et a beaucoup moins tendance à traverser les obstacles solides. Son faisceau est plus propre, plus franc, limitant drastiquement les faux positifs (les déclenchements fantômes). 
+## Installation et intégration : Quelques conseils d'expert
 
-## L'architecture hybride : le meilleur des deux mondes
+Installer un capteur mmWave ne se fait pas au hasard. La plupart des capteurs fonctionnent par émission d'un cône de détection. 
 
-Faut-il pour autant jeter tous vos capteurs PIR à la poubelle ? Certainement pas. L'ingénierie réseau consiste à utiliser la bonne technologie au bon endroit.
+1. **Hauteur optimale :** Contrairement au PIR qu'on place souvent en hauteur, le mmWave gagne souvent à être placé à hauteur d'homme ou légèrement au-dessus (entre 1m50 et 2m). 
+2. **Zones d'exclusion :** Si votre capteur voit une fenêtre avec un rideau qui bouge, ou un ventilateur de plafond, il va déclencher une présence permanente. Prenez le temps de configurer les zones d'exclusion dans votre application domotique. C'est une étape de configuration obligatoire.
+3. **Le "Sensitivity level" (Sensibilité) :** La plupart des capteurs ont un réglage de sensibilité de 1 à 10. Ne mettez pas systématiquement 10. Si vous le mettez trop haut, le capteur pourra détecter des mouvements derrière un mur fin ou à travers une porte entrouverte. Commencez par une sensibilité moyenne (5 ou 6) et affinez selon les besoins.
 
-Le capteur PIR excelle dans la réactivité instantanée à très faible coût. Il reste le maître incontesté des "zones de transit". Les couloirs, les escaliers, les dressings ou le garage sont des espaces où vous ne restez jamais immobile. La détection de mouvement classique y est parfaitement justifiée. Un capteur PIR sur pile à 10 euros fera un travail fantastique pour allumer l'escalier le temps de monter les marches.
+En domotique, la précision vient toujours de la patience lors de la configuration. Le matériel est impressionnant, mais c'est votre capacité à ajuster ces paramètres qui fera la différence entre une automatisation magique et un comportement erratique. 
 
-Le radar mmWave, en raison de son coût (souvent entre 40 et 80 euros) et de sa contrainte de câblage, doit être sanctuarisé pour les "zones de vie statiques". Le salon, la salle à manger, le bureau de télétravail, et surtout les salles de bain et les toilettes.
+## Le verdict : La fin du mouvement pour la présence
 
-L'architecture ultime, celle qui frôle la perfection, consiste à combiner les deux technologies de manière hybride dans la même pièce. Les fabricants de pointe l'ont bien compris. Certains nouveaux capteurs intègrent physiquement un module PIR et un module mmWave dans le même boîtier. 
-Le comportement devient redoutable d'efficacité : le PIR, très véloce, détecte l'ouverture de la porte et allume la lumière en quelques millisecondes. Le radar mmWave prend immédiatement le relais pour valider la présence continue, même si vous ne bougez plus d'un cil pendant une demi-heure. Lorsque le radar confirme le vide absolu, l'ordre d'extinction est envoyé instantanément.
+En 2026, l'utilisation de simples capteurs PIR pour automatiser les pièces de vie est une erreur de débutant. Si votre maison ne sait pas que vous êtes assis, elle est "connectée", mais elle n'est pas "intelligente". 
 
-## Le verdict
+La technologie mmWave est l'une des rares avancées domotiques de ces dernières années qui a un impact immédiat, visible et positif sur le confort de tous les occupants de la maison. En adoptant ces radars miniatures, vous passez de la détection brutale au pilotage fin. Vous offrez à votre maison la capacité de comprendre que vous êtes là, que vous êtes calme, et que vous n'avez pas besoin d'être interrompu dans votre lecture.
 
-Vivre avec la peur de voir la lumière s'éteindre sous la douche n'est pas une fatalité, c'est un choix matériel inadapté. La détection de présence est un enjeu trop crucial pour le confort d'un foyer pour être confiée à des capteurs infrarouges lents, aveugles et endormis pour économiser leur pile.
-
-Acceptez la contrainte de tirer un petit câble USB dans vos pièces de vie principales et vos pièces d'eau, et investissez dans de véritables radars millimétriques (mmWave). Ce basculement technologique marquera la fin des réglages fastidieux de vos minuteries logicielles. L'éclairage de votre maison connectée deviendra enfin ce qu'il a toujours dû être : magique et totalement invisible pour ses occupants.
+C'est cet aspect "humain" de la technologie, cette capacité à respecter le calme tout en assurant le service, qui définit la réussite d'une installation domotique moderne. Oubliez vos vieux PIR pour le salon et passez à la détection de présence réelle. C'est, sans aucun doute, le changement le plus spectaculaire que vous pouvez apporter à votre installation dès aujourd'hui.
