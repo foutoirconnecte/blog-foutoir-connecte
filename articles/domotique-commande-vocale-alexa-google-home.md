@@ -39,7 +39,7 @@ L'interface vocale rajoute une complexité cognitive, une dépendance à interne
 
 L'utilisation de la voix est un acte socialement chargé. Parler seul dans une pièce vide peut passer. Interrompre une discussion de couple ou un dîner de famille pour aboyer des ordres à un objet inanimé est rapidement perçu comme impoli ou agaçant par les autres membres du foyer.
 
-C'est l'un des facteurs principaux qui détruisent le **WAF (l'acceptation de la domotique par votre famille)**. Si votre conjoint(e) a mal à la gorge, s'il y a de la musique forte dans la pièce, ou si le bébé vient de s'endormir, l'interface vocale devient tout simplement inutilisable. 
+C'est l'un des facteurs principaux qui détruisent le **[WAF (l'acceptation de la domotique par votre famille)](/articles/waf-domotique-acceptation-famille/)**. Si votre conjoint(e) a mal à la gorge, s'il y a de la musique forte dans la pièce, ou si le bébé vient de s'endormir, l'interface vocale devient tout simplement inutilisable. 
 
 De plus, l'enceinte intelligente pose un problème de permissions d'accès. N'importe quel invité (ou enfant farceur) peut crier *"Alexa, éteins toute la maison"* ou *"Ok Google, ouvre la porte de garage"* s'il n'y a pas de contrôle vocal strict mis en place. La sécurité par la voix est par nature extrêmement faible.
 
@@ -51,7 +51,7 @@ Toute personne possédant un assistant vocal a déjà vécu ce grand moment de s
 
 Les assistants vocaux grand public ne comprennent pas le sens, ils analysent des mots-clés. S'il y a un bruit de fond, un accent un peu prononcé, ou si le serveur d'analyse rencontre un ralentissement, l'ordre est mal interprété ou complètement ignoré. 
 
-Surtout, comme nous l'avons expliqué dans notre dossier sur **les dangers de la domotique Cloud**, ces enceintes sont de simples microphones reliés à internet. Si votre fournisseur d'accès internet rencontre une panne, votre enceinte devient un presse-papier inutile. Vous vous retrouvez dans l'incapacité d'allumer vos lumières simplement parce que la fibre optique de votre quartier a été endommagée.
+Surtout, comme nous l'avons expliqué dans notre dossier sur **[les dangers de la domotique Cloud](/articles/domotique-sans-internet-cloud/)**, ces enceintes sont de simples microphones reliés à internet. Si votre fournisseur d'accès internet rencontre une panne, votre enceinte devient un presse-papier inutile. Vous vous retrouvez dans l'incapacité d'allumer vos lumières simplement parce que la fibre optique de votre quartier a été endommagée.
 
 ## La place légitime de la voix : L'action complexe
 
@@ -85,37 +85,3 @@ Au milieu de la pyramide, pour 15% des usages, se trouvent les boutons physiques
 Au sommet de la pyramide, pour les 5% restants, se trouve l'interface vocale ou l'application smartphone, réservées aux ajustements complexes et aux scènes globales.
 
 Si vous devez parler pour allumer la lumière de vos toilettes, vous n'avez pas construit une maison intelligente. Vous avez simplement remplacé un interrupteur en plastique fiable par un microphone capricieux. Pensez automatisation d'abord, interface physique ensuite, et gardez la voix pour le fun.
-
-
-## Bonnes pratiques supplémentaires et recommandations avancées
-
-Lorsqu'on déploie ce type de solution, il est essentiel de prendre en compte plusieurs aspects techniques et pratiques pour garantir une installation robuste, pérenne et sécurisée. La domotique moderne ne se limite plus à de simples gadgets, elle devient une infrastructure critique de la maison. Il est donc primordial d'adopter une approche méthodique.
-
-Tout d'abord, la planification est une étape souvent négligée mais qui s'avère payante sur le long terme. Avant même d'acheter le moindre équipement, prenez le temps de cartographier vos besoins réels. Inutile de multiplier les capteurs ou les actionneurs si leur utilité n'est pas clairement définie. Une bonne installation domotique est celle qui se fait oublier, qui agit en arrière-plan sans nécessiter d'interventions manuelles constantes de la part des utilisateurs. Pensez "automatisation" plutôt que "télécommande sur smartphone".
-
-Ensuite, la question de l'interopérabilité est centrale. Le marché est inondé de protocoles divers (Zigbee, Z-Wave, Wi-Fi, Bluetooth, Matter) et de marques proposant leurs propres écosystèmes fermés. L'idéal est de se diriger vers des solutions ouvertes et standardisées. L'émergence de Matter est à ce titre une excellente nouvelle, car elle promet de simplifier grandement la communication entre les appareils de marques différentes. Si vous utilisez une box domotique open source comme Home Assistant ou Jeedom, assurez-vous d'utiliser des clés coordinatrices de bonne qualité, placées idéalement au centre du logement et éloignées des sources d'interférences (comme les routeurs Wi-Fi ou les disques durs externes en USB 3.0).
-
-La sécurité informatique doit également être au cœur de vos préoccupations. Chaque objet connecté ajouté à votre réseau est une porte d'entrée potentielle pour des personnes malveillantes. Il est fortement recommandé de segmenter votre réseau local, par exemple en créant un VLAN (Réseau Local Virtuel) dédié uniquement à l'Internet des Objets (IoT). Ainsi, si un appareil venait à être compromis, l'attaquant n'aurait pas accès à vos ordinateurs personnels ou à vos données sensibles. Modifiez toujours les mots de passe par défaut et mettez régulièrement à jour le firmware de vos équipements.
-
-La gestion de l'alimentation est un autre point crucial. Pour les appareils sur batterie (comme les capteurs d'ouverture de porte ou de température), privilégiez les protocoles très basse consommation comme le Zigbee. Gardez un œil sur le niveau des piles via le tableau de bord de votre système pour éviter les pannes inopinées. Pour les équipements filaires, notamment ceux placés dans les tableaux électriques, assurez-vous de respecter scrupuleusement les normes électriques en vigueur (NF C 15-100 en France). N'hésitez pas à faire appel à un électricien qualifié si vous avez le moindre doute.
-
-Enfin, pensez à la résilience de votre installation. Que se passe-t-il en cas de coupure Internet ? Vos automatisations locales doivent continuer de fonctionner. C'est l'un des avantages majeurs des box domotiques locales par rapport aux solutions dépendantes du cloud. De même, en cas de coupure de courant, il peut être judicieux de prévoir un onduleur (UPS) pour maintenir en vie les organes vitaux de votre système (box domotique, routeur, switch) pendant quelques dizaines de minutes, le temps de gérer la situation.
-
-En respectant ces principes de base — planification, interopérabilité, sécurité, gestion de l'énergie et résilience —, vous jetterez les bases d'une maison intelligente véritablement performante et fiable.
-
-
-## Bonnes pratiques supplémentaires et recommandations avancées
-
-Lorsqu'on déploie ce type de solution, il est essentiel de prendre en compte plusieurs aspects techniques et pratiques pour garantir une installation robuste, pérenne et sécurisée. La domotique moderne ne se limite plus à de simples gadgets, elle devient une infrastructure critique de la maison. Il est donc primordial d'adopter une approche méthodique.
-
-Tout d'abord, la planification est une étape souvent négligée mais qui s'avère payante sur le long terme. Avant même d'acheter le moindre équipement, prenez le temps de cartographier vos besoins réels. Inutile de multiplier les capteurs ou les actionneurs si leur utilité n'est pas clairement définie. Une bonne installation domotique est celle qui se fait oublier, qui agit en arrière-plan sans nécessiter d'interventions manuelles constantes de la part des utilisateurs. Pensez "automatisation" plutôt que "télécommande sur smartphone".
-
-Ensuite, la question de l'interopérabilité est centrale. Le marché est inondé de protocoles divers (Zigbee, Z-Wave, Wi-Fi, Bluetooth, Matter) et de marques proposant leurs propres écosystèmes fermés. L'idéal est de se diriger vers des solutions ouvertes et standardisées. L'émergence de Matter est à ce titre une excellente nouvelle, car elle promet de simplifier grandement la communication entre les appareils de marques différentes. Si vous utilisez une box domotique open source comme Home Assistant ou Jeedom, assurez-vous d'utiliser des clés coordinatrices de bonne qualité, placées idéalement au centre du logement et éloignées des sources d'interférences (comme les routeurs Wi-Fi ou les disques durs externes en USB 3.0).
-
-La sécurité informatique doit également être au cœur de vos préoccupations. Chaque objet connecté ajouté à votre réseau est une porte d'entrée potentielle pour des personnes malveillantes. Il est fortement recommandé de segmenter votre réseau local, par exemple en créant un VLAN (Réseau Local Virtuel) dédié uniquement à l'Internet des Objets (IoT). Ainsi, si un appareil venait à être compromis, l'attaquant n'aurait pas accès à vos ordinateurs personnels ou à vos données sensibles. Modifiez toujours les mots de passe par défaut et mettez régulièrement à jour le firmware de vos équipements.
-
-La gestion de l'alimentation est un autre point crucial. Pour les appareils sur batterie (comme les capteurs d'ouverture de porte ou de température), privilégiez les protocoles très basse consommation comme le Zigbee. Gardez un œil sur le niveau des piles via le tableau de bord de votre système pour éviter les pannes inopinées. Pour les équipements filaires, notamment ceux placés dans les tableaux électriques, assurez-vous de respecter scrupuleusement les normes électriques en vigueur (NF C 15-100 en France). N'hésitez pas à faire appel à un électricien qualifié si vous avez le moindre doute.
-
-Enfin, pensez à la résilience de votre installation. Que se passe-t-il en cas de coupure Internet ? Vos automatisations locales doivent continuer de fonctionner. C'est l'un des avantages majeurs des box domotiques locales par rapport aux solutions dépendantes du cloud. De même, en cas de coupure de courant, il peut être judicieux de prévoir un onduleur (UPS) pour maintenir en vie les organes vitaux de votre système (box domotique, routeur, switch) pendant quelques dizaines de minutes, le temps de gérer la situation.
-
-En respectant ces principes de base — planification, interopérabilité, sécurité, gestion de l'énergie et résilience —, vous jetterez les bases d'une maison intelligente véritablement performante et fiable.

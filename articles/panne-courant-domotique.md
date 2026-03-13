@@ -115,8 +115,3 @@ Pour une box internet, un serveur domotique (type Raspberry Pi ou mini-PC) et un
 Si vous utilisez Home Assistant, l'intégration est un jeu d'enfant. Connectez l'onduleur à votre serveur via le câble USB fourni. Home Assistant détectera automatiquement l'onduleur via le module NUT (Network UPS Tools). Vous aurez alors accès à toutes les données de santé de votre onduleur : charge de la batterie, tension d'entrée, autonomie restante estimée. 
 
 C'est là que vous pouvez créer des scènes complexes : "S'il reste moins de 10 minutes de batterie, alors arrête le NAS proprement, puis éteins le serveur domotique pour préserver l'intégrité des disques durs". C'est cette automatisation de fin de vie qui fait toute la différence entre un système qui survit et un système qui s'abîme prématurément. Votre domotique ne doit pas seulement être fiable lors de son fonctionnement, elle doit être élégante et sécurisée jusque dans son extinction.
-
-
-Personnellement, je trouve que cette approche a complètement changé ma façon d'aborder la domotique.
-
-Pour aller plus loin, découvrez comment [sécuriser votre installation domotique](/articles/securite-wifi-domotique-vlan-reseau-invite) ou consultez notre guide sur les [protocoles sans fil](/articles/zigbee-vs-matter-2026).

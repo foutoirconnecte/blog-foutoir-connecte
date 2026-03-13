@@ -7,7 +7,7 @@ image: "/images/securite-wifi-domotique-vlan-reseau-invite.webp"
 summary: "Vos objets connectés partagent le même réseau Wi-Fi que votre ordinateur personnel et vos données bancaires. C'est une porte d'entrée béante pour les pirates. Découvrez pourquoi et comment créer des réseaux virtuels (VLAN) ou invités pour isoler hermétiquement votre domotique et protéger votre vie numérique."
 ---
 
-Vous avez suivi nos conseils. Votre maison est équipée d'une **cinquantaine d'objets connectés**, vous avez un **cerveau domotique local**, et vous n'avez plus aucun équipement qui dépend du **[Cloud chinois](/articles/smart-life-tuya-cloud-chinois-domotique/)**. Vous pensez être en sécurité.
+Vous avez suivi nos conseils. Votre maison est équipée d'une **[cinquantaine d'objets connectés](/articles/maison-tout-wifi-box-internet/)**, vous avez un **[cerveau domotique local](/articles/unifier-applications-domotique/)**, et vous n'avez plus aucun équipement qui dépend du **[Cloud chinois](/articles/smart-life-tuya-cloud-chinois-domotique/)**. Vous pensez être en sécurité.
 
 Pourtant, il reste une faille de sécurité béante dans 99% des installations domestiques. 
 
@@ -64,39 +64,3 @@ La conclusion de cette paranoïa organisée est simple : un objet connecté, sur
 
 La segmentation réseau n'est pas une option, c'est une nécessité architecturale dès que vous dépassez une dizaine d'appareils connectés. 
 Commencez dès aujourd'hui par activer le réseau "Invité" de votre box et par y migrer tous vos gadgets. Ce simple geste élèvera la sécurité de votre réseau domestique d'un cran significatif. Le jour où vous investirez dans un vrai routeur, la segmentation par VLAN sera la suite logique de votre quête d'une maison connectée non seulement intelligente, mais surtout, impénétrable.
-
-
-Personnellement, je trouve que cette approche a complètement changé ma façon d'aborder la domotique.
-
-## Bonnes pratiques supplémentaires et recommandations avancées
-
-Lorsqu'on déploie ce type de solution, il est essentiel de prendre en compte plusieurs aspects techniques et pratiques pour garantir une installation robuste, pérenne et sécurisée. La domotique moderne ne se limite plus à de simples gadgets, elle devient une infrastructure critique de la maison. Il est donc primordial d'adopter une approche méthodique.
-
-Tout d'abord, la planification est une étape souvent négligée mais qui s'avère payante sur le long terme. Avant même d'acheter le moindre équipement, prenez le temps de cartographier vos besoins réels. Inutile de multiplier les capteurs ou les actionneurs si leur utilité n'est pas clairement définie. Une bonne installation domotique est celle qui se fait oublier, qui agit en arrière-plan sans nécessiter d'interventions manuelles constantes de la part des utilisateurs. Pensez "automatisation" plutôt que "télécommande sur smartphone".
-
-Ensuite, la question de l'interopérabilité est centrale. Le marché est inondé de protocoles divers (Zigbee, Z-Wave, Wi-Fi, Bluetooth, Matter) et de marques proposant leurs propres écosystèmes fermés. L'idéal est de se diriger vers des solutions ouvertes et standardisées. L'émergence de Matter est à ce titre une excellente nouvelle, car elle promet de simplifier grandement la communication entre les appareils de marques différentes. Si vous utilisez une box domotique open source comme Home Assistant ou Jeedom, assurez-vous d'utiliser des clés coordinatrices de bonne qualité, placées idéalement au centre du logement et éloignées des sources d'interférences (comme les routeurs Wi-Fi ou les disques durs externes en USB 3.0).
-
-La sécurité informatique doit également être au cœur de vos préoccupations. Chaque objet connecté ajouté à votre réseau est une porte d'entrée potentielle pour des personnes malveillantes. Il est fortement recommandé de segmenter votre réseau local, par exemple en créant un VLAN (Réseau Local Virtuel) dédié uniquement à l'Internet des Objets (IoT). Ainsi, si un appareil venait à être compromis, l'attaquant n'aurait pas accès à vos ordinateurs personnels ou à vos données sensibles. Modifiez toujours les mots de passe par défaut et mettez régulièrement à jour le firmware de vos équipements.
-
-La gestion de l'alimentation est un autre point crucial. Pour les appareils sur batterie (comme les capteurs d'ouverture de porte ou de température), privilégiez les protocoles très basse consommation comme le Zigbee. Gardez un œil sur le niveau des piles via le tableau de bord de votre système pour éviter les pannes inopinées. Pour les équipements filaires, notamment ceux placés dans les tableaux électriques, assurez-vous de respecter scrupuleusement les normes électriques en vigueur (NF C 15-100 en France). N'hésitez pas à faire appel à un électricien qualifié si vous avez le moindre doute.
-
-Enfin, pensez à la résilience de votre installation. Que se passe-t-il en cas de coupure Internet ? Vos automatisations locales doivent continuer de fonctionner. C'est l'un des avantages majeurs des box domotiques locales par rapport aux solutions dépendantes du cloud. De même, en cas de coupure de courant, il peut être judicieux de prévoir un onduleur (UPS) pour maintenir en vie les organes vitaux de votre système (box domotique, routeur, switch) pendant quelques dizaines de minutes, le temps de gérer la situation.
-
-En respectant ces principes de base — planification, interopérabilité, sécurité, gestion de l'énergie et résilience —, vous jetterez les bases d'une maison intelligente véritablement performante et fiable.
-
-
-## Bonnes pratiques supplémentaires et recommandations avancées
-
-Lorsqu'on déploie ce type de solution, il est essentiel de prendre en compte plusieurs aspects techniques et pratiques pour garantir une installation robuste, pérenne et sécurisée. La domotique moderne ne se limite plus à de simples gadgets, elle devient une infrastructure critique de la maison. Il est donc primordial d'adopter une approche méthodique.
-
-Tout d'abord, la planification est une étape souvent négligée mais qui s'avère payante sur le long terme. Avant même d'acheter le moindre équipement, prenez le temps de cartographier vos besoins réels. Inutile de multiplier les capteurs ou les actionneurs si leur utilité n'est pas clairement définie. Une bonne installation domotique est celle qui se fait oublier, qui agit en arrière-plan sans nécessiter d'interventions manuelles constantes de la part des utilisateurs. Pensez "automatisation" plutôt que "télécommande sur smartphone".
-
-Ensuite, la question de l'interopérabilité est centrale. Le marché est inondé de protocoles divers (Zigbee, Z-Wave, Wi-Fi, Bluetooth, Matter) et de marques proposant leurs propres écosystèmes fermés. L'idéal est de se diriger vers des solutions ouvertes et standardisées. L'émergence de Matter est à ce titre une excellente nouvelle, car elle promet de simplifier grandement la communication entre les appareils de marques différentes. Si vous utilisez une box domotique open source comme Home Assistant ou Jeedom, assurez-vous d'utiliser des clés coordinatrices de bonne qualité, placées idéalement au centre du logement et éloignées des sources d'interférences (comme les routeurs Wi-Fi ou les disques durs externes en USB 3.0).
-
-La sécurité informatique doit également être au cœur de vos préoccupations. Chaque objet connecté ajouté à votre réseau est une porte d'entrée potentielle pour des personnes malveillantes. Il est fortement recommandé de segmenter votre réseau local, par exemple en créant un VLAN (Réseau Local Virtuel) dédié uniquement à l'Internet des Objets (IoT). Ainsi, si un appareil venait à être compromis, l'attaquant n'aurait pas accès à vos ordinateurs personnels ou à vos données sensibles. Modifiez toujours les mots de passe par défaut et mettez régulièrement à jour le firmware de vos équipements.
-
-La gestion de l'alimentation est un autre point crucial. Pour les appareils sur batterie (comme les capteurs d'ouverture de porte ou de température), privilégiez les protocoles très basse consommation comme le Zigbee. Gardez un œil sur le niveau des piles via le tableau de bord de votre système pour éviter les pannes inopinées. Pour les équipements filaires, notamment ceux placés dans les tableaux électriques, assurez-vous de respecter scrupuleusement les normes électriques en vigueur (NF C 15-100 en France). N'hésitez pas à faire appel à un électricien qualifié si vous avez le moindre doute.
-
-Enfin, pensez à la résilience de votre installation. Que se passe-t-il en cas de coupure Internet ? Vos automatisations locales doivent continuer de fonctionner. C'est l'un des avantages majeurs des box domotiques locales par rapport aux solutions dépendantes du cloud. De même, en cas de coupure de courant, il peut être judicieux de prévoir un onduleur (UPS) pour maintenir en vie les organes vitaux de votre système (box domotique, routeur, switch) pendant quelques dizaines de minutes, le temps de gérer la situation.
-
-En respectant ces principes de base — planification, interopérabilité, sécurité, gestion de l'énergie et résilience —, vous jetterez les bases d'une maison intelligente véritablement performante et fiable.

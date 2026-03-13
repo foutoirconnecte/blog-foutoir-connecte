@@ -158,5 +158,3 @@ L'investissement initial, en temps et en argent, est légèrement supérieur à 
 
 Personnellement, je considère l'installation de ces capteurs dans les pièces de vie comme l'une des améliorations les plus significatives de mon installation domotique depuis des années. C'est le genre de technologie qui, une fois adoptée, rend tout retour en arrière impensable. L'ère de la "danse de la lumière" est révolue.
 ```
-
-Personnellement, je trouve que cette approche a complètement changé ma façon d'aborder la domotique.

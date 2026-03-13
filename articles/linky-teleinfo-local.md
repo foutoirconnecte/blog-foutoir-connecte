@@ -137,8 +137,3 @@ En combinant les données TIC avec d'autres capteurs (capteurs de température d
 Vous pouvez comparer, par exemple, la consommation électrique réelle d'un radiateur au degré Celsius près à l'intérieur. Vous pouvez calculer le rendement réel de votre chauffage en corrélant la température extérieure (récupérée via une API météo) et votre consommation électrique globale. 
 
 C'est là que la domotique dépasse la simple statistique : elle vous donne les clés pour comprendre l'efficacité thermique réelle de votre bâtiment. Vous ne cherchez plus à deviner pourquoi la facture explose, vous avez la réponse exacte en Watts. C'est le pouvoir de la donnée locale : elle vous transforme d'un spectateur inquiet en un acteur serein de votre propre transition énergétique. La TIC n'est pas juste un câble, c'est l'instrument de mesure d'un mode de vie plus sobre.
-
-
-Personnellement, je trouve que cette approche a complètement changé ma façon d'aborder la domotique.
-
-Pour aller plus loin, découvrez comment [sécuriser votre installation domotique](/articles/securite-wifi-domotique-vlan-reseau-invite) ou consultez notre guide sur les [protocoles sans fil](/articles/zigbee-vs-matter-2026).
