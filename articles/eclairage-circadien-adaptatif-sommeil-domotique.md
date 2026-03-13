@@ -1,12 +1,19 @@
 ---
 layout: article.njk
-title: "L'éclairage circadien : pourquoi la couleur de vos ampoules influence votre sommeil"
+title: 'L''éclairage circadien : pourquoi la couleur de vos ampoules influence votre
+  sommeil'
 date: 2026-03-11
-tags: ["article", "matériel", "débutant"]
-image: "/images/eclairage-circadien-adaptatif-sommeil-domotique.webp"
-summary: "Avoir des ampoules qui changent de couleur ne sert pas qu'à transformer son salon en boîte de nuit. Découvrez comment utiliser la température de couleur (les degrés Kelvin) pour synchroniser votre maison sur le rythme naturel du soleil et améliorer drastiquement la qualité de votre sommeil."
+tags:
+  - Éclairage Connecté
+  - Chauffage Intelligent
+  - WAF & Famille
+  - DIY & Tutoriels
+image: /images/eclairage-circadien-adaptatif-sommeil-domotique.webp
+summary: Avoir des ampoules qui changent de couleur ne sert pas qu'à transformer son
+  salon en boîte de nuit. Découvrez comment utiliser la température de couleur (les
+  degrés Kelvin) pour synchroniser votre maison sur le rythme naturel du soleil et
+  améliorer drastiquement la qualité de votre sommeil.
 ---
-
 Lorsque l'on achète ses premières **[ampoules connectées Philips Hue ou Ikea Tradfri](/articles/ampoules-connectees-hors-ligne/)**, le premier réflexe est souvent de tester toutes les couleurs de l'arc-en-ciel. On met le salon en bleu, la cuisine en rouge, on s'amuse cinq minutes avec la synchronisation musicale, puis l'effet de nouveauté retombe. On finit par régler toutes les lampes sur un blanc classique, et on oublie la fonction colorimétrique.
 
 C'est une occasion manquée monumentale. La véritable puissance d'une ampoule intelligente ne réside pas dans sa capacité à produire du vert fluo, mais dans sa capacité à faire varier sa température de blanc (de l'orange très chaud au bleu très froid) tout au long de la journée.

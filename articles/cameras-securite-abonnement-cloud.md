@@ -1,12 +1,19 @@
 ---
 layout: article.njk
-title: "Le piège des abonnements : pourquoi vos caméras de sécurité vous ruinent (et comment passer au local)"
+title: 'Le piège des abonnements : pourquoi vos caméras de sécurité vous ruinent (et
+  comment passer au local)'
 date: 2026-01-08
-tags: ["article", "sécurité", "matériel"]
-image: "/images/cameras.webp"
-summary: "Vous avez acheté une caméra à 40 euros en promotion, pour découvrir ensuite qu'il faut payer 10 euros par mois pour visionner les enregistrements ? Décryptage de la plus grande illusion de la domotique moderne et guide complet pour construire un système de vidéosurveillance 100% local, privé et sans frais cachés."
+tags:
+  - Sécurité & Caméras
+  - Cloud vs Local
+  - Wi-Fi & Réseau
+  - DIY & Tutoriels
+image: /images/cameras.webp
+summary: Vous avez acheté une caméra à 40 euros en promotion, pour découvrir ensuite
+  qu'il faut payer 10 euros par mois pour visionner les enregistrements ? Décryptage
+  de la plus grande illusion de la domotique moderne et guide complet pour construire
+  un système de vidéosurveillance 100% local, privé et sans frais cachés.
 ---
-
 L'offre semblait irrésistible. Lors du dernier Black Friday, vous avez craqué pour une petite caméra de surveillance de marque réputée (Ring, Arlo, Google Nest ou Blink) vendue à un prix défiant toute concurrence. L'installation a pris cinq minutes, l'image sur le smartphone est magnifique, et le détecteur de mouvement vous envoie une notification dès que le facteur dépose un colis. 
 
 Trente jours plus tard, la période d'essai gratuite prend fin. 

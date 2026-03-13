@@ -1,12 +1,18 @@
 ---
 layout: article.njk
-title: "La panne de courant : que devient votre maison intelligente quand le 230V s'arrête ?"
+title: 'La panne de courant : que devient votre maison intelligente quand le 230V
+  s''arrête ?'
 date: 2026-03-12
-tags: ["article", "architecture", "sécurité"]
-image: "/images/panne-courant-domotique.webp"
-summary: "Une domotique qui s'éteint avec la lumière, ce n'est pas une maison intelligente. Découvrez pourquoi l'onduleur (UPS) est l'investissement de sécurité le plus critique pour la stabilité de votre réseau et de vos données."
+tags:
+  - Wi-Fi & Réseau
+  - Zigbee & Matter
+  - Sécurité & Caméras
+  - DIY & Tutoriels
+image: /images/panne-courant-domotique.webp
+summary: Une domotique qui s'éteint avec la lumière, ce n'est pas une maison intelligente.
+  Découvrez pourquoi l'onduleur (UPS) est l'investissement de sécurité le plus critique
+  pour la stabilité de votre réseau et de vos données.
 ---
-
 La domotique est souvent perçue comme un ajout de confort : on pilote ses lumières, on régule son chauffage, on surveille son entrée. Mais à mesure que notre installation grandit, la dépendance de notre confort (et de notre sécurité) envers le réseau électrique augmente. Que se passe-t-il réellement dans votre maison le jour où une tempête, un accident de transformateur ou une maintenance locale coupe brusquement le courant 230V ?
 
 Pour la plupart des gens, la maison s'éteint, tout simplement. On sort une bougie, on attend que ça revienne. Mais pour un foyer domotisé, une panne de courant est une agression majeure. Vos modules Zigbee perdent leur coordinateur, vos serveurs perdent leurs données, vos bases de données domotiques se corrompent, et vos caméras de sécurité s'éteignent.

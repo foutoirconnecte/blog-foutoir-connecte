@@ -1,12 +1,18 @@
 ---
 layout: article.njk
-title: "Shelly Pro : 2026 signe la fin des modules Wi-Fi bas de gamme pour votre tableau électrique ?"
+title: 'Shelly Pro : 2026 signe la fin des modules Wi-Fi bas de gamme pour votre tableau
+  électrique ?'
 date: 2026-03-13
-tags: ["article", "domotique", "installation-electrique", "Shelly"]
-image: "/images/shelly-pro-installation-tableau.webp"
-summary: "Analyse technique de la transition vers le matériel DIN professionnel. Pourquoi les modules Wi-Fi bon marché atteignent leurs limites dans nos tableaux électriques en 2026 et comment le passage au format Pro change la donne."
+tags:
+  - Wi-Fi & Réseau
+  - DIY & Tutoriels
+  - Shelly
+  - Sécurité & Caméras
+image: /images/shelly-pro-installation-tableau.webp
+summary: Analyse technique de la transition vers le matériel DIN professionnel. Pourquoi
+  les modules Wi-Fi bon marché atteignent leurs limites dans nos tableaux électriques
+  en 2026 et comment le passage au format Pro change la donne.
 ---
-
 L'évolution de nos installations domotiques suit une trajectoire prévisible. Initialement, l'enthousiasme pour le "tout connecté" a poussé de nombreux foyers à adopter des modules Wi-Fi compacts, souvent dissimulés derrière des interrupteurs ou intégrés de manière précaire dans des boîtes d'encastrement. En 2026, le constat est sans appel : cette approche, bien que séduisante pour son faible coût initial, démontre des limites structurelles majeures, particulièrement lorsqu'elle est appliquée à l'infrastructure critique d'un tableau électrique.
 
 Le déploiement massif de modules Wi-Fi bon marché, souvent basés sur des chipsets grand public, a créé une dette technique insoupçonnée. Entre les problèmes de saturation du spectre Wi-Fi, les latences imprévisibles et les risques de surchauffe dans des espaces confinés, l'infrastructure domotique de base souffre. Le passage à des solutions sur rail DIN, portées par des gammes comme Shelly Pro, marque un tournant nécessaire vers une fiabilité de classe industrielle pour le particulier.

@@ -1,12 +1,19 @@
 ---
 layout: article.njk
-title: "Sécurité Wi-Fi pour la Domotique : comment isoler vos objets connectés (VLAN, Réseau Invité)"
+title: 'Sécurité Wi-Fi pour la Domotique : comment isoler vos objets connectés (VLAN,
+  Réseau Invité)'
 date: 2026-03-11
-tags: ["article", "réseau", "sécurité"]
-image: "/images/securite-wifi-domotique-vlan-reseau-invite.webp"
-summary: "Vos objets connectés partagent le même réseau Wi-Fi que votre ordinateur personnel et vos données bancaires. C'est une porte d'entrée béante pour les pirates. Découvrez pourquoi et comment créer des réseaux virtuels (VLAN) ou invités pour isoler hermétiquement votre domotique et protéger votre vie numérique."
+tags:
+  - Wi-Fi & Réseau
+  - Sécurité & Caméras
+  - DIY & Tutoriels
+  - Cloud vs Local
+image: /images/securite-wifi-domotique-vlan-reseau-invite.webp
+summary: Vos objets connectés partagent le même réseau Wi-Fi que votre ordinateur
+  personnel et vos données bancaires. C'est une porte d'entrée béante pour les pirates.
+  Découvrez pourquoi et comment créer des réseaux virtuels (VLAN) ou invités pour
+  isoler hermétiquement votre domotique et protéger votre vie numérique.
 ---
-
 Vous avez suivi nos conseils. Votre maison est équipée d'une **[cinquantaine d'objets connectés](/articles/maison-tout-wifi-box-internet/)**, vous avez un **[cerveau domotique local](/articles/unifier-applications-domotique/)**, et vous n'avez plus aucun équipement qui dépend du **[Cloud chinois](/articles/smart-life-tuya-cloud-chinois-domotique/)**. Vous pensez être en sécurité.
 
 Pourtant, il reste une faille de sécurité béante dans 99% des installations domestiques. 

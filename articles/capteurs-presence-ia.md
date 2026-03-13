@@ -1,12 +1,16 @@
 ---
 layout: article.njk
-title: "Capteurs de présence IA : fini les lumières qui s'éteignent quand vous lisez"
+title: 'Capteurs de présence IA : fini les lumières qui s''éteignent quand vous lisez'
 date: 2026-03-13
-tags: ["article", "domotique", "capteurs", "ia", "présence"]
-image: "/images/capteurs-presence-ia.webp"
-summary: "Découvrez comment les capteurs de présence IA résolvent définitivement le problème des lumières qui s'éteignent inopinément lorsque vous êtes immobile."
+tags:
+  - IA Domotique
+  - Home Assistant
+  - Débutant en Domotique
+  - Éclairage Connecté
+image: /images/capteurs-presence-ia.webp
+summary: Découvrez comment les capteurs de présence IA résolvent définitivement le
+  problème des lumières qui s'éteignent inopinément lorsque vous êtes immobile.
 ---
-
 Le scénario est familier. Vous êtes confortablement installé dans votre fauteuil, absorbé par un livre. Soudain, l'obscurité se fait. Vous agitez un bras, comme pour saluer un fantôme, afin de signaler au capteur de mouvement que vous êtes bien là. La lumière se rallume. Cinq minutes plus tard, le cycle recommence. Cette frustration est le symptôme d'une technologie dépassée. Les capteurs de mouvement traditionnels ne détectent pas la présence, ils détectent le mouvement. La solution existe et devient enfin accessible : les capteurs de présence basés sur un radar à ondes millimétriques, souvent estampillés "ia".
 
 Ce guide va au-delà des promesses marketing. Nous allons décortiquer le fonctionnement de cette technologie, comprendre pourquoi elle surpasse ses prédécesseurs, et voir comment l'intégrer efficacement dans un système domotique comme Home Assistant. L'objectif est simple : obtenir un éclairage qui s'adapte à votre présence réelle, et non à vos gesticulations.

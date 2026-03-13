@@ -1,10 +1,17 @@
 ---
 layout: article.njk
-title: "GPT-5 dans votre salon : pourquoi votre enceinte connectée ne vous comprend toujours pas malgré l'IA"
+title: 'GPT-5 dans votre salon : pourquoi votre enceinte connectée ne vous comprend
+  toujours pas malgré l''IA'
 date: 2026-03-13
-tags: ["article", "domotique", "intelligence_artificielle", "assistants-vocaux"]
-image: "/images/gpt5-enceinte-connectee.webp"
-summary: "Entre les promesses de l'IA générative et la réalité du contrôle vocal domestique, le fossé reste immense. Analyse technique des raisons pour lesquelles votre maison intelligente semble parfois si stupide."
+tags:
+  - Wi-Fi & Réseau
+  - IA Domotique
+  - Cloud vs Local
+  - Zigbee & Matter
+image: /images/gpt5-enceinte-connectee.webp
+summary: Entre les promesses de l'IA générative et la réalité du contrôle vocal domestique,
+  le fossé reste immense. Analyse technique des raisons pour lesquelles votre maison
+  intelligente semble parfois si stupide.
 ---
 # Le mirage de l'intelligence ambiante
 

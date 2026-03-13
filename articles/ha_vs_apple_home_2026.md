@@ -1,12 +1,17 @@
 ---
 layout: article.njk
-title: "Home Assistant vs Apple Home en 2026 : l'IA locale a-t-elle enfin gagné ?"
+title: 'Home Assistant vs Apple Home en 2026 : l''IA locale a-t-elle enfin gagné ?'
 date: 2026-03-13
-tags: ["article", "domotique", "home-assistant", "apple-home", "ia-locale"]
-image: "/images/ha_vs_apple_home_2026.webp"
-summary: "Analyse technique et comparative entre Home Assistant et Apple Home en 2026. Focus sur l'intégration de l'intelligence artificielle locale, la gestion des protocoles Matter et Thread, et le verdict final pour les installations sérieuses."
+tags:
+  - Home Assistant
+  - Google / Apple / Amazon
+  - Wi-Fi & Réseau
+  - Cloud vs Local
+image: /images/ha_vs_apple_home_2026.webp
+summary: Analyse technique et comparative entre Home Assistant et Apple Home en 2026.
+  Focus sur l'intégration de l'intelligence artificielle locale, la gestion des protocoles
+  Matter et Thread, et le verdict final pour les installations sérieuses.
 ---
-
 # Le Problème : La promesse brisée de l'écosystème fermé face à l'exigence de la vie privée
 
 Le marché de la domotique a traversé une longue période de fragmentation. Les utilisateurs ont souvent été contraints de choisir entre la simplicité d'un écosystème fermé et la complexité technique d'une solution ouverte. L'approche d'Apple avec HomeKit (devenu Apple Home) a toujours été claire : imposer des contraintes strictes de certification pour garantir la stabilité et la sécurité. Le résultat ? Une application élégante, fluide, mais profondément limitée dans ses capacités de personnalisation et d'automatisation complexe.

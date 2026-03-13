@@ -1,12 +1,17 @@
 ---
 layout: article.njk
-title: "La Box Internet qui Suffoque : Le Syndrome de la Maison Tout Wi-Fi"
+title: 'La Box Internet qui Suffoque : Le Syndrome de la Maison Tout Wi-Fi'
 date: 2025-11-20
-tags: ["article", "réseau", "fondations"]
-image: "/images/maison-tout-wifi-box-internet.webp"
-summary: "Trop d'objets connectés tuent le réseau. Découvrez pourquoi votre box internet opérateur n'est pas taillée pour supporter cinquante prises intelligentes, et comment le réseau maillé (Zigbee/Thread) peut sauver vos soirées Netflix."
+tags:
+  - Wi-Fi & Réseau
+  - Zigbee & Matter
+  - Débutant en Domotique
+  - DIY & Tutoriels
+image: /images/maison-tout-wifi-box-internet.webp
+summary: Trop d'objets connectés tuent le réseau. Découvrez pourquoi votre box internet
+  opérateur n'est pas taillée pour supporter cinquante prises intelligentes, et comment
+  le réseau maillé (Zigbee/Thread) peut sauver vos soirées Netflix.
 ---
-
 L'enthousiasme des débuts pousse souvent à une erreur fatale. Vous découvrez les joies de la domotique avec une première prise connectée. Le mois suivant, vous équipez tout le salon d'ampoules intelligentes. Six mois plus tard, la maison compte une cinquantaine de périphériques bon marché, tous connectés au réseau sans fil. 
 
 Et c'est là que les problèmes commencent. 
