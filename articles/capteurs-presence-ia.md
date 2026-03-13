@@ -1,4 +1,3 @@
-```markdown
 ---
 layout: article.njk
 title: "Capteurs de présence IA : fini les lumières qui s'éteignent quand vous lisez"
