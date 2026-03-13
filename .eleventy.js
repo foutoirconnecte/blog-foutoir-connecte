@@ -21,9 +21,10 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addCollection("tagList", function(collectionApi) {
     const tags = new Set();
+    const slugify = (text) => text.toString().toLowerCase().replace(/\s+/g, '-').replace(/[^\w\-]+/g, '').replace(/\-\-+/g, '-').replace(/^-+/, '').replace(/-+$/, '');
     collectionApi.getAll().forEach(item => {
       if (item.data.tags) {
-        item.data.tags.forEach(tag => tags.add(tag));
+        item.data.tags.forEach(tag => tags.add(slugify(tag)));
       }
     });
     return Array.from(tags).filter(t => !["article", "post", "all"].includes(t));
