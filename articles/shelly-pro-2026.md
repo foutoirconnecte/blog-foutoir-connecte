@@ -19,7 +19,7 @@ La gestion du Wi-Fi pour des périphériques domotiques à haut volume est fonda
 
 Ensuite, il y a la question thermique. Un tableau électrique est un espace fermé, conçu pour une dissipation thermique spécifique. Y ajouter des dizaines de modules Wi-Fi, qui consomment de l'énergie et chauffent par nature, est une aberration technique. J'ai vu des installations où la température interne du tableau dépassait les limites de sécurité, réduisant drastiquement la durée de vie des disjoncteurs voisins et des autres composants sensibles.
 
-Enfin, la sécurité logicielle et la dépendance au cloud sont des points de friction. Beaucoup de ces modules bas de gamme exigent une connexion permanente à des serveurs distants pour fonctionner, ce qui transforme un simple interrupteur en une faille de sécurité potentielle. Pour approfondir ces risques, vous pouvez consulter mon article sur [les modules domotiques bas de gamme et leurs dangers](/articles/danger-domotique-pas-cher-incendie.
+Enfin, la sécurité logicielle et la dépendance au cloud sont des points de friction. Beaucoup de ces modules bas de gamme exigent une connexion permanente à des serveurs distants pour fonctionner, ce qui transforme un simple interrupteur en une faille de sécurité potentielle. Pour approfondir ces risques, vous pouvez consulter mon article sur [les modules domotiques bas de gamme et leurs dangers](/articles/danger-domotique-pas-cher-incendie/)
 
 ### La solution : Pourquoi le format DIN Pro change tout
 
@@ -35,9 +35,9 @@ Le changement le plus significatif réside dans la connectivité. La plupart des
 
 2. **Fiabilité thermique :** Le format boîtier DIN est étudié pour maximiser la circulation d'air autour des composants électroniques. La dissipation thermique est bien plus efficace qu'avec un module enfermé dans une boîte de dérivation derrière un placo.
 
-3. **Mesure de puissance précise :** Les versions "PM" (Power Metering) des modules Pro utilisent des circuits de mesure dédiés bien plus précis que les solutions bas de gamme. En 2026, avec l'envolée des coûts énergétiques, disposer de données de consommation réelles et précises au niveau de chaque circuit (et non globalement sur le Linky) est indispensable pour optimiser son bilan énergétique. Pour comprendre pourquoi le suivi local est vital, lisez mon analyse sur [le suivi Linky et la domotique](/articles/linky-teleinfo-local.
+3. **Mesure de puissance précise :** Les versions "PM" (Power Metering) des modules Pro utilisent des circuits de mesure dédiés bien plus précis que les solutions bas de gamme. En 2026, avec l'envolée des coûts énergétiques, disposer de données de consommation réelles et précises au niveau de chaque circuit (et non globalement sur le Linky) est indispensable pour optimiser son bilan énergétique. Pour comprendre pourquoi le suivi local est vital, lisez mon analyse sur [le suivi Linky et la domotique](/articles/linky-teleinfo-local/)
 
-4. **Architecture locale :** Les Shelly Pro sont conçus pour fonctionner sans cloud. Ils offrent des API locales complètes (REST, MQTT, Webhooks), garantissant que votre domotique reste fonctionnelle même en cas de panne de votre fournisseur d'accès internet. C'est une étape clé pour rendre une [maison indépendante et résiliente](/articles/domotique-sans-internet-cloud.
+4. **Architecture locale :** Les Shelly Pro sont conçus pour fonctionner sans cloud. Ils offrent des API locales complètes (REST, MQTT, Webhooks), garantissant que votre domotique reste fonctionnelle même en cas de panne de votre fournisseur d'accès internet. C'est une étape clé pour rendre une [maison indépendante et résiliente](/articles/domotique-sans-internet-cloud/)
 
 ### Guide pratique : Concevoir son tableau domotique
 
