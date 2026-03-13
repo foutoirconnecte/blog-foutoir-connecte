@@ -2,7 +2,7 @@
 layout: article.njk
 title: "La panne de courant : que devient votre maison intelligente quand le 230V s'arrête ?"
 date: 2026-03-12
-tags: ["article", "Architecture", "sécurité"]
+tags: ["article", "architecture", "sécurité"]
 image: "/images/panne-courant-domotique.webp"
 summary: "Une domotique qui s'éteint avec la lumière, ce n'est pas une maison intelligente. Découvrez pourquoi l'onduleur (UPS) est l'investissement de sécurité le plus critique pour la stabilité de votre réseau et de vos données."
 ---

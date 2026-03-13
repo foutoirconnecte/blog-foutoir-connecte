@@ -2,7 +2,7 @@
 layout: article.njk
 title: "Le piège des volets roulants radio : pourquoi exiger des moteurs filaires"
 date: 2026-03-12
-tags: ["article", "Architecture", "Matériel"]
+tags: ["article", "architecture", "matériel"]
 image: "/images/volets-roulants-radio-somfy-vs-filaire-domotique.webp"
 summary: "Votre menuisier vous propose des volets roulants radio avec télécommande car c'est 'plus moderne' ? Découvrez pourquoi c'est un piège technologique qui vous enfermera dans un écosystème fermé, et pourquoi le moteur filaire classique est la seule véritable option pour une domotique libre."
 ---

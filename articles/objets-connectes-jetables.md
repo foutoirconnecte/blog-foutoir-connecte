@@ -2,7 +2,7 @@
 layout: article.njk
 title: "Objets connectés jetables : le scandale des batteries soudées dans vos capteurs"
 date: 2026-03-12
-tags: ["article", "Matériel", "Environnement"]
+tags: ["article", "matériel", "environnement"]
 image: "/images/obsolescence-programmee-capteurs.webp"
 summary: "Pourquoi vos petits capteurs de température design sont des bombes à retardement environnementales. Découvrez le scandale des batteries soudées et pourquoi la réparabilité doit devenir un critère de choix domotique."
 ---

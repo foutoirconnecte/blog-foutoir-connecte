@@ -2,7 +2,7 @@
 layout: article.njk
 title: "La pile bouton au mauvais moment : comment optimiser l'autonomie de vos capteurs"
 date: 2026-01-22
-tags: ["article", "Matériel", "Réseau"]
+tags: ["article", "matériel", "réseau"]
 image: "/images/piles.webp"
 summary: "Remplacer des dizaines de piles CR2032 tous les six mois n'est pas une fatalité. Découvrez les erreurs d'architecture réseau qui drainent l'énergie de vos capteurs domotiques et les règles d'or pour multiplier leur durée de vie par trois."
 ---

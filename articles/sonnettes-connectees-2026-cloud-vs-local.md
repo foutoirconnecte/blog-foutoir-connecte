@@ -2,7 +2,7 @@
 layout: article.njk
 title: "Sonnettes Connectées en 2026 : Le Comparatif Ultime (Local vs. Cloud)"
 date: 2026-03-12
-tags: ["article", "sécurité", "Matériel", "Réseau"]
+tags: ["article", "sécurité", "matériel", "réseau"]
 image: "/images/sonnettes-connectees-2026-cloud-vs-local.webp"
 summary: "Votre sonnette connectée vous coûte un bras en abonnement mensuel ? Découvrez pourquoi le stockage local est votre meilleur allié pour la sécurité, la vie privée et le portefeuille. Comparatif des solutions : Ring, Nest, Eufy, Aqara et les alternatives locales pour 2026."
 ---

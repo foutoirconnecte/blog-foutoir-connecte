@@ -2,7 +2,7 @@
 layout: article.njk
 title: "Domotique en location : comment automatiser sans percer de trous (ni perdre sa caution)"
 date: 2026-03-12
-tags: ["article", "Matériel", "Débutant"]
+tags: ["article", "matériel", "débutant"]
 image: "/images/domotique-location-reversible.webp"
 summary: "Être locataire ne signifie pas vivre dans une maison 'bête'. Découvrez les solutions 100% réversibles pour domotiser votre logement sans percer, sans travaux, et en partant avec tout votre matériel le jour de votre déménagement."
 ---

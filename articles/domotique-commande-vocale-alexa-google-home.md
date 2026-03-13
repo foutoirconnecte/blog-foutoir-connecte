@@ -2,7 +2,7 @@
 layout: article.njk
 title: "La domotique vocale : pourquoi il ne faut jamais crier pour allumer la lumière"
 date: 2026-03-11
-tags: ["article", "Débutant", "Architecture"]
+tags: ["article", "débutant", "architecture"]
 image: "/images/domotique-commande-vocale-alexa-google-home.webp"
 summary: "Les assistants vocaux comme Alexa ou Google Home sont souvent la première étape vers la maison connectée. Pourtant, baser l'ergonomie de son foyer sur la voix est une erreur d'architecture monumentale. Découvrez pourquoi l'interface vocale doit rester une option, jamais une nécessité."
 ---

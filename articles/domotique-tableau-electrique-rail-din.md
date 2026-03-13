@@ -2,7 +2,7 @@
 layout: article.njk
 title: "La domotique au tableau électrique : le passage obligé vers l'installation professionnelle"
 date: 2026-03-11
-tags: ["article", "Architecture", "Matériel"]
+tags: ["article", "architecture", "matériel"]
 image: "/images/domotique-tableau-electrique-rail-din.webp"
 summary: "Cacher des petits modules Wi-Fi ou Zigbee derrière vos interrupteurs est parfait pour débuter. Mais pour une installation véritablement professionnelle, sécurisée et pérenne, la domotique doit migrer là où réside le cœur de votre maison : directement dans le tableau électrique (montage rail DIN)."
 ---

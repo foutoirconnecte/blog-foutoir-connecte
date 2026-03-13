@@ -2,7 +2,7 @@
 layout: article.njk
 title: "Le Cauchemar du Cloud : Pourquoi votre domotique doit fonctionner sans Internet"
 date: 2025-11-02
-tags: ["article", "Architecture", "cloud"]
+tags: ["article", "architecture", "cloud"]
 image: "/images/domotique-sans-internet-cloud.webp"
 summary: "Découvrez l'aberration technique du contrôle déporté (Cloud). La latence, le risque de faillite des serveurs, et surtout, pourquoi le passage au contrôle réseau local via Zigbee et Home Assistant est indispensable pour une vraie tranquillité d'esprit."
 ---

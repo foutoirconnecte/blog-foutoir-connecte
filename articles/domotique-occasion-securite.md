@@ -2,7 +2,7 @@
 layout: article.njk
 title: "Domotique d'occasion : le danger des objets connectés de seconde main"
 date: 2026-03-12
-tags: ["article", "sécurité", "Matériel"]
+tags: ["article", "sécurité", "matériel"]
 image: "/images/domotique-occasion-securite.webp"
 summary: "Acheter des capteurs ou des modules domotiques d'occasion est un excellent moyen de réduire les coûts, mais c'est un terrain miné pour la sécurité. Découvrez comment nettoyer et sécuriser votre matériel de seconde main pour éviter que votre maison ne devienne une passoire numérique."
 ---

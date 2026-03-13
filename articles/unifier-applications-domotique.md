@@ -2,7 +2,7 @@
 layout: article.njk
 title: "L'enfer des 6 applications : comment unifier toute votre domotique dans une seule interface"
 date: 2025-12-05
-tags: ["article", "Architecture", "Débutant"]
+tags: ["article", "architecture", "débutant"]
 image: "/images/unifier-applications-domotique.webp"
 summary: "Fini l'application Somfy pour les volets, Hue pour la lumière et Tado pour le chauffage. La multiplication des applications transforme la maison intelligente en un fardeau numérique au quotidien. Découvrez comment tout regrouper dans un système nerveux central agnostique."
 ---

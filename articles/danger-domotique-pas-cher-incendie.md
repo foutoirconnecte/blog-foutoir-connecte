@@ -2,7 +2,7 @@
 layout: article.njk
 title: "Le faux bon plan domotique : les dangers des modules électriques à 2 euros"
 date: 2026-03-01
-tags: ["article", "Matériel", "Débutant"]
+tags: ["article", "matériel", "débutant"]
 image: "/images/danger-domotique-pas-cher-incendie.webp"
 summary: "Il est tentant de commander des relais électriques domotiques anonymes sur les plateformes asiatiques pour faire des économies. Découvrez pourquoi c'est un jeu dangereux pour votre réseau, et surtout pour la sécurité incendie de votre maison."
 ---

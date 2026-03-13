@@ -2,7 +2,7 @@
 layout: article.njk
 title: "La maison qui parle trop : pourquoi vos notifications domotiques vous stressent"
 date: 2026-03-12
-tags: ["article", "Architecture", "Débutant"]
+tags: ["article", "architecture", "débutant"]
 image: "/images/maison-qui-parle-trop.webp"
 summary: "L'art de la notification utile vs le spam domotique qui finit par nous faire désactiver les alertes importantes. Apprenez à filtrer le bruit pour ne garder que l'essentiel."
 ---

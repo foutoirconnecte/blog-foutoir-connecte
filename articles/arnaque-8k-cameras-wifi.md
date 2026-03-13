@@ -2,7 +2,7 @@
 layout: article.njk
 title: "L'arnaque des 8K : pourquoi vos caméras 4K et 8K saturent déjà votre Wi-Fi"
 date: 2026-03-12
-tags: ["article", "Matériel", "Réseau"]
+tags: ["article", "matériel", "réseau"]
 image: "/images/arnaque-8k-cameras-wifi.webp"
 summary: "Pourquoi la course aux mégapixels sur vos caméras de sécurité est une stratégie marketing qui nuit gravement à votre réseau domestique et à votre sécurité. Découvrez le rôle crucial de l'encodage, de l'optique, et du bitrate dans le stockage."
 ---

@@ -2,7 +2,7 @@
 layout: article.njk
 title: "Pourquoi votre ampoule connectée est toujours hors ligne (et comment domotiser un plafonnier)"
 date: 2025-10-15
-tags: ["article", "Matériel", "Débutant"]
+tags: ["article", "matériel", "débutant"]
 image: "/images/ampoules.webp"
 summary: "Découvrez pourquoi remplacer vos ampoules classiques par des ampoules connectées est une erreur d'architecture fondamentale, et pourquoi la vraie solution se trouve derrière vos interrupteurs muraux avec les micromodules."
 ---

@@ -2,7 +2,7 @@
 layout: article.njk
 title: "Le Linky bavard : comment exploiter la télé-info sans passer par l'app Enedis"
 date: 2026-03-12
-tags: ["article", "Réseau", "Énergie"]
+tags: ["article", "réseau", "énergie"]
 image: "/images/linky-teleinfo-local.webp"
 summary: "Ne laissez plus Enedis être le seul à connaître votre consommation électrique. Découvrez comment récupérer la donnée TIC (Télé-Information Client) en temps réel pour domotiser votre délestage et optimiser votre facture."
 ---

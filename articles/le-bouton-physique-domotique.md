@@ -2,7 +2,7 @@
 layout: article.njk
 title: "Le bouton physique : pourquoi c'est l'accessoire domotique le plus important de 2026"
 date: 2026-03-12
-tags: ["article", "Architecture", "Ergonomie"]
+tags: ["article", "architecture", "Ergonomie"]
 image: "/images/bouton-physique-domotique.webp"
 summary: "Entre les commandes vocales capricieuses et les applications surchargées, le bouton physique fait son grand retour. Pourquoi le retour à la simplicité haptique est la clé de voûte d'une domotique réussie en 2026."
 ---

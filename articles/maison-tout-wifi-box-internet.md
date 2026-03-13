@@ -2,7 +2,7 @@
 layout: article.njk
 title: "La Box Internet qui Suffoque : Le Syndrome de la Maison Tout Wi-Fi"
 date: 2025-11-20
-tags: ["article", "Réseau", "Fondations"]
+tags: ["article", "réseau", "fondations"]
 image: "/images/maison-tout-wifi-box-internet.webp"
 summary: "Trop d'objets connectés tuent le réseau. Découvrez pourquoi votre box internet opérateur n'est pas taillée pour supporter cinquante prises intelligentes, et comment le réseau maillé (Zigbee/Thread) peut sauver vos soirées Netflix."
 ---

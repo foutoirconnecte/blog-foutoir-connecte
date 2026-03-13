@@ -2,7 +2,7 @@
 layout: article.njk
 title: "Vannes Thermostatiques Connectées : Le Comparatif 2026 (Action, Wi-Fi, Zigbee, Tuya)"
 date: 2026-03-12
-tags: ["article", "Matériel", "Chauffage"]
+tags: ["article", "matériel", "chauffage"]
 image: "/images/comparatif-vannes-thermostatiques-action-wifi-zigbee.webp"
 summary: "Faut-il craquer pour les têtes thermostatiques vendues 15 euros chez Action ? Entre le Bluetooth inutilisable, le Wi-Fi qui dévore vos piles et la fiabilité du Zigbee, découvrez quelle technologie choisir pour domotiser vos radiateurs sans transformer l'hiver en cauchemar."
 ---

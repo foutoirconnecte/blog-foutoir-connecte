@@ -2,7 +2,7 @@
 layout: article.njk
 title: "Zigbee vs Matter en 2026 : Lequel Choisir pour votre Domotique ?"
 date: 2026-03-12
-tags: ["article", "Architecture", "Réseau"]
+tags: ["article", "architecture", "réseau"]
 image: "/images/zigbee-vs-matter-2026.webp"
 summary: "Le protocole Matter devait tout révolutionner et tuer le Zigbee. En 2026, la réalité du terrain est bien différente. Découvrez pourquoi le vieux standard Zigbee reste le choix le plus pertinent pour votre installation locale, et comment intégrer Matter intelligemment sans tomber dans ses pièges de jeunesse."
 ---
