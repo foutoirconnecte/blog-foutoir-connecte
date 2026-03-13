@@ -1,5 +1,5 @@
 ---
-date: 2026-03-11
+date: '2026-03-01'
 image: /images/domotique-commande-vocale-alexa-google-home.webp
 layout: article.njk
 summary: Les assistants vocaux comme Alexa ou Google Home sont souvent la première
@@ -13,6 +13,7 @@ tags:
 - éclairage-connecté
 title: 'La domotique vocale : pourquoi il ne faut jamais crier pour allumer la lumière'
 ---
+
 
 "Dis Siri, allume le couloir". "Ok Google, ferme les volets du salon". "Alexa, baisse le chauffage".
 

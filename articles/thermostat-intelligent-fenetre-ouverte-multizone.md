@@ -1,5 +1,5 @@
 ---
-date: 2026-02-05
+date: '2026-03-11'
 image: /images/thermostat-intelligent-fenetre-ouverte-multizone.webp
 layout: article.njk
 summary: Vous avez investi des centaines d'euros dans des têtes thermostatiques connectées
@@ -14,6 +14,7 @@ tags:
 title: 'Le thermostat intelligent qui chauffe dans le vide : l''erreur du radiateur
   et de la fenêtre ouverte'
 ---
+
 
 L'une des motivations principales pour se lancer dans la domotique, juste après le confort de l'éclairage, est la promesse de réaliser des économies d'énergie spectaculaires. L'industrie vend le concept du "thermostat intelligent" comme une solution miracle capable de faire fondre votre facture de gaz ou d'électricité de 30% par an.
 

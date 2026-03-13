@@ -1,5 +1,5 @@
 ---
-date: 2026-03-12
+date: '2026-03-02'
 image: /images/domotique-occasion-securite.webp
 layout: article.njk
 summary: Acheter des capteurs ou des modules domotiques d'occasion est un excellent
@@ -13,6 +13,7 @@ tags:
 - zigbee-and-matter
 title: 'Domotique d''occasion : le danger des objets connectés de seconde main'
 ---
+
 
 L'inflation et la conscience écologique ont poussé de plus en plus de passionnés de domotique à se tourner vers le marché de l'occasion. Pourquoi acheter une tête thermostatique à 80 euros quand on peut en trouver des dizaines sur les plateformes de revente pour 20 ou 30 euros ? Pourquoi payer le prix fort pour des capteurs Zigbee neufs quand un lot complet d'occasion permet d'équiper toute une maison pour le prix d'un seul module neuf ?
 

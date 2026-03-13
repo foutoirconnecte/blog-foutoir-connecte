@@ -1,5 +1,5 @@
 ---
-date: 2026-03-13
+date: '2026-03-05'
 image: /images/gpt5-enceinte-connectee.webp
 layout: article.njk
 summary: Entre les promesses de l'IA générative et la réalité du contrôle vocal domestique,
@@ -13,6 +13,7 @@ tags:
 title: 'GPT-5 dans votre salon : pourquoi votre enceinte connectée ne vous comprend
   toujours pas malgré l''IA'
 ---
+
 
 # Le mirage de l'intelligence ambiante
 

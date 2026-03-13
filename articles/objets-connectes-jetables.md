@@ -1,5 +1,5 @@
 ---
-date: 2026-03-12
+date: '2026-03-08'
 image: /images/obsolescence-programmee-capteurs.webp
 layout: article.njk
 summary: Pourquoi vos petits capteurs de température design sont des bombes à retardement
@@ -12,6 +12,7 @@ tags:
 - économies-d'énergie
 title: 'Objets connectés jetables : le scandale des batteries soudées dans vos capteurs'
 ---
+
 
 La domotique, telle qu'elle est pratiquée par le grand public, est en train de devenir l'un des piliers les plus problématiques de l'obsolescence programmée. Nous avons tous chez nous ces petits capteurs adorables : un détecteur de mouvement gros comme une pièce de monnaie, un thermomètre minimaliste en plastique blanc, ou un détecteur d'inondation ultra-plat. Ils sont esthétiques, ils sont peu chers, ils s'installent en quelques secondes.
 

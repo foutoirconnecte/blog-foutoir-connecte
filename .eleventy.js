@@ -32,31 +32,13 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addCollection("tagList", function(collectionApi) {
-    const slugify = (text) => text.toString().toLowerCase()
-      .replace(/[àáâãäå]/g, 'a')
-      .replace(/[éèêë]/g, 'e')
-      .replace(/[íìîï]/g, 'i')
-      .replace(/[óòôõö]/g, 'o')
-      .replace(/[úùûü]/g, 'u')
-      .replace(/[^a-z0-9]+/g, '-')
-      .replace(/-+/g, '-')
-      .replace(/^-|-$/g, '');
-
-    const tags = new Map();
+    const tags = new Set();
     collectionApi.getAll().forEach(item => {
       if (item.data.tags) {
-        item.data.tags.forEach(tag => {
-          const slug = slugify(tag);
-          if (!tags.has(slug)) {
-            tags.set(slug, tag);
-          }
-        });
+        item.data.tags.forEach(tag => tags.add(tag));
       }
     });
-    // On retourne une liste d'objets pour pouvoir accéder au slug et à la forme originale
-    return Array.from(tags.entries())
-      .filter(([slug, tag]) => !["article", "post", "all"].includes(tag.toLowerCase()))
-      .map(([slug, tag]) => ({ slug, tag }));
+    return Array.from(tags).filter(t => !["article", "post", "all"].includes(t));
   });
 
   return {

@@ -1,5 +1,5 @@
 ---
-date: 2026-01-22
+date: '2026-02-22'
 image: /images/piles.webp
 layout: article.njk
 summary: Remplacer des dizaines de piles CR2032 tous les six mois n'est pas une fatalité.
@@ -12,6 +12,7 @@ tags:
 - économies-d'énergie
 title: 'La pile bouton au mauvais moment : comment optimiser l''autonomie de vos capteurs'
 ---
+
 
 L'une des promesses les plus séduisantes de la domotique moderne est l'absence de câblage. Vous achetez un petit capteur de température, vous le collez avec du double-face sur le mur de la chambre, et le tour est joué. Le fabricant vous promet généralement "jusqu'à deux ans d'autonomie" sur une simple pile bouton CR2032 ou CR2450. 
 

@@ -1,11 +1,19 @@
 ---
+date: '2026-03-09'
+image: /images/philips-hue-vs-nanoleaf-2026.webp
 layout: article.njk
-title: "Philips Hue vs Nanoleaf : le luxe de l'éclairage connecté vaut-il encore son prix ?"
-date: 2026-03-13
-tags: ["article", "domotique", "matériel", "zigbee", "éclairage connecté"]
-image: "/images/philips-hue-vs-nanoleaf-2026.webp"
-summary: "Analyse technique comparative : Philips Hue, la valeur sûre contre Nanoleaf, l'innovateur audacieux. Stabilité, écosystème, et rapport qualité-prix en 2026."
+summary: 'Analyse technique comparative : Philips Hue, la valeur sûre contre Nanoleaf,
+  l''innovateur audacieux. Stabilité, écosystème, et rapport qualité-prix en 2026.'
+tags:
+- article
+- domotique
+- matériel
+- zigbee
+- éclairage connecté
+title: 'Philips Hue vs Nanoleaf : le luxe de l''éclairage connecté vaut-il encore
+  son prix ?'
 ---
+
 
 # Philips Hue vs Nanoleaf : le luxe de l'éclairage connecté vaut-il encore son prix ?
 
@@ -34,7 +42,7 @@ Le souci actuel de Nanoleaf en 2026, c'est la maturité. Alors que le réseau Zi
 ## Comparatif direct : Performance, Fiabilité, Prix
 
 | Critère | Philips Hue | Nanoleaf |
-| :--- | :--- | :--- |
+| : | : | : |
 | **Protocoles** | Zigbee (solide, éprouvé) | Thread / Matter (futuriste, complexe) |
 | **Stabilité** | Inégalée (le gold standard) | Variable selon le border router |
 | **Design** | Épuré, classique | Audacieux, panneaux, modulaire |

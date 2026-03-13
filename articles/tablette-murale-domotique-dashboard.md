@@ -1,5 +1,5 @@
 ---
-date: 2026-03-11
+date: '2026-03-11'
 image: /images/tablette-murale-domotique-dashboard.webp
 layout: article.njk
 summary: Accrocher un vieil iPad au mur du salon pour piloter toute la maison est
@@ -13,6 +13,7 @@ tags:
 - waf-and-famille
 title: 'Tablettes murales domotiques : la fausse bonne idée (et comment bien le faire)'
 ---
+
 
 C'est l'image d'Épinal de la maison du futur, celle que l'on voit dans tous les films de science-fiction et sur les brochures des constructeurs immobiliers : le grand écran tactile fixé au mur de l'entrée, affichant un magnifique plan 3D de la maison, la météo, le flux des caméras de sécurité et le contrôle absolu de chaque ampoule.
 

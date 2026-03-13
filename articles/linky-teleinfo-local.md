@@ -1,5 +1,5 @@
 ---
-date: 2026-03-12
+date: '2026-03-07'
 image: /images/linky-teleinfo-local.webp
 layout: article.njk
 summary: Ne laissez plus Enedis être le seul à connaître votre consommation électrique.
@@ -12,6 +12,7 @@ tags:
 - économies-d'énergie
 title: 'Le Linky bavard : comment exploiter la télé-info sans passer par l''app Enedis'
 ---
+
 
 Le compteur communicant Linky, déployé massivement dans tous les foyers français, est souvent perçu comme un simple outil de facturation à distance pour le gestionnaire du réseau, Enedis. On le regarde avec méfiance, on s'inquiète des ondes CPL, on peste contre les coupures de courant à distance, mais on oublie un détail technique fondamental : ce boîtier est une mine d'or d'informations pour quiconque possède une installation domotique.
 

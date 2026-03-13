@@ -1,5 +1,5 @@
 ---
-date: 2026-03-12
+date: '2026-03-08'
 image: /images/panne-courant-domotique.webp
 layout: article.njk
 summary: Une domotique qui s'éteint avec la lumière, ce n'est pas une maison intelligente.
@@ -13,6 +13,7 @@ tags:
 title: 'La panne de courant : que devient votre maison intelligente quand le 230V
   s''arrête ?'
 ---
+
 
 La domotique est souvent perçue comme un ajout de confort : on pilote ses lumières, on régule son chauffage, on surveille son entrée. Mais à mesure que notre installation grandit, la dépendance de notre confort (et de notre sécurité) envers le réseau électrique augmente. Que se passe-t-il réellement dans votre maison le jour où une tempête, un accident de transformateur ou une maintenance locale coupe brusquement le courant 230V ?
 

@@ -1,5 +1,5 @@
 ---
-date: 2026-03-13
+date: '2026-03-10'
 image: /images/shelly-pro-installation-tableau.webp
 layout: article.njk
 summary: Analyse technique de la transition vers le matériel DIN professionnel. Pourquoi
@@ -13,6 +13,7 @@ tags:
 title: 'Shelly Pro : 2026 signe la fin des modules Wi-Fi bas de gamme pour votre tableau
   électrique ?'
 ---
+
 
 L'évolution de nos installations domotiques suit une trajectoire prévisible. Initialement, l'enthousiasme pour le "tout connecté" a poussé de nombreux foyers à adopter des modules Wi-Fi compacts, souvent dissimulés derrière des interrupteurs ou intégrés de manière précaire dans des boîtes d'encastrement. En 2026, le constat est sans appel : cette approche, bien que séduisante pour son faible coût initial, démontre des limites structurelles majeures, particulièrement lorsqu'elle est appliquée à l'infrastructure critique d'un tableau électrique.
 

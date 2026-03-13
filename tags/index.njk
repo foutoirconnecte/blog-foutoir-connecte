@@ -2,16 +2,16 @@
 pagination:
   data: collections.tagList
   size: 1
-  alias: tagData
+  alias: tag
 layout: layout.njk
 eleventyComputed:
-  title: "Articles de la catégorie : {{ tagData.tag }}"
-permalink: /tags/{{ tagData.slug }}/index.html
+  title: "Articles de la catégorie : {{ tag }}"
+permalink: /tags/{{ tag | slugify }}/index.html
 ---
-<h1 style="text-align:center; font-size: 2.2rem; margin-top: 60px; margin-bottom: 20px;">Dossiers : {{ tagData.tag }}</h1>
+<h1 style="text-align:center; font-size: 2.2rem; margin-top: 60px; margin-bottom: 20px;">Dossiers : {{ tag }}</h1>
 
 <div class="articles-grid">
-{% set taglist = collections[ tagData.tag ] %}
+{% set taglist = collections[ tag ] %}
 {% for post in taglist | reverse %}
   <div class="article-card">
     {% if post.data.image %}

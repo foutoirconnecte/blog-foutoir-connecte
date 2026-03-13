@@ -1,5 +1,5 @@
 ---
-date: 2026-03-12
+date: '2026-03-02'
 image: /images/domotique-location-reversible.webp
 layout: article.njk
 summary: Être locataire ne signifie pas vivre dans une maison 'bête'. Découvrez les
@@ -13,6 +13,7 @@ tags:
 title: 'Domotique en location : comment automatiser sans percer de trous (ni perdre
   sa caution)'
 ---
+
 
 L'une des idées reçues les plus tenaces dans le monde de la domotique est que pour avoir une maison intelligente, il faut être propriétaire. On imagine tout de suite les saignées dans les murs pour passer des câbles Ethernet, le remplacement complet de l'appareillage électrique par des modules encastrés, ou la pose de motorisations de volets roulants lourdes à installer. 
 

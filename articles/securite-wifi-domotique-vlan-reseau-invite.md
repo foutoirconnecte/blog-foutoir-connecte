@@ -1,5 +1,5 @@
 ---
-date: 2026-03-11
+date: '2026-03-09'
 image: /images/securite-wifi-domotique-vlan-reseau-invite.webp
 layout: article.njk
 summary: Vos objets connectés partagent le même réseau Wi-Fi que votre ordinateur
@@ -14,6 +14,7 @@ tags:
 title: 'Sécurité Wi-Fi pour la Domotique : comment isoler vos objets connectés (VLAN,
   Réseau Invité)'
 ---
+
 
 Vous avez suivi nos conseils. Votre maison est équipée d'une **[cinquantaine d'objets connectés](/articles/maison-tout-wifi-box-internet/)**, vous avez un **[cerveau domotique local](/articles/unifier-applications-domotique/)**, et vous n'avez plus aucun équipement qui dépend du **[Cloud chinois](/articles/smart-life-tuya-cloud-chinois-domotique/)**. Vous pensez être en sécurité.
 

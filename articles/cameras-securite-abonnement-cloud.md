@@ -1,5 +1,5 @@
 ---
-date: 2026-01-08
+date: '2026-02-23'
 image: /images/cameras.webp
 layout: article.njk
 summary: Vous avez acheté une caméra à 40 euros en promotion, pour découvrir ensuite
@@ -14,6 +14,7 @@ tags:
 title: 'Le piège des abonnements : pourquoi vos caméras de sécurité vous ruinent (et
   comment passer au local)'
 ---
+
 
 L'offre semblait irrésistible. Lors du dernier Black Friday, vous avez craqué pour une petite caméra de surveillance de marque réputée (Ring, Arlo, Google Nest ou Blink) vendue à un prix défiant toute concurrence. L'installation a pris cinq minutes, l'image sur le smartphone est magnifique, et le détecteur de mouvement vous envoie une notification dès que le facteur dépose un colis. 
 

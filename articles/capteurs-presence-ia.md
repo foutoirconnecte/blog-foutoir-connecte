@@ -1,5 +1,5 @@
 ---
-date: 2026-03-13
+date: '2026-02-25'
 image: /images/capteurs-presence-ia.webp
 layout: article.njk
 summary: Découvrez comment les capteurs de présence IA résolvent définitivement le
@@ -11,6 +11,7 @@ tags:
 - éclairage-connecté
 title: 'Capteurs de présence IA : fini les lumières qui s''éteignent quand vous lisez'
 ---
+
 
 Le scénario est familier. Vous êtes confortablement installé dans votre fauteuil, absorbé par un livre. Soudain, l'obscurité se fait. Vous agitez un bras, comme pour saluer un fantôme, afin de signaler au capteur de mouvement que vous êtes bien là. La lumière se rallume. Cinq minutes plus tard, le cycle recommence. Cette frustration est le symptôme d'une technologie dépassée. Les capteurs de mouvement traditionnels ne détectent pas la présence, ils détectent le mouvement. La solution existe et devient enfin accessible : les capteurs de présence basés sur un radar à ondes millimétriques, souvent estampillés "ia".
 

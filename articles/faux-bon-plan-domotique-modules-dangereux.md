@@ -1,5 +1,5 @@
 ---
-date: 2026-03-11
+date: '2026-03-04'
 image: /images/faux-bon-plan-domotique-modules-dangereux.webp
 layout: article.njk
 summary: Il est tentant de commander des modules électriques domotiques anonymes sur
@@ -14,6 +14,7 @@ tags:
 title: 'Le Faux Bon Plan Domotique : Les Dangers Cachés des Modules Électriques à
   2 Euros'
 ---
+
 
 La domotique est un hobby qui peut rapidement coûter cher. Lorsqu'un débutant réalise qu'il a besoin d'une trentaine de micromodules pour domotiser l'ensemble des lumières et des volets roulants de sa maison, la facture théorique grimpe vite au-delà des 600 euros s'il choisit des marques réputées comme Shelly, Fibaro, Legrand ou NodOn.
 

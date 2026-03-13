@@ -1,5 +1,5 @@
 ---
-date: 2026-03-13
+date: '2026-02-18'
 image: /images/aqara-vs-sonoff-2026.webp
 layout: article.njk
 summary: Analyse technique et comparative entre Aqara et Sonoff en 2026. Focus sur
@@ -13,6 +13,7 @@ tags:
 - zigbee
 title: 'Aqara vs Sonoff en 2026 : quelle marque choisir pour un Zigbee stable ?'
 ---
+
 
 
 # Aqara vs Sonoff en 2026 : quelle marque choisir pour un Zigbee stable ?

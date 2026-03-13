@@ -1,5 +1,5 @@
 ---
-date: 2026-03-01
+date: '2026-02-27'
 image: /images/danger-domotique-pas-cher-incendie.webp
 layout: article.njk
 summary: Il est tentant de commander des relais électriques domotiques anonymes sur
@@ -12,6 +12,7 @@ tags:
 - économies-d'énergie
 title: 'Le faux bon plan domotique : les dangers des modules électriques à 2 euros'
 ---
+
 
 La domotique est un hobby qui peut rapidement coûter cher. Lorsqu'un débutant réalise qu'il a besoin d'une trentaine de micromodules pour domotiser l'ensemble des lumières et des volets roulants de sa maison, la facture théorique grimpe vite au-delà des 600 euros s'il choisit des marques réputées comme Shelly, Fibaro, Legrand ou NodOn.
 

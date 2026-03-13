@@ -1,5 +1,5 @@
 ---
-date: 2025-11-20
+date: '2026-03-08'
 image: /images/maison-tout-wifi-box-internet.webp
 layout: article.njk
 summary: Trop d'objets connectés tuent le réseau. Découvrez pourquoi votre box internet
@@ -12,6 +12,7 @@ tags:
 - zigbee-and-matter
 title: 'La Box Internet qui Suffoque : Le Syndrome de la Maison Tout Wi-Fi'
 ---
+
 
 L'enthousiasme des débuts pousse souvent à une erreur fatale. Vous découvrez les joies de la domotique avec une première prise connectée. Le mois suivant, vous équipez tout le salon d'ampoules intelligentes. Six mois plus tard, la maison compte une cinquantaine de périphériques bon marché, tous connectés au réseau sans fil. 
 

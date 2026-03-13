@@ -1,5 +1,5 @@
 ---
-date: 2026-03-13
+date: '2026-03-07'
 image: /images/maison-predictive-ia-2026.webp
 layout: article.njk
 summary: Fini de créer des routines manuelles complexes. La vraie évolution de la
@@ -13,6 +13,7 @@ tags:
 title: 'La maison prédictive en 2026 : quand votre IA domotique anticipe vos besoins
   avant vous'
 ---
+
 
 ## Le Mythe de la Maison Intelligente (et pourquoi vous passez encore vos soirées à coder)
 

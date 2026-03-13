@@ -1,5 +1,5 @@
 ---
-date: 2026-03-13
+date: '2026-03-12'
 image: /images/waf-2026-interfaces-murales-tactiles.webp
 layout: article.njk
 summary: Au-delà du simple gadget, les interrupteurs tactiles deviennent le pilier
@@ -12,6 +12,7 @@ tags:
 - waf-and-famille
 title: 'Le WAF en 2026 : pourquoi les interfaces murales tactiles sont indispensables'
 ---
+
 
 
 ## Le WAF : ce concept marketing qui révèle une vérité fondamentale

@@ -1,5 +1,5 @@
 ---
-date: 2026-03-12
+date: '2026-02-24'
 image: /images/capteur-presence-mmwave-vs-mouvement-pir.webp
 layout: article.njk
 summary: La lumière qui s'éteint alors que vous lisez tranquillement dans le canapé
@@ -13,6 +13,7 @@ tags:
 title: 'Capteurs de présence vs Mouvement : pourquoi votre salon vous oublie sur le
   canapé'
 ---
+
 
 C’est un classique de la vie en maison connectée : vous êtes confortablement installé dans votre canapé, plongé dans un livre passionnant ou en train de regarder un film, et soudainement, la lumière du salon s'éteint brusquement. Vous agitez les bras dans le vide en espérant que la domotique se rende compte de votre présence, vous vous levez pour marcher, et finalement, la lumière daigne se rallumer.
 

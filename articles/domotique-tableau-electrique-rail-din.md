@@ -1,5 +1,5 @@
 ---
-date: 2026-03-11
+date: '2026-03-03'
 image: /images/domotique-tableau-electrique-rail-din.webp
 layout: article.njk
 summary: 'Cacher des petits modules Wi-Fi ou Zigbee derrière vos interrupteurs est
@@ -14,6 +14,7 @@ tags:
 title: 'La domotique au tableau électrique : le passage obligé vers l''installation
   professionnelle'
 ---
+
 
 Le parcours classique d'un intégrateur domotique amateur suit toujours la même courbe. On commence par visser des ampoules intelligentes. On comprend rapidement que c'est une erreur et on passe aux **[micromodules cachés derrière les interrupteurs muraux](/articles/ampoules-connectees-hors-ligne/)**. Cette deuxième étape offre une grande satisfaction et résout le fameux problème de l'acceptation par la famille.
 

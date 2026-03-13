@@ -1,5 +1,5 @@
 ---
-date: 2026-03-13
+date: '2026-03-05'
 image: /images/ha_vs_apple_home_2026.webp
 layout: article.njk
 summary: Analyse technique et comparative entre Home Assistant et Apple Home en 2026.
@@ -12,6 +12,7 @@ tags:
 - wi-fi-and-réseau
 title: 'Home Assistant vs Apple Home en 2026 : l''IA locale a-t-elle enfin gagné ?'
 ---
+
 
 # Le Problème : La promesse brisée de l'écosystème fermé face à l'exigence de la vie privée
 
