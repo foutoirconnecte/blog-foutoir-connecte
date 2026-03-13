@@ -22,7 +22,7 @@ permalink: /tags/{{ tag | slugify }}/
     <a href="{{ post.url }}"><img src="{{ post.data.image }}" alt="{{ post.data.title }}" class="article-card-img"></a>
     {% endif %}
     <div class="article-card-content">
-      <div style="margin-bottom: 10px; display:flex; gap: 8px;">
+      <div style="margin-bottom: 10px; display:flex; gap: 8px; flex-wrap: wrap;">
         {% for pt in post.data.tags %}
           {% if pt != "post" and pt != "article" %}
           <span style="font-size:0.75rem; background:var(--primary-color); color:#fff; padding:2px 8px; border-radius:12px; font-weight:bold; text-transform:uppercase; white-space: nowrap;">{{ pt }}</span>
