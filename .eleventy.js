@@ -19,12 +19,24 @@ module.exports = function(eleventyConfig) {
     return readingTime;
   });
 
+  eleventyConfig.addFilter("slugify", (text) => {
+    return text.toString().toLowerCase()
+      .replace(/[àáâãäå]/g, 'a')
+      .replace(/[éèêë]/g, 'e')
+      .replace(/[íìîï]/g, 'i')
+      .replace(/[óòôõö]/g, 'o')
+      .replace(/[úùûü]/g, 'u')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/-+/g, '-')
+      .replace(/^-|-$/g, '');
+  });
+
   eleventyConfig.addCollection("tagList", function(collectionApi) {
     const tags = new Set();
-    const slugify = (text) => text.toString().toLowerCase().replace(/\s+/g, '-').replace(/[^\w\-]+/g, '').replace(/\-\-+/g, '-').replace(/^-+/, '').replace(/-+$/, '');
+    const slugifyFilter = eleventyConfig.getFilter("slugify");
     collectionApi.getAll().forEach(item => {
       if (item.data.tags) {
-        item.data.tags.forEach(tag => tags.add(slugify(tag)));
+        item.data.tags.forEach(tag => tags.add(slugifyFilter(tag)));
       }
     });
     return Array.from(tags).filter(t => !["article", "post", "all"].includes(t));
