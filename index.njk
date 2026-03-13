@@ -52,7 +52,7 @@ title: Accueil - Le Foutoir Connecté
       <div style="margin-bottom: 10px; display:flex; gap: 8px; flex-wrap: wrap;">
         {% for pt in post.data.tags %}
           {% if pt != "post" and pt != "article" %}
-          <span style="font-size:0.75rem; background:var(--primary-color); color:#fff; padding:2px 8px; border-radius:12px; font-weight:bold; text-transform:uppercase;">{{ pt }}</span>
+          <span style="font-size:0.75rem; background:var(--primary-color); color:#fff; padding:2px 8px; border-radius:12px; font-weight:bold; text-transform:uppercase; white-space: nowrap;">{{ pt }}</span>
           {% endif %}
         {% endfor %}
       </div>
