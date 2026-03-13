@@ -5,9 +5,14 @@ layout: article.njk
 summary: Au-delà du simple gadget, les interrupteurs tactiles deviennent le pilier
   d'une domotique accessible et acceptée par toute la famille. Analyse d'un composant
   essentiel pour le WAF (Wife Acceptance Factor).
-tags: ["article", "domotique", "waf-and-famille", "diy-and-tutoriels"]
+tags:
+- article
+- diy-and-tutoriels
+- domotique
+- waf-and-famille
 title: 'Le WAF en 2026 : pourquoi les interfaces murales tactiles sont indispensables'
 ---
+
 
 ## Le WAF : ce concept marketing qui révèle une vérité fondamentale
 

@@ -6,11 +6,12 @@ summary: Faut-il choisir des capteurs de mouvement traditionnels ou des caméras
   pour la détection des animaux ? Analyse technique approfondie pour un système domotique
   fiable et sans fausses alertes.
 tags:
-- capteurs
 - animaux
 - caméras
+- capteurs
 title: 'Domotique et animaux : capteurs de mouvement vs caméras IA pour les chats'
 ---
+
 
 La gestion de la présence de nos animaux de compagnie est un défi classique, presque un rite de passage, en domotique. L'objectif initial semble pourtant simple : créer des automatisations qui améliorent notre confort et notre sécurité, sans que le passage du chat ne déclenche l'alarme à trois heures du matin ou n'allume toutes les lumières du salon en pleine journée. La question n'est plus "si" on peut le faire, mais "comment" le faire de la manière la plus fiable, robuste et évolutive possible. Deux technologies s'affrontent principalement sur ce terrain : les capteurs de mouvement traditionnels, principalement les PIR, et les caméras de surveillance dopées à l'intelligence artificielle pour la reconnaissance d'objets.
 
@@ -45,95 +46,4 @@ La seconde option, le traitement local, est la voie royale pour qui cherche perf
 ## Comparatif technique détaillé : PIR vs Caméra IA Locale
 
 | Caractéristique | Capteur de Mouvement PIR | Caméra avec IA (Traitement Local via Frigate) |
-|---|---|---|
-| **Principe de détection** | Variation de chaleur (infrarouge) | Analyse d'image en temps réel et reconnaissance d'objet |
-| **Précision de la détection** | Faible à moyenne. Ne distingue pas la source. | Très élevée. Distinction précise entre ~80 types d'objets. |
-| **Fiabilité (Fausses alertes)** | Élevée (sujet aux animaux, courants d'air, soleil). | Quasi nulle. Proche de 100% avec une configuration correcte. |
-| **Confidentialité des données** | Parfaite. Aucune donnée personnelle n'est traitée. | Parfaite. Le traitement est 100% local. |
-| **Coût initial** | Très faible (5€ - 20€ par capteur). | Élevé (caméra IP ~50€ + serveur ~100€ + accélérateur IA ~60€). |
-| **Coût récurrent** | Nul (sauf pile tous les 2-3 ans). | Nul (consommation électrique du serveur). |
-| **Consommation électrique** | Extrêmement faible (µW). | Significative (10-30W pour le serveur et la caméra). |
-| **Complexité d'installation** | Très simple (quelques minutes). | Complexe (installation Docker, configuration YAML, réseau). |
-| **Latence de détection** | Très faible (< 500 ms). | Très faible (< 200 ms avec un accélérateur Coral). |
-| **Information fournie** | Binaire (mouvement / pas de mouvement). | Riche (objet détecté, zone, score de confiance, image). |
-| **Cas d'usage optimal** | Détection simple non critique (éclairage de couloir). | Sécurité, CVC, automatisations complexes, surveillance. |
-
-## Approches Hybrides : le meilleur des deux mondes ?
-
-Il n'est pas toujours nécessaire d'opposer les deux technologies. Dans certains cas, les combiner peut aboutir à des solutions encore plus efficaces. Un des reproches faits à l'analyse vidéo permanente est sa consommation de ressources CPU. Même avec un accélérateur Coral, analyser 4 ou 5 flux 24/7 sollicite le matériel. Une approche hybride consiste à utiliser des capteurs PIR comme déclencheurs de bas niveau. Le PIR, avec sa consommation quasi nulle, est en veille permanente. Lorsqu'il détecte un mouvement (n'importe lequel), il ne déclenche pas l'alarme, mais envoie un signal à Frigate pour "réveiller" l'analyse IA sur la caméra correspondante pour une durée de 30 secondes. Si l'IA confirme qu'il s'agit d'une personne, alors seulement l'automatisation principale (l'alarme, par exemple) est déclenchée. Cette méthode réduit considérablement la charge du serveur, tout en garantissant la précision de l'IA pour la décision finale. C'est une optimisation élégante qui tire parti de la faible consommation du PIR et de l'intelligence de la caméra.
-
-## Mise en pratique : intégration avancée dans Home Assistant
-
-La détection est une chose, l'automatisation en est une autre. Voici comment transformer l'information fournie by Frigate en actions intelligentes dans Home Assistant.
-
-Frigate expose pour chaque caméra une multitude d'entités : un capteur pour le nombre d'objets de chaque type détecté (`sensor.salon_person`), un interrupteur pour activer/désactiver la détection (`switch.salon_detect`), et surtout, une entité `binary_sensor` pour chaque objet suivi dans une zone définie (`binary_sensor.salon_person_in_zone_canape`). C'est cette dernière qui est la plus utile.
-
-**Exemple 1 : Alarme intelligente**
-L'automatisation de l'alarme devient triviale et robuste.
-
-{% raw %}
-```yaml
-trigger:
-  - platform: state
-    entity_id: binary_sensor.salon_person
-    to: 'on'
-condition:
-  - condition: state
-    entity_id: alarm_control_panel.maison
-    state: armed_away
-action:
-  - service: siren.turn_on
-    target:
-      entity_id: siren.exterieure
-  - service: notify.mobile_app_fx
-    data:
-      message: "Intrusion détectée dans le salon !"
-      data:
-        image: '/api/frigate/notifications/{{trigger.entity_id.split(".")[1]}}/thumbnail.jpg'
-```
-{% endraw %}
-Ici, l'alarme ne se déclenchera QUE si une personne est détectée. Le passage du chat (`binary_sensor.salon_cat`) est complètement ignoré.
-
-**Exemple 2 : Gestion fine de la présence pour le chauffage**
-On peut créer un `binary_sensor` global qui agrège la présence humaine dans toute la maison.
-
-{% raw %}
-```yaml
-- platform: template
-  sensors:
-    presence_humaine_maison:
-      friendly_name: "Présence Humaine à la Maison"
-      device_class: presence
-      value_template: >-
-        {{ is_state('binary_sensor.salon_person', 'on') or
-           is_state('binary_sensor.cuisine_person', 'on') or
-           is_state('binary_sensor.bureau_person', 'on') }}
-```
-{% endraw %}
-Ce capteur passera à `on` dès qu'une personne est vue par n'importe laquelle des caméras, mais restera à `off` si seuls les animaux sont présents. On peut alors piloter le thermostat sur cette base, réalisant des économies d'énergie significatives.
-
-**Exemple 3 : Automatisation de la chatière**
-Si vous avez une chatière électronique, vous pouvez l'automatiser pour qu'elle ne s'ouvre que lorsque votre chat est détecté près de la porte, et non un autre animal du quartier.
-
-{% raw %}
-```yaml
-trigger:
-  - platform: state
-    entity_id: binary_sensor.jardin_cat_in_zone_porte
-    to: 'on'
-action:
-  - service: lock.unlock
-    target:
-      entity_id: lock.chatiere
-  - delay: '00:01:00'
-  - service: lock.lock
-    target:
-      entity_id: lock.chatiere
-```
-{% endraw %}
-
-## Verdict : Faut-il jeter ses capteurs PIR ?
-
-En conclusion, la cohabitation entre domotique et animaux de compagnie n'est plus un casse-tête. Les capteurs PIR, bien que technologiquement simples, conservent une place pour des usages très spécifiques et non critiques, comme l'allumage d'un éclairage de passage. Cependant, dès que la fiabilité devient un enjeu, et particulièrement pour la sécurité, ils constituent une impasse technologique. Tenter de construire un système d'alarme fiable avec des capteurs PIR en présence d'animaux est une cause perdue d'avance, qui mènera inévitablement à des frustrations et à l'abandon du système.
-
-L'avènement des caméras dotées d'intelligence artificielle, et plus particulièrement des systèmes de traitement local comme Frigate, offre une solution quasi parfaite et définitive au problème. En étant capable de comprendre ce qu'elle voit, la caméra ne subit plus les mouvements des animaux, mais les intègre comme une information contextuelle riche. L'effort de configuration initial, bien que plus important, est largement récompensé par la tranquillité d'esprit et la puissance d'un système qui ne se trompe jamais. Pour ma part, je considère que c'est le seul investissement qui garantit une paix durable avec le système d'alarme. C'est ce niveau d'intelligence contextuelle qui transforme une maison connectée en une maison véritablement au service de ses habitants, humains comme félins. L'investissement est conséquent, mais il s'agit de la fondation d'un système de perception qui pourra évoluer et s'adapter à de nouveaux besoins bien au-delà de la simple détection de présence.
+|

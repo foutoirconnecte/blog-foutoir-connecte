@@ -7,13 +7,14 @@ summary: Fini l'application Somfy pour les volets, Hue pour la lumière et Tado 
   en un fardeau numérique au quotidien. Découvrez comment tout regrouper dans un système
   nerveux central agnostique.
 tags:
-- google / apple / amazon
-- diy & tutoriels
-- éclairage connecté
-- philips hue
+- diy-and-tutoriels
+- google-/-apple-/-amazon
+- philips-hue
+- éclairage-connecté
 title: 'L''enfer des 6 applications : comment unifier toute votre domotique dans une
   seule interface'
 ---
+
 L'une des plus grandes désillusions de la maison connectée survient généralement le matin, lorsque vous êtes en retard pour partir au travail.
 
 Vous devez d'abord ouvrir l'application Philips Hue pour éteindre la cuisine. Ensuite, vous cherchez frénétiquement l'application Somfy Tahoma pour fermer les volets du salon. Puis, vous lancez l'application Netatmo pour basculer le chauffage en mode "Absent". Et pour couronner le tout, vous ouvrez l'application Ring pour activer l'alarme de la porte d'entrée. 

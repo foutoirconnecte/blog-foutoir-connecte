@@ -6,12 +6,13 @@ summary: Pourquoi la course aux mégapixels sur vos caméras de sécurité est u
   marketing qui nuit gravement à votre réseau domestique et à votre sécurité. Découvrez
   le rôle crucial de l'encodage, de l'optique, et du bitrate dans le stockage.
 tags:
-- cloud vs local
-- wi-fi & réseau
-- éclairage connecté
-- sécurité & caméras
+- cloud-vs-local
+- sécurité-and-caméras
+- wi-fi-and-réseau
+- éclairage-connecté
 title: 'L''arnaque des 8K : pourquoi vos caméras 4K et 8K saturent déjà votre Wi-Fi'
 ---
+
 La course aux mégapixels est une maladie qui touche l'ensemble de l'électronique grand public, des smartphones aux appareils photo reflex, mais elle devient particulièrement insidieuse dans le monde de la vidéosurveillance connectée. Chaque mois, de nouveaux modèles de caméras apparaissent sur les sites de e-commerce, affichant fièrement sur leurs boîtes des résolutions "4K" voire "8K". Les arguments marketing sont rodés, presque agressifs : "Une clarté d'image incroyable", "Ne manquez aucun détail", "Identification faciale ultra-précise".
 
 Pourtant, dans la réalité de l'ingénierie réseau et physique des systèmes optiques domestiques, cette course au gigantisme est une aberration technique. En installant une caméra 4K ou 8K sans comprendre ses implications sur votre infrastructure réseau, vous ne faites pas qu'acheter un gadget : vous introduisez un perturbateur majeur qui peut paralyser l'ensemble de vos communications numériques.

@@ -19,6 +19,16 @@ module.exports = function(eleventyConfig) {
     return readingTime;
   });
 
+  eleventyConfig.addCollection("tagList", function(collectionApi) {
+    const tags = new Set();
+    collectionApi.getAll().forEach(item => {
+      if (item.data.tags) {
+        item.data.tags.forEach(tag => tags.add(tag));
+      }
+    });
+    return Array.from(tags).filter(t => !["article", "post", "all"].includes(t));
+  });
+
   return {
     dir: {
       input: ".",

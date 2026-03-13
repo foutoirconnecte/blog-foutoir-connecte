@@ -7,12 +7,13 @@ summary: Les assistants vocaux comme Alexa ou Google Home sont souvent la premi�
   voix est une erreur d'architecture monumentale. Découvrez pourquoi l'interface vocale
   doit rester une option, jamais une nécessité.
 tags:
-- google / apple / amazon
-- waf & famille
-- éclairage connecté
-- multimédia & voix
+- google-/-apple-/-amazon
+- multimédia-and-voix
+- waf-and-famille
+- éclairage-connecté
 title: 'La domotique vocale : pourquoi il ne faut jamais crier pour allumer la lumière'
 ---
+
 "Dis Siri, allume le couloir". "Ok Google, ferme les volets du salon". "Alexa, baisse le chauffage".
 
 Pour le grand public, la domotique se résume souvent à ces quelques phrases prononcées à voix haute en direction d'un petit cylindre en plastique posé sur le buffet du salon. Les publicités des géants de la technologie nous ont convaincus que le summum de l'habitation du futur consistait à parler aux murs.

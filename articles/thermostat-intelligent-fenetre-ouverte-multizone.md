@@ -7,13 +7,14 @@ summary: Vous avez investi des centaines d'euros dans des têtes thermostatiques
   pendant que vous aérez la maison ? Découvrez comment le multi-zone et les capteurs
   d'ouverture transforment un chauffage capricieux en un véritable gestionnaire d'énergie.
 tags:
-- débutant en domotique
-- diy & tutoriels
-- économies d'énergie
-- chauffage intelligent
+- chauffage-intelligent
+- diy-and-tutoriels
+- débutant-en-domotique
+- économies-d'énergie
 title: 'Le thermostat intelligent qui chauffe dans le vide : l''erreur du radiateur
   et de la fenêtre ouverte'
 ---
+
 L'une des motivations principales pour se lancer dans la domotique, juste après le confort de l'éclairage, est la promesse de réaliser des économies d'énergie spectaculaires. L'industrie vend le concept du "thermostat intelligent" comme une solution miracle capable de faire fondre votre facture de gaz ou d'électricité de 30% par an.
 
 Vous achetez donc un magnifique thermostat Netatmo, Tado ou Google Nest. Vous remplacez les vannes de vos radiateurs par des têtes thermostatiques connectées. Le premier matin d'hiver, vous ouvrez grand la fenêtre de la chambre pour aérer, comme d'habitude. 

@@ -7,13 +7,14 @@ summary: Faut-il craquer pour les têtes thermostatiques vendues 15 euros chez A
   du Zigbee, découvrez quelle technologie choisir pour domotiser vos radiateurs sans
   transformer l'hiver en cauchemar.
 tags:
-- comparatif 2026
-- zigbee & matter
-- wi-fi & réseau
-- chauffage intelligent
+- chauffage-intelligent
+- comparatif-2026
+- wi-fi-and-réseau
+- zigbee-and-matter
 title: 'Vannes Thermostatiques Connectées : Le Comparatif 2026 (Action, Wi-Fi, Zigbee,
   Tuya)'
 ---
+
 L'optimisation du chauffage est le nerf de la guerre en domotique. Face à l'envolée des coûts de l'énergie, la promesse de chauffer "juste ce qu'il faut, quand il faut et où il faut" est l'argument massue qui pousse de nombreux foyers à sauter le pas. Le concept du **[chauffage multi-zone, pièce par pièce](/articles/thermostat-intelligent-fenetre-ouverte-multizone/)**, repose intégralement sur un petit bijou d'ingénierie : la tête thermostatique connectée (ou TRV, pour Thermostatic Radiator Valve).
 
 Le principe est redoutablement simple. Vous dévissez la vieille poignée en plastique de votre radiateur à eau chaude, vous y vissez un bloc motorisé, et ce dernier se chargera d'appuyer sur la petite tige métallique du radiateur (le pointeau) pour laisser entrer l'eau chaude ou bloquer son passage, au dixième de millimètre près. 

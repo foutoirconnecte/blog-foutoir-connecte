@@ -7,12 +7,13 @@ summary: Découvrez l'aberration technique du contrôle déporté (Cloud). La la
   réseau local via Zigbee et Home Assistant est indispensable pour une vraie tranquillité
   d'esprit.
 tags:
-- zigbee & matter
-- wi-fi & réseau
-- cloud vs local
-- home assistant
+- cloud-vs-local
+- home-assistant
+- wi-fi-and-réseau
+- zigbee-and-matter
 title: 'Le Cauchemar du Cloud : Pourquoi votre domotique doit fonctionner sans Internet'
 ---
+
 La scène se répète à chaque panne de fournisseur d'accès internet. Vous rentrez chez vous, la box clignote en rouge, et soudainement, votre maison entière refuse de vous obéir. L'application Smart Life tourne dans le vide. Vos prises connectées ne s'activent plus. Vous êtes littéralement incapable d'allumer la lumière de votre propre salon depuis votre smartphone, simplement parce qu'un câble fibre a été coupé à trois kilomètres de là.
 
 C'est la cruelle réalité de la domotique dite "cloud".

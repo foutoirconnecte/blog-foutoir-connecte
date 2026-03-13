@@ -7,13 +7,14 @@ summary: 'Cacher des petits modules Wi-Fi ou Zigbee derrière vos interrupteurs 
   sécurisée et pérenne, la domotique doit migrer là où réside le cœur de votre maison
   : directement dans le tableau électrique (montage rail DIN).'
 tags:
-- zigbee & matter
-- diy & tutoriels
-- wi-fi & réseau
-- éclairage connecté
+- diy-and-tutoriels
+- wi-fi-and-réseau
+- zigbee-and-matter
+- éclairage-connecté
 title: 'La domotique au tableau électrique : le passage obligé vers l''installation
   professionnelle'
 ---
+
 Le parcours classique d'un intégrateur domotique amateur suit toujours la même courbe. On commence par visser des ampoules intelligentes. On comprend rapidement que c'est une erreur et on passe aux **[micromodules cachés derrière les interrupteurs muraux](/articles/ampoules-connectees-hors-ligne/)**. Cette deuxième étape offre une grande satisfaction et résout le fameux problème de l'acceptation par la famille.
 
 Cependant, lorsque l'on commence à domotiser l'intégralité d'une maison (tous les éclairages, les volets roulants, le ballon d'eau chaude, les chauffages électriques), la multiplication de ces petits modules encastrés dans les murs finit par poser de sérieuses limites physiques et techniques.

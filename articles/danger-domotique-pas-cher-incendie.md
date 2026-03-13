@@ -6,12 +6,13 @@ summary: Il est tentant de commander des relais électriques domotiques anonymes
   les plateformes asiatiques pour faire des économies. Découvrez pourquoi c'est un
   jeu dangereux pour votre réseau, et surtout pour la sécurité incendie de votre maison.
 tags:
-- diy & tutoriels
-- wi-fi & réseau
-- économies d'énergie
-- sécurité & caméras
+- diy-and-tutoriels
+- sécurité-and-caméras
+- wi-fi-and-réseau
+- économies-d'énergie
 title: 'Le faux bon plan domotique : les dangers des modules électriques à 2 euros'
 ---
+
 La domotique est un hobby qui peut rapidement coûter cher. Lorsqu'un débutant réalise qu'il a besoin d'une trentaine de micromodules pour domotiser l'ensemble des lumières et des volets roulants de sa maison, la facture théorique grimpe vite au-delà des 600 euros s'il choisit des marques réputées comme Shelly, Fibaro, Legrand ou NodOn.
 
 C'est à ce moment-là que la tentation d'aller sourcer son matériel sur les grandes plateformes de e-commerce asiatiques (AliExpress, Temu, Banggood) devient presque irrésistible. 

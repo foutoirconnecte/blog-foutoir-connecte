@@ -6,13 +6,14 @@ summary: La lumière qui s'éteint alors que vous lisez tranquillement dans le c
   est le premier facteur de rejet de la domotique. Découvrez la révolution des capteurs
   mmWave qui détectent votre présence immobile.
 tags:
-- comparatif 2026
-- diy & tutoriels
-- éclairage connecté
-- débutant en domotique
+- comparatif-2026
+- diy-and-tutoriels
+- débutant-en-domotique
+- éclairage-connecté
 title: 'Capteurs de présence vs Mouvement : pourquoi votre salon vous oublie sur le
   canapé'
 ---
+
 C’est un classique de la vie en maison connectée : vous êtes confortablement installé dans votre canapé, plongé dans un livre passionnant ou en train de regarder un film, et soudainement, la lumière du salon s'éteint brusquement. Vous agitez les bras dans le vide en espérant que la domotique se rende compte de votre présence, vous vous levez pour marcher, et finalement, la lumière daigne se rallumer.
 
 Cette situation est non seulement frustrante, mais elle est aussi le premier facteur de rejet massif de la domotique par le reste de la famille (le fameux WAF - Wife/Husband Acceptance Factor). Si la technologie rend votre maison moins confortable qu'elle ne l'était avant, elle échoue à sa mission première.

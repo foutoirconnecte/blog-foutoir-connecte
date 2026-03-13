@@ -7,13 +7,14 @@ summary: 'Derrière les dizaines de marques d''objets connectés à bas prix se 
   de sécurité, de confidentialité et de fiabilité liés à cette dépendance technologique
   massive, et comment la contourner.'
 tags:
-- sécurité & caméras
-- xiaomi / smart life
-- wi-fi & réseau
-- cloud vs local
+- cloud-vs-local
+- sécurité-and-caméras
+- wi-fi-and-réseau
+- xiaomi-/-smart-life
 title: 'La folie du cloud chinois : ce qui se passe vraiment quand vous utilisez l''application
   Smart Life'
 ---
+
 Si vous avez déjà acheté une prise connectée à 8 euros sur Amazon, une ampoule Wi-Fi chez Action, ou un diffuseur d'huiles essentielles "intelligent" dans un supermarché, vous avez très probablement remarqué un point commun frappant entre tous ces objets, pourtant de marques différentes : ils vous demandent tous d'installer l'application **Smart Life** (ou Tuya Smart) pour fonctionner.
 
 Ce n'est pas une coïncidence. C'est le résultat d'un monopole technologique fascinant et souvent méconnu du grand public.
