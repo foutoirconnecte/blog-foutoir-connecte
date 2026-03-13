@@ -2,7 +2,7 @@
 layout: article.njk
 title: "Domotique et animaux : capteurs de mouvement vs caméras IA pour les chats"
 date: 2026-03-13
-tags: ["article", "capteurs", "caméras", "animaux"]
+tags: ["capteurs", "caméras", "animaux"]
 image: "/images/domotique-animaux-chats.webp"
 summary: "Faut-il choisir des capteurs de mouvement traditionnels ou des caméras IA pour la détection des animaux ? Analyse technique approfondie pour un système domotique fiable et sans fausses alertes."
 ---
@@ -21,7 +21,7 @@ Ce capteur est placé derrière une lentille de Fresnel, cette pièce de plastiq
 
 Leur principal avantage, qui a assuré leur domination sur le marché pendant des décennies, réside dans leur coût dérisoire et leur simplicité d'intégration. Cependant, leur incapacité fondamentale à distinguer la nature de la source de chaleur est leur talon d'Achille. Les tentatives pour améliorer la situation, comme les fameux modes "pet friendly", ne sont que des rustines logicielles et matérielles. Ces capteurs utilisent souvent un capteur pyroélectrique à double élément. Pour déclencher une alerte, il faut qu'un signal "chaud" quitte le premier élément et arrive sur le second dans un temps donné, ce qui correspond à un mouvement latéral. La logique "pet friendly" va alors jouer sur des seuils : elle peut ignorer les signaux en dessous d'une certaine amplitude (ce qui est censé correspondre à un petit animal) ou exiger un nombre de "pulses" (traversées de faisceaux) plus élevé pour valider une détection.
 
-Le problème est que tous ces réglages sont des paris statistiques. Ils parient sur le fait qu'un animal est plus petit qu'un humain et reste au sol. Mais si votre chat de 6 kg saute sur le dossier du canapé, il se présente comme une masse thermique conséquente, en hauteur, et traverse plusieurs faisceaux, cochant toutes les cases d'une détection humaine. J'ai personnellement testé une demi-douzaine de modèles de grandes marques, en jouant méticuleusement avec les réglages de sensibilité. Le résultat a toujours été le même : un compromis inacceptable. Soit le capteur était réglé pour être assez sensible pour détecter un humain marchant lentement, et le chat finissait toujours par le déclencher. Soit il était réglé pour ignorer le chat, et il devenait alors possible pour une personne de ramper ou de se déplacer très lentement sans être détectée. Pour une analyse plus technique des alternatives, l'article sur [les capteurs de présence mmWave vs PIR](/articles/capteur-presence-mmwave-vs-mouvement-pir) explore des technologies plus modernes mais qui ne résolvent pas non plus le problème des animaux.
+Le problème est que tous ces réglages sont des paris statistiques. Ils parient sur le fait qu'un animal est plus petit qu'un humain et reste au sol. Mais si votre chat de 6 kg saute sur le dossier du canapé, il se présente comme une masse thermique conséquente, en hauteur, et traverse plusieurs faisceaux, cochant toutes les cases d'une détection humaine. Pour être tout à fait honnête, j'ai moi-même perdu des semaines à essayer de trouver le bon réglage avant de capituler. Le résultat a toujours été le même : un compromis inacceptable. Soit le capteur était réglé pour être assez sensible pour détecter un humain marchant lentement, et le chat finissait toujours par le déclencher. Soit il était réglé pour ignorer le chat, et il devenait alors possible pour une personne de ramper ou de se déplacer très lentement sans être détectée. Pour une analyse plus technique des alternatives, l'article sur [les capteurs de présence mmWave vs PIR](/articles/capteur-presence-mmwave-vs-mouvement-pir) explore des technologies plus modernes mais qui ne résolvent pas non plus le problème des animaux.
 
 ## La caméra IA : la révolution contextuelle du traitement local
 
@@ -66,6 +66,7 @@ Frigate expose pour chaque caméra une multitude d'entités : un capteur pour le
 **Exemple 1 : Alarme intelligente**
 L'automatisation de l'alarme devient triviale et robuste.
 
+{% raw %}
 ```yaml
 trigger:
   - platform: state
@@ -85,11 +86,13 @@ action:
       data:
         image: '/api/frigate/notifications/{{trigger.entity_id.split(".")[1]}}/thumbnail.jpg'
 ```
+{% endraw %}
 Ici, l'alarme ne se déclenchera QUE si une personne est détectée. Le passage du chat (`binary_sensor.salon_cat`) est complètement ignoré.
 
 **Exemple 2 : Gestion fine de la présence pour le chauffage**
 On peut créer un `binary_sensor` global qui agrège la présence humaine dans toute la maison.
 
+{% raw %}
 ```yaml
 - platform: template
   sensors:
@@ -101,11 +104,13 @@ On peut créer un `binary_sensor` global qui agrège la présence humaine dans t
            is_state('binary_sensor.cuisine_person', 'on') or
            is_state('binary_sensor.bureau_person', 'on') }}
 ```
+{% endraw %}
 Ce capteur passera à `on` dès qu'une personne est vue par n'importe laquelle des caméras, mais restera à `off` si seuls les animaux sont présents. On peut alors piloter le thermostat sur cette base, réalisant des économies d'énergie significatives.
 
 **Exemple 3 : Automatisation de la chatière**
 Si vous avez une chatière électronique, vous pouvez l'automatiser pour qu'elle ne s'ouvre que lorsque votre chat est détecté près de la porte, et non un autre animal du quartier.
 
+{% raw %}
 ```yaml
 trigger:
   - platform: state
@@ -120,9 +125,10 @@ action:
     target:
       entity_id: lock.chatiere
 ```
+{% endraw %}
 
 ## Verdict : Faut-il jeter ses capteurs PIR ?
 
 En conclusion, la cohabitation entre domotique et animaux de compagnie n'est plus un casse-tête. Les capteurs PIR, bien que technologiquement simples, conservent une place pour des usages très spécifiques et non critiques, comme l'allumage d'un éclairage de passage. Cependant, dès que la fiabilité devient un enjeu, et particulièrement pour la sécurité, ils constituent une impasse technologique. Tenter de construire un système d'alarme fiable avec des capteurs PIR en présence d'animaux est une cause perdue d'avance, qui mènera inévitablement à des frustrations et à l'abandon du système.
 
-L'avènement des caméras dotées d'intelligence artificielle, et plus particulièrement des systèmes de traitement local comme Frigate, offre une solution quasi parfaite et définitive au problème. En étant capable de comprendre ce qu'elle voit, la caméra ne subit plus les mouvements des animaux, mais les intègre comme une information contextuelle riche. L'effort de configuration initial, bien que plus important, est largement récompensé par la tranquillité d'esprit et la puissance d'un système qui ne se trompe jamais. C'est ce niveau d'intelligence contextuelle qui transforme une maison connectée en une maison véritablement au service de ses habitants, humains comme félins. L'investissement est conséquent, mais il s'agit de la fondation d'un système de perception qui pourra évoluer et s'adapter à de nouveaux besoins bien au-delà de la simple détection de présence.
+L'avènement des caméras dotées d'intelligence artificielle, et plus particulièrement des systèmes de traitement local comme Frigate, offre une solution quasi parfaite et définitive au problème. En étant capable de comprendre ce qu'elle voit, la caméra ne subit plus les mouvements des animaux, mais les intègre comme une information contextuelle riche. L'effort de configuration initial, bien que plus important, est largement récompensé par la tranquillité d'esprit et la puissance d'un système qui ne se trompe jamais. Pour ma part, je considère que c'est le seul investissement qui garantit une paix durable avec le système d'alarme. C'est ce niveau d'intelligence contextuelle qui transforme une maison connectée en une maison véritablement au service de ses habitants, humains comme félins. L'investissement est conséquent, mais il s'agit de la fondation d'un système de perception qui pourra évoluer et s'adapter à de nouveaux besoins bien au-delà de la simple détection de présence.
