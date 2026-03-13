@@ -15,6 +15,7 @@ title: 'La panne de courant : que devient votre maison intelligente quand le 230
 ---
 
 
+
 La domotique est souvent perçue comme un ajout de confort : on pilote ses lumières, on régule son chauffage, on surveille son entrée. Mais à mesure que notre installation grandit, la dépendance de notre confort (et de notre sécurité) envers le réseau électrique augmente. Que se passe-t-il réellement dans votre maison le jour où une tempête, un accident de transformateur ou une maintenance locale coupe brusquement le courant 230V ?
 
 Pour la plupart des gens, la maison s'éteint, tout simplement. On sort une bougie, on attend que ça revienne. Mais pour un foyer domotisé, une panne de courant est une agression majeure. Vos modules Zigbee perdent leur coordinateur, vos serveurs perdent leurs données, vos bases de données domotiques se corrompent, et vos caméras de sécurité s'éteignent.

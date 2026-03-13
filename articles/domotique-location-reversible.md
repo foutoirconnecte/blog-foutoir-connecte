@@ -15,6 +15,7 @@ title: 'Domotique en location : comment automatiser sans percer de trous (ni per
 ---
 
 
+
 L'une des idées reçues les plus tenaces dans le monde de la domotique est que pour avoir une maison intelligente, il faut être propriétaire. On imagine tout de suite les saignées dans les murs pour passer des câbles Ethernet, le remplacement complet de l'appareillage électrique par des modules encastrés, ou la pose de motorisations de volets roulants lourdes à installer. 
 
 Pour un locataire, cela ressemble à un projet totalement hors de portée, ou pire, à une violation directe du contrat de location. Pourtant, la révolution de la domotique sans fil (Zigbee et Bluetooth) a changé la donne. Aujourd'hui, il est non seulement possible, mais même très simple, de domotiser intégralement un appartement ou une maison en location sans jamais toucher à un tournevis de manière permanente. 

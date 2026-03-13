@@ -15,6 +15,7 @@ title: 'La maison prédictive en 2026 : quand votre IA domotique anticipe vos be
 ---
 
 
+
 ## Le Mythe de la Maison Intelligente (et pourquoi vous passez encore vos soirées à coder)
 
 Si vous installez des équipements domotiques depuis quelques années, vous connaissez la frustration d'une maison dite « intelligente » qui ne l'est, en réalité, pas du tout. Jusqu'à très récemment, une installation domotique s'apparentait davantage à un immense ensemble d'interrupteurs déportés et de règles conditionnelles statiques. On achetait des capteurs, on configurait des relais, et on passait des heures interminables à coder des scénarios sur des interfaces complexes. 

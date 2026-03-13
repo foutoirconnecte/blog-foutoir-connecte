@@ -16,6 +16,7 @@ title: 'L''enfer des 6 applications : comment unifier toute votre domotique dans
 ---
 
 
+
 L'une des plus grandes désillusions de la maison connectée survient généralement le matin, lorsque vous êtes en retard pour partir au travail.
 
 Vous devez d'abord ouvrir l'application Philips Hue pour éteindre la cuisine. Ensuite, vous cherchez frénétiquement l'application Somfy Tahoma pour fermer les volets du salon. Puis, vous lancez l'application Netatmo pour basculer le chauffage en mode "Absent". Et pour couronner le tout, vous ouvrez l'application Ring pour activer l'alarme de la porte d'entrée. 

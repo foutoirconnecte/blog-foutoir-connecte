@@ -15,6 +15,7 @@ title: 'Le Cauchemar du Cloud : Pourquoi votre domotique doit fonctionner sans I
 ---
 
 
+
 La scène se répète à chaque panne de fournisseur d'accès internet. Vous rentrez chez vous, la box clignote en rouge, et soudainement, votre maison entière refuse de vous obéir. L'application Smart Life tourne dans le vide. Vos prises connectées ne s'activent plus. Vous êtes littéralement incapable d'allumer la lumière de votre propre salon depuis votre smartphone, simplement parce qu'un câble fibre a été coupé à trois kilomètres de là.
 
 C'est la cruelle réalité de la domotique dite "cloud".

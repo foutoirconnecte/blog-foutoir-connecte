@@ -14,6 +14,7 @@ title: 'Objets connectés jetables : le scandale des batteries soudées dans vos
 ---
 
 
+
 La domotique, telle qu'elle est pratiquée par le grand public, est en train de devenir l'un des piliers les plus problématiques de l'obsolescence programmée. Nous avons tous chez nous ces petits capteurs adorables : un détecteur de mouvement gros comme une pièce de monnaie, un thermomètre minimaliste en plastique blanc, ou un détecteur d'inondation ultra-plat. Ils sont esthétiques, ils sont peu chers, ils s'installent en quelques secondes.
 
 Pourtant, sous leurs lignes épurées se cache une réalité alarmante : une grande partie de ces objets sont conçus pour être jetés dès que leur source d'énergie faiblit. C'est le scandale silencieux des batteries soudées, une pratique qui transforme votre domotique en une pile de déchets électroniques (E-waste) dont la gestion devient un défi environnemental mondial.

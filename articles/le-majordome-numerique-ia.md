@@ -15,6 +15,7 @@ title: 'Le majordome numérique : faut-il vraiment donner les clés de sa maison
 ---
 
 
+
 L'idée d'un majordome numérique omniprésent, capable d'anticiper vos moindres désirs avant même que vous ne les formuliez, nourrit l'imaginaire collectif depuis des décennies. Aujourd'hui, avec la banalisation des modèles de langage de grande taille (LLM) et des systèmes prédictifs, ce concept frappe à la porte de nos installations domotiques. Les fabricants promettent une maison qui "comprend" et "s'adapte" de manière autonome. Mais lorsqu'il s'agit de gérer physiquement l'accès à son domicile, de contrôler la serrure de la porte d'entrée ou de désactiver l'alarme, la question de la confiance devient centrale. Faut-il réellement confier ces responsabilités critiques à une entité numérique dont les processus de décision restent souvent obscurs ?
 
 Dans ce guide technique approfondi, nous allons décortiquer les implications d'une délégation totale à une intelligence artificielle. Il ne s'agit pas de rejeter la modernité, mais de comprendre les failles inhérentes aux architectures actuelles et de concevoir un système qui tire parti de l'IA sans jamais compromettre la sécurité physique et la fiabilité de votre logement.

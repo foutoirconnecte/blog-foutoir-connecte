@@ -32,13 +32,19 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addCollection("tagList", function(collectionApi) {
-    const tags = new Set();
+    const slugifyFilter = eleventyConfig.getFilter("slugify");
+    const uniqueTags = new Map();
     collectionApi.getAll().forEach(item => {
       if (item.data.tags) {
-        item.data.tags.forEach(tag => tags.add(tag));
+        item.data.tags.forEach(tag => {
+          const slug = slugifyFilter(tag);
+          if (!uniqueTags.has(slug)) {
+            uniqueTags.set(slug, tag.toLowerCase());
+          }
+        });
       }
     });
-    return Array.from(tags).filter(t => !["article", "post", "all"].includes(t));
+    return Array.from(uniqueTags.values()).filter(t => !["article", "post", "all"].includes(t.toLowerCase()));
   });
 
   return {

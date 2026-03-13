@@ -15,6 +15,7 @@ title: 'GPT-5 dans votre salon : pourquoi votre enceinte connectée ne vous comp
 ---
 
 
+
 # Le mirage de l'intelligence ambiante
 
 Depuis plusieurs années, les géants de la technologie nous promettent une maison intelligente, réactive et véritablement contextuelle. Avec l'avènement des grands modèles de langage, l'intégration de technologies avancées au sein de nos domiciles semblait imminente. Pourtant, la réalité quotidienne de l'utilisateur d'une maison connectée est souvent bien différente. Le contraste entre la puissance d'un modèle génératif capable de rédiger du code complexe et l'incapacité d'une enceinte connectée à allumer la bonne lumière dans le salon est saisissant.

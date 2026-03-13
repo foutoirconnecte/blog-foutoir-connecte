@@ -16,6 +16,7 @@ title: 'La domotique au tableau électrique : le passage obligé vers l''install
 ---
 
 
+
 Le parcours classique d'un intégrateur domotique amateur suit toujours la même courbe. On commence par visser des ampoules intelligentes. On comprend rapidement que c'est une erreur et on passe aux **[micromodules cachés derrière les interrupteurs muraux](/articles/ampoules-connectees-hors-ligne/)**. Cette deuxième étape offre une grande satisfaction et résout le fameux problème de l'acceptation par la famille.
 
 Cependant, lorsque l'on commence à domotiser l'intégralité d'une maison (tous les éclairages, les volets roulants, le ballon d'eau chaude, les chauffages électriques), la multiplication de ces petits modules encastrés dans les murs finit par poser de sérieuses limites physiques et techniques.

@@ -15,6 +15,7 @@ title: 'Le WAF en 2026 : pourquoi les interfaces murales tactiles sont indispens
 
 
 
+
 ## Le WAF : ce concept marketing qui révèle une vérité fondamentale
 
 Le "Wife Acceptance Factor", ou WAF, est un terme un peu daté, né dans les années 90 dans le monde de la Hi-Fi. Il désignait, avec un sexisme à peine voilé, la probabilité qu'une épouse accepte l'achat d'un matériel audio coûteux et souvent massif. Si le terme peut faire grincer des dents en 2026, il recouvre une réalité sociologique incontournable pour tout projet technologique au sein du foyer : l'adoption d'une nouvelle technologie ne dépend pas uniquement de ses performances, mais de son intégration harmonieuse dans la vie quotidienne de *tous* les membres de la famille.

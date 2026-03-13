@@ -14,6 +14,7 @@ title: 'Le WAF (Wife Acceptance Factor) : pourquoi votre famille déteste votre 
 ---
 
 
+
 Il y a un moment fatidique dans la vie de tout passionné de domotique. Vous venez de passer votre dimanche après-midi à programmer un magnifique scénario complexe : *"Quand j'ouvre la porte d'entrée, que le soleil est couché, et que l'alarme était mise, allume le couloir en bleu tamisé et joue ma playlist Spotify"*.
 
 Vous êtes fier. Puis, votre conjoint(e) rentre tard du travail, chargé(e) de courses, ouvre la porte... et se retrouve dans un couloir baigné d'une lumière bleue lugubre, accueilli par du gros métal hurlant dans les haut-parleurs, alors qu'il ou elle cherchait simplement le bouton pour allumer la lumière blanche normale.

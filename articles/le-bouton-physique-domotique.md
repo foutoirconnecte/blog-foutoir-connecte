@@ -15,6 +15,7 @@ title: 'Le bouton physique : pourquoi c''est l''accessoire domotique le plus imp
 ---
 
 
+
 En 2026, l'industrie de la domotique nous promettait une maison qui lit dans nos pensées. On nous avait vendu la voix comme l'interface ultime, les écrans tactiles muraux comme le centre de commande, et l'automatisation totale comme le nirvana de l'habitation. Pourtant, après quelques années d'expérimentations intensives dans nos foyers, un constat simple, presque archaïque, s'impose à tous les passionnés : le meilleur accessoire domotique de l'année n'est pas un algorithme d'intelligence artificielle, ni un écran OLED ultra-haute définition. C'est un petit boîtier en plastique muni d'un ressort et d'un contacteur électrique. C'est le bouton poussoir physique.
 
 Pourquoi, alors que nous possédons des smartphones capables d'envoyer des fusées sur Mars, revenons-nous à une technologie inventée à la fin du XIXe siècle pour contrôler notre éclairage ? La réponse tient en un concept simple : l'ergonomie cognitive.

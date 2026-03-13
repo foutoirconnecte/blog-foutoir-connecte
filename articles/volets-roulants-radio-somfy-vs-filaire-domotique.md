@@ -15,6 +15,7 @@ title: 'Le piège des volets roulants radio : pourquoi exiger des moteurs filair
 ---
 
 
+
 Le scénario est un classique absolu de la construction neuve ou de la rénovation lourde. Vous faites appel à un menuisier ou à un façadier pour changer l'ensemble de vos menuiseries et installer des volets roulants motorisés. Le chantier est important, le budget se compte en milliers d'euros. Au moment d'affiner le devis, l'artisan vous pose une question qui semble relever du simple détail pratique : *"Pour la motorisation, je vous mets des moteurs radio avec une petite télécommande sans fil pour chaque fenêtre, ou bien on part sur des moteurs filaires avec un interrupteur classique encastré dans le mur ?"* 
 
 Séduit par la perspective alléchante de ne pas avoir de saignées disgracieuses à faire dans vos murs neufs, et par l'idée confortable de piloter vos volets depuis votre lit avec une petite télécommande blanche, vous optez presque machinalement pour la technologie radio. L'artisan est généralement ravi de ce choix : l'installation est infiniment plus rapide et plus simple pour lui, puisqu'il n'a qu'à tirer un simple câble d'alimentation électrique vers le coffre du volet, sans se soucier de redescendre vers un point de commande manuel à hauteur d'homme. C'est du temps de main d'œuvre gagné.

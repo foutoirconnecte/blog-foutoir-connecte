@@ -14,6 +14,7 @@ title: 'La Box Internet qui Suffoque : Le Syndrome de la Maison Tout Wi-Fi'
 ---
 
 
+
 L'enthousiasme des débuts pousse souvent à une erreur fatale. Vous découvrez les joies de la domotique avec une première prise connectée. Le mois suivant, vous équipez tout le salon d'ampoules intelligentes. Six mois plus tard, la maison compte une cinquantaine de périphériques bon marché, tous connectés au réseau sans fil. 
 
 Et c'est là que les problèmes commencent. 

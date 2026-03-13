@@ -16,6 +16,7 @@ title: 'Le thermostat intelligent qui chauffe dans le vide : l''erreur du radiat
 ---
 
 
+
 L'une des motivations principales pour se lancer dans la domotique, juste après le confort de l'éclairage, est la promesse de réaliser des économies d'énergie spectaculaires. L'industrie vend le concept du "thermostat intelligent" comme une solution miracle capable de faire fondre votre facture de gaz ou d'électricité de 30% par an.
 
 Vous achetez donc un magnifique thermostat Netatmo, Tado ou Google Nest. Vous remplacez les vannes de vos radiateurs par des têtes thermostatiques connectées. Le premier matin d'hiver, vous ouvrez grand la fenêtre de la chambre pour aérer, comme d'habitude. 

@@ -15,6 +15,7 @@ title: 'Tablettes murales domotiques : la fausse bonne idée (et comment bien le
 ---
 
 
+
 C'est l'image d'Épinal de la maison du futur, celle que l'on voit dans tous les films de science-fiction et sur les brochures des constructeurs immobiliers : le grand écran tactile fixé au mur de l'entrée, affichant un magnifique plan 3D de la maison, la météo, le flux des caméras de sécurité et le contrôle absolu de chaque ampoule.
 
 Portés par cette vision, de nombreux passionnés décident de recycler une vieille tablette Android ou un iPad vieillissant. Ils achètent un support d'impression 3D sur internet, collent l'écran au mur du salon, et laissent l'application de leur box domotique affichée en permanence. 

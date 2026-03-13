@@ -16,6 +16,7 @@ title: 'L''éclairage circadien : pourquoi la couleur de vos ampoules influence 
 ---
 
 
+
 Lorsque l'on achète ses premières **[ampoules connectées Philips Hue ou Ikea Tradfri](/articles/ampoules-connectees-hors-ligne/)**, le premier réflexe est souvent de tester toutes les couleurs de l'arc-en-ciel. On met le salon en bleu, la cuisine en rouge, on s'amuse cinq minutes avec la synchronisation musicale, puis l'effet de nouveauté retombe. On finit par régler toutes les lampes sur un blanc classique, et on oublie la fonction colorimétrique.
 
 C'est une occasion manquée monumentale. La véritable puissance d'une ampoule intelligente ne réside pas dans sa capacité à produire du vert fluo, mais dans sa capacité à faire varier sa température de blanc (de l'orange très chaud au bleu très froid) tout au long de la journée.

@@ -15,6 +15,7 @@ title: Pourquoi votre ampoule connectée est toujours hors ligne (et comment dom
 ---
 
 
+
 L'histoire est toujours la même. Vous achetez une ampoule connectée à 40 euros. Vous la vissez au plafond du salon. Vous passez une heure à configurer des scènes lumineuses parfaites sur votre téléphone. Tout fonctionne à merveille. Puis, quelqu'un entre dans la pièce et appuie sur l'interrupteur mural par pur réflexe.
 
 L'ampoule s'éteint. L'application affiche un message d'erreur rouge vous indiquant que le périphérique est hors ligne. Vos automatisations prévues pour le coucher du soleil échouent lamentablement. La domotique vient de rendre votre maison plus contraignante qu'elle ne l'était avant.
