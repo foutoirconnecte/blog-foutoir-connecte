@@ -22,7 +22,7 @@ Pour saisir la nuance entre ces deux technologies, il est fondamental de compren
 ### Le Zigbee : Le dialecte maillé historique
 Le Zigbee n'est pas un nouveau venu. C'est un protocole de communication radio complet, c'est-à-dire qu'il définit à la fois la façon dont les ondes voyagent dans l'air (la couche physique, basée sur la norme IEEE 802.15.4) et le langage que les appareils utilisent pour se parler (la couche logicielle).
 
-L'architecture Zigbee a été pensée exclusivement pour la domotique. Elle est conçue pour transmettre de très petits paquets de données (comme "allumé", "éteint", ou "20 degrés") en consommant une quantité d'énergie absolument dérisoire. C'est pour cela qu'un **[capteur d'ouverture de porte Zigbee peut tenir deux ans sur une simple pile bouton](/articles/autonomie-piles-capteurs-domotique/)**.
+L'architecture Zigbee a été pensée exclusivement pour la domotique. Elle est conçue pour transmettre de très petits paquets de données (comme "allumé", "éteint", ou "20 degrés") en consommant une quantité d'énergie absolument dérisoire. C'est pour cela qu'un **capteur d'ouverture de porte Zigbee peut tenir deux ans sur une simple pile bouton**.
 
 La force magistrale du Zigbee réside dans son maillage (Mesh Network). Chaque appareil branché sur le courant (comme un micromodule derrière un interrupteur) fait office de relais pour le reste du réseau. Le signal rebondit de lampe en prise pour atteindre le coordinateur central. Plus vous avez d'appareils, plus le réseau est robuste. C'est un circuit fermé, totalement hermétique au Wi-Fi de votre maison et totalement indépendant d'Internet.
 
@@ -33,7 +33,7 @@ Imaginez que Matter soit une langue (comme l'Espéranto). Pour parler cette lang
 1.  **Le Wi-Fi (ou l'Ethernet) :** Pour les appareils très gourmands en énergie (caméras, télévisions, routeurs).
 2.  **Thread :** Un protocole radio très similaire physiquement au Zigbee (il utilise la même norme radio de base 802.15.4), conçu pour les appareils sur batterie (capteurs, ampoules).
 
-La promesse de Matter est simple : si une ampoule parle Matter (qu'elle soit connectée en Wi-Fi ou via Thread), elle pourra être comprise nativement par n'importe quel écosystème (Apple Home, Google Home, Amazon Alexa, Home Assistant), sans avoir besoin de développer un pont spécifique. Sur le papier, c'est l'unification ultime. Fini le **[cauchemar des six applications propriétaires différentes](/articles/unifier-applications-domotique/)**.
+La promesse de Matter est simple : si une ampoule parle Matter (qu'elle soit connectée en Wi-Fi ou via Thread), elle pourra être comprise nativement par n'importe quel écosystème (Apple Home, Google Home, Amazon Alexa, Home Assistant), sans avoir besoin de développer un pont spécifique. Sur le papier, c'est l'unification ultime. Fini le **cauchemar des six applications propriétaires différentes**.
 
 ## La réalité du terrain en 2026 : Le triomphe de la maturité Zigbee
 
@@ -115,3 +115,6 @@ Pour vos éclairages, vos actionneurs de puissance (modules relais), le pilotage
 Considérez Matter (et le Thread) non pas comme un remplacement du Zigbee, mais comme un formidable outil de liaison en surcouche. C'est un langage diplomatique génial pour faire communiquer un serveur centralisé (votre box domotique locale) avec les écosystèmes vocaux (Apple, Google) sans passer par des API Cloud capricieuses. 
 
 L'avenir est peut-être à l'unification totale par Matter-over-Thread, mais le présent appartient indéniablement aux maîtres du maillage radio. Gardez vos réseaux Wi-Fi propres, consolidez votre maillage Zigbee, et laissez la "révolution Matter" mûrir tranquillement encore quelques années avant de lui confier les clés de votre sécurité et de votre confort domestique.
+
+
+Personnellement, je trouve que cette approche a complètement changé ma façon d'aborder la domotique.

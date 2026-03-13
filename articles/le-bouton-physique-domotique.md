@@ -25,7 +25,7 @@ En ingénierie de l'interaction, on parle souvent de retour haptique. C'est cett
 
 Une application mobile, même bien conçue, ne pourra jamais égaler cette satisfaction. Appuyer sur une dalle en verre lisse ne produit aucune sensation tactile. Souvent, dans les systèmes basés sur le Cloud, il y a un léger délai entre le clic sur l'icône et l'extinction réelle de l'ampoule. Ce délai, bien que court, crée un doute : "Est-ce que j'ai bien appuyé ? Est-ce que le système a reçu l'ordre ?".
 
-Le bouton physique élimine ce doute. L'action est confirmée par le clic. Le résultat est simultané. Cette satisfaction sensorielle contribue énormément à la sérénité au sein du foyer. C'est le secret du fameux **[WAF - Wife/Husband Acceptance Factor](/articles/waf-domotique-acceptation-famille/)** : quand un invité arrive chez vous, il ne veut pas avoir à télécharger une application pour allumer les toilettes. Il veut voir un interrupteur. Il veut pouvoir appuyer dessus. Il veut que la lumière s'allume. Point.
+Le bouton physique élimine ce doute. L'action est confirmée par le clic. Le résultat est simultané. Cette satisfaction sensorielle contribue énormément à la sérénité au sein du foyer. C'est le secret du fameux **WAF - Wife/Husband Acceptance Factor** : quand un invité arrive chez vous, il ne veut pas avoir à télécharger une application pour allumer les toilettes. Il veut voir un interrupteur. Il veut pouvoir appuyer dessus. Il veut que la lumière s'allume. Point.
 
 ## Zigbee et boutons programmables : Le retour en force
 
@@ -62,7 +62,7 @@ En ce qui concerne le réseau, ces boutons ne sont généralement pas des routeu
 
 ## Le danger des interrupteurs Wi-Fi
 
-Tout comme pour les **[vannes thermostatiques](/articles/comparatif-vannes-thermostatiques-action-wifi-zigbee/)** ou les **[caméras connectées](/articles/arnaque-8k-cameras-wifi/)**, la tentation du Wi-Fi pour les boutons est grande, surtout sur les sites de e-commerce bas prix. Fuyez-les.
+Tout comme pour les **vannes thermostatiques** ou les **[caméras connectées](/articles/arnaque-8k-cameras-wifi/)**, la tentation du Wi-Fi pour les boutons est grande, surtout sur les sites de e-commerce bas prix. Fuyez-les.
 
 Un bouton Wi-Fi est une aberration. Pour qu'il fonctionne, il doit maintenir une connexion Wi-Fi active. La pile sera vide en trois semaines, et le temps de latence entre votre clic et l'allumage de la lampe sera toujours sensible, car le bouton devra "réveiller" sa connexion Wi-Fi à chaque pression. Vous perdrez tout le bénéfice de l'instantanéité haptique.
 
@@ -132,3 +132,6 @@ C'est un point de friction majeur. Les fabricants de systèmes propriétaires (R
 Pourquoi ? Parce qu'ils veulent contrôler l'interface. Ils veulent que vous passiez par leur application. En achetant des systèmes propriétaires, vous perdez la capacité d'unifier vos commandes avec des boutons tiers génériques. 
 
 C'est une raison supplémentaire de fuir le matériel propriétaire. En construisant une installation basée sur des protocoles ouverts (Zigbee), vous redevenez le maître de votre réseau. Vous pouvez acheter n'importe quel bouton Zigbee au monde, et le lier à n'importe quel appareil, sans jamais demander la permission au fabricant. C'est ça, la vraie domotique. C'est l'interopérabilité totale, la possibilité de choisir le meilleur matériel pour chaque usage, et de le contrôler avec le bouton qui vous plaît le plus.
+
+
+Personnellement, je trouve que cette approche a complètement changé ma façon d'aborder la domotique.

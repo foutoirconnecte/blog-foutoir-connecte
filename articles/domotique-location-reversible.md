@@ -132,3 +132,8 @@ Le marché de l'occasion est une mine d'or pour le locataire. Les marques comme 
 L'astuce pour le locataire est d'acheter des modules "prêts à l'emploi" qui s'intègrent à Home Assistant, et qui ne nécessitent aucune intervention sur le tableau électrique ou le câblage de la maison. C'est le confort du prêt-à-domotiser.
 
 Enfin, rappelez-vous : une maison domotisée est une maison qui se revend mieux, et qui se reloue plus facilement. Si vous faites preuve d'intelligence, vous pouvez même discuter avec votre propriétaire pour que ce dernier investisse dans certains éléments (comme les vannes thermostatiques), en expliquant la valeur ajoutée sur la facture énergétique. C'est un argument qui porte souvent ses fruits auprès des bailleurs !
+
+
+Personnellement, je trouve que cette approche a complètement changé ma façon d'aborder la domotique.
+
+Pour aller plus loin, découvrez comment [sécuriser votre installation domotique](/articles/securite-wifi-domotique-vlan-reseau-invite) ou consultez notre guide sur les [protocoles sans fil](/articles/zigbee-vs-matter-2026).

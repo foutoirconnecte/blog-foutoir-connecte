@@ -114,3 +114,6 @@ Pour les utilisateurs les plus exigeants, il existe des solutions de messagerie 
 ## Éviter la fatigue de la maintenance : La surveillance de flotte
 
 Enfin, rappelez-vous que gérer des dizaines d'objets connectés nécessite une approche de gestion de parc informatique. Utilisez des outils pour surveiller l'état de votre flotte domotique (batteries, mises à jour, erreurs de connexion). Au lieu de recevoir une notification pour chaque batterie faible, créez un tableau de bord spécifique qui récapitule l'état de tous vos appareils une fois par semaine. Cela permet d'avoir une vision d'ensemble sans être bombardé en continu. La maintenance proactive, c'est la clé de la longévité de votre installation.
+
+
+Personnellement, je trouve que cette approche a complètement changé ma façon d'aborder la domotique.

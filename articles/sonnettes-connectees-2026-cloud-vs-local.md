@@ -138,3 +138,8 @@ En 2026, la domotique a fait des progrès considérables. Les solutions locales 
 Investir dans une sonnette vidéo locale, c'est choisir la tranquillité d'esprit à long terme. C'est reprendre le contrôle de votre sécurité et de votre vie privée. Les quelques euros supplémentaires à l'achat initial seront vite amortis par les économies réalisées sur les abonnements mensuels, et par la certitude que votre système fonctionnera toujours, même quand le monde numérique extérieur décide de faire la sieste.
 
 Fuyez le piège du "tout connecté" qui vous rend dépendant de services dont vous ne maîtrisez ni la durée de vie, ni le coût, ni les politiques de confidentialité. La véritable intelligence, c'est de construire des fondations solides, autonomes, et totalement maîtrisées.
+
+
+Personnellement, je trouve que cette approche a complètement changé ma façon d'aborder la domotique.
+
+Pour aller plus loin, découvrez comment [sécuriser votre installation domotique](/articles/securite-wifi-domotique-vlan-reseau-invite) ou consultez notre guide sur les [protocoles sans fil](/articles/zigbee-vs-matter-2026).
