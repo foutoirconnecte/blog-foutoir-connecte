@@ -1,18 +1,18 @@
 ---
-layout: article.njk
-title: 'La folie du cloud chinois : ce qui se passe vraiment quand vous utilisez l''application
-  Smart Life'
 date: 2026-03-06
-tags:
-  - Xiaomi / Smart Life
-  - Cloud vs Local
-  - Wi-Fi & Réseau
-  - Sécurité & Caméras
 image: /images/smart-life-tuya-cloud-chinois-domotique.webp
+layout: article.njk
 summary: 'Derrière les dizaines de marques d''objets connectés à bas prix se cache
   souvent une seule et unique gigantesque plateforme : Tuya. Découvrez les risques
   de sécurité, de confidentialité et de fiabilité liés à cette dépendance technologique
   massive, et comment la contourner.'
+tags:
+- sécurité & caméras
+- xiaomi / smart life
+- wi-fi & réseau
+- cloud vs local
+title: 'La folie du cloud chinois : ce qui se passe vraiment quand vous utilisez l''application
+  Smart Life'
 ---
 Si vous avez déjà acheté une prise connectée à 8 euros sur Amazon, une ampoule Wi-Fi chez Action, ou un diffuseur d'huiles essentielles "intelligent" dans un supermarché, vous avez très probablement remarqué un point commun frappant entre tous ces objets, pourtant de marques différentes : ils vous demandent tous d'installer l'application **Smart Life** (ou Tuya Smart) pour fonctionner.
 

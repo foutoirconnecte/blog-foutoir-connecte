@@ -1,17 +1,17 @@
 ---
-layout: article.njk
-title: 'Domotique d''occasion : le danger des objets connectés de seconde main'
 date: 2026-03-12
-tags:
-  - Wi-Fi & Réseau
-  - Sécurité & Caméras
-  - Zigbee & Matter
-  - DIY & Tutoriels
 image: /images/domotique-occasion-securite.webp
+layout: article.njk
 summary: Acheter des capteurs ou des modules domotiques d'occasion est un excellent
   moyen de réduire les coûts, mais c'est un terrain miné pour la sécurité. Découvrez
   comment nettoyer et sécuriser votre matériel de seconde main pour éviter que votre
   maison ne devienne une passoire numérique.
+tags:
+- zigbee & matter
+- diy & tutoriels
+- wi-fi & réseau
+- sécurité & caméras
+title: 'Domotique d''occasion : le danger des objets connectés de seconde main'
 ---
 L'inflation et la conscience écologique ont poussé de plus en plus de passionnés de domotique à se tourner vers le marché de l'occasion. Pourquoi acheter une tête thermostatique à 80 euros quand on peut en trouver des dizaines sur les plateformes de revente pour 20 ou 30 euros ? Pourquoi payer le prix fort pour des capteurs Zigbee neufs quand un lot complet d'occasion permet d'équiper toute une maison pour le prix d'un seul module neuf ?
 

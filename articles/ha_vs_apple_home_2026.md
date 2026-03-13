@@ -1,16 +1,16 @@
 ---
-layout: article.njk
-title: 'Home Assistant vs Apple Home en 2026 : l''IA locale a-t-elle enfin gagné ?'
 date: 2026-03-13
-tags:
-  - Home Assistant
-  - Google / Apple / Amazon
-  - Wi-Fi & Réseau
-  - Cloud vs Local
 image: /images/ha_vs_apple_home_2026.webp
+layout: article.njk
 summary: Analyse technique et comparative entre Home Assistant et Apple Home en 2026.
   Focus sur l'intégration de l'intelligence artificielle locale, la gestion des protocoles
   Matter et Thread, et le verdict final pour les installations sérieuses.
+tags:
+- google / apple / amazon
+- wi-fi & réseau
+- cloud vs local
+- home assistant
+title: 'Home Assistant vs Apple Home en 2026 : l''IA locale a-t-elle enfin gagné ?'
 ---
 # Le Problème : La promesse brisée de l'écosystème fermé face à l'exigence de la vie privée
 

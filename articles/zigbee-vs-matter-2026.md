@@ -1,17 +1,17 @@
 ---
-layout: article.njk
-title: 'Zigbee vs Matter en 2026 : Lequel Choisir pour votre Domotique ?'
 date: 2026-03-12
-tags:
-  - Zigbee & Matter
-  - Wi-Fi & Réseau
-  - Google / Apple / Amazon
-  - Home Assistant
 image: /images/zigbee-vs-matter-2026.webp
+layout: article.njk
 summary: Le protocole Matter devait tout révolutionner et tuer le Zigbee. En 2026,
   la réalité du terrain est bien différente. Découvrez pourquoi le vieux standard
   Zigbee reste le choix le plus pertinent pour votre installation locale, et comment
   intégrer Matter intelligemment sans tomber dans ses pièges de jeunesse.
+tags:
+- zigbee & matter
+- google / apple / amazon
+- wi-fi & réseau
+- home assistant
+title: 'Zigbee vs Matter en 2026 : Lequel Choisir pour votre Domotique ?'
 ---
 L'histoire de la domotique est pavée de promesses technologiques qui devaient "tout changer". Depuis quelques années, l'industrie toute entière ne jure plus que par un seul mot magique : Matter. Ce nouveau standard universel, soutenu par les géants de la technologie comme Apple, Google, Amazon et Samsung, a été présenté comme le messie. Il devait mettre fin à la guerre des protocoles, unifier nos maisons connectées et rendre les technologies historiques obsolètes.
 

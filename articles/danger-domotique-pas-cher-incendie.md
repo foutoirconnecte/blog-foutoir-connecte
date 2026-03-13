@@ -1,16 +1,16 @@
 ---
-layout: article.njk
-title: 'Le faux bon plan domotique : les dangers des modules électriques à 2 euros'
 date: 2026-03-01
-tags:
-  - Sécurité & Caméras
-  - Wi-Fi & Réseau
-  - DIY & Tutoriels
-  - Économies d'Énergie
 image: /images/danger-domotique-pas-cher-incendie.webp
+layout: article.njk
 summary: Il est tentant de commander des relais électriques domotiques anonymes sur
   les plateformes asiatiques pour faire des économies. Découvrez pourquoi c'est un
   jeu dangereux pour votre réseau, et surtout pour la sécurité incendie de votre maison.
+tags:
+- diy & tutoriels
+- wi-fi & réseau
+- économies d'énergie
+- sécurité & caméras
+title: 'Le faux bon plan domotique : les dangers des modules électriques à 2 euros'
 ---
 La domotique est un hobby qui peut rapidement coûter cher. Lorsqu'un débutant réalise qu'il a besoin d'une trentaine de micromodules pour domotiser l'ensemble des lumières et des volets roulants de sa maison, la facture théorique grimpe vite au-delà des 600 euros s'il choisit des marques réputées comme Shelly, Fibaro, Legrand ou NodOn.
 

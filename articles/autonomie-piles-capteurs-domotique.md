@@ -1,16 +1,16 @@
 ---
-layout: article.njk
-title: 'La pile bouton au mauvais moment : comment optimiser l''autonomie de vos capteurs'
 date: 2026-01-22
-tags:
-  - Wi-Fi & Réseau
-  - Zigbee & Matter
-  - Chauffage Intelligent
-  - Économies d'Énergie
 image: /images/piles.webp
+layout: article.njk
 summary: Remplacer des dizaines de piles CR2032 tous les six mois n'est pas une fatalité.
   Découvrez les erreurs d'architecture réseau qui drainent l'énergie de vos capteurs
   domotiques et les règles d'or pour multiplier leur durée de vie par trois.
+tags:
+- zigbee & matter
+- économies d'énergie
+- wi-fi & réseau
+- chauffage intelligent
+title: 'La pile bouton au mauvais moment : comment optimiser l''autonomie de vos capteurs'
 ---
 L'une des promesses les plus séduisantes de la domotique moderne est l'absence de câblage. Vous achetez un petit capteur de température, vous le collez avec du double-face sur le mur de la chambre, et le tour est joué. Le fabricant vous promet généralement "jusqu'à deux ans d'autonomie" sur une simple pile bouton CR2032 ou CR2450. 
 

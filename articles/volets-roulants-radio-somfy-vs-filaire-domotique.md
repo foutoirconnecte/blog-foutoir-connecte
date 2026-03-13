@@ -1,17 +1,17 @@
 ---
-layout: article.njk
-title: 'Le piège des volets roulants radio : pourquoi exiger des moteurs filaires'
 date: 2026-03-12
-tags:
-  - Débutant en Domotique
-  - DIY & Tutoriels
-  - Cloud vs Local
-  - WAF & Famille
 image: /images/volets-roulants-radio-somfy-vs-filaire-domotique.webp
+layout: article.njk
 summary: Votre menuisier vous propose des volets roulants radio avec télécommande
   car c'est 'plus moderne' ? Découvrez pourquoi c'est un piège technologique qui vous
   enfermera dans un écosystème fermé, et pourquoi le moteur filaire classique est
   la seule véritable option pour une domotique libre.
+tags:
+- débutant en domotique
+- waf & famille
+- diy & tutoriels
+- cloud vs local
+title: 'Le piège des volets roulants radio : pourquoi exiger des moteurs filaires'
 ---
 Le scénario est un classique absolu de la construction neuve ou de la rénovation lourde. Vous faites appel à un menuisier ou à un façadier pour changer l'ensemble de vos menuiseries et installer des volets roulants motorisés. Le chantier est important, le budget se compte en milliers d'euros. Au moment d'affiner le devis, l'artisan vous pose une question qui semble relever du simple détail pratique : *"Pour la motorisation, je vous mets des moteurs radio avec une petite télécommande sans fil pour chaque fenêtre, ou bien on part sur des moteurs filaires avec un interrupteur classique encastré dans le mur ?"* 
 

@@ -1,10 +1,15 @@
 ---
-layout: article.njk
-title: "Domotique et animaux : capteurs de mouvement vs caméras IA pour les chats"
 date: 2026-03-13
-tags: ["capteurs", "caméras", "animaux"]
-image: "/images/domotique-animaux-chats.webp"
-summary: "Faut-il choisir des capteurs de mouvement traditionnels ou des caméras IA pour la détection des animaux ? Analyse technique approfondie pour un système domotique fiable et sans fausses alertes."
+image: /images/domotique-animaux-chats.webp
+layout: article.njk
+summary: Faut-il choisir des capteurs de mouvement traditionnels ou des caméras IA
+  pour la détection des animaux ? Analyse technique approfondie pour un système domotique
+  fiable et sans fausses alertes.
+tags:
+- capteurs
+- animaux
+- caméras
+title: 'Domotique et animaux : capteurs de mouvement vs caméras IA pour les chats'
 ---
 
 La gestion de la présence de nos animaux de compagnie est un défi classique, presque un rite de passage, en domotique. L'objectif initial semble pourtant simple : créer des automatisations qui améliorent notre confort et notre sécurité, sans que le passage du chat ne déclenche l'alarme à trois heures du matin ou n'allume toutes les lumières du salon en pleine journée. La question n'est plus "si" on peut le faire, mais "comment" le faire de la manière la plus fiable, robuste et évolutive possible. Deux technologies s'affrontent principalement sur ce terrain : les capteurs de mouvement traditionnels, principalement les PIR, et les caméras de surveillance dopées à l'intelligence artificielle pour la reconnaissance d'objets.

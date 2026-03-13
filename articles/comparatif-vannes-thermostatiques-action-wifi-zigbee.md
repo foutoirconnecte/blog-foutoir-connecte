@@ -1,18 +1,18 @@
 ---
-layout: article.njk
-title: 'Vannes Thermostatiques Connectées : Le Comparatif 2026 (Action, Wi-Fi, Zigbee,
-  Tuya)'
 date: 2026-03-12
-tags:
-  - Chauffage Intelligent
-  - Wi-Fi & Réseau
-  - Comparatif 2026
-  - Zigbee & Matter
 image: /images/comparatif-vannes-thermostatiques-action-wifi-zigbee.webp
+layout: article.njk
 summary: Faut-il craquer pour les têtes thermostatiques vendues 15 euros chez Action
   ? Entre le Bluetooth inutilisable, le Wi-Fi qui dévore vos piles et la fiabilité
   du Zigbee, découvrez quelle technologie choisir pour domotiser vos radiateurs sans
   transformer l'hiver en cauchemar.
+tags:
+- comparatif 2026
+- zigbee & matter
+- wi-fi & réseau
+- chauffage intelligent
+title: 'Vannes Thermostatiques Connectées : Le Comparatif 2026 (Action, Wi-Fi, Zigbee,
+  Tuya)'
 ---
 L'optimisation du chauffage est le nerf de la guerre en domotique. Face à l'envolée des coûts de l'énergie, la promesse de chauffer "juste ce qu'il faut, quand il faut et où il faut" est l'argument massue qui pousse de nombreux foyers à sauter le pas. Le concept du **[chauffage multi-zone, pièce par pièce](/articles/thermostat-intelligent-fenetre-ouverte-multizone/)**, repose intégralement sur un petit bijou d'ingénierie : la tête thermostatique connectée (ou TRV, pour Thermostatic Radiator Valve).
 

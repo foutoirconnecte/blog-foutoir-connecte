@@ -1,10 +1,17 @@
 ---
-layout: article.njk
-title: "Aqara vs Sonoff en 2026 : quelle marque choisir pour un Zigbee stable ?"
 date: 2026-03-13
-tags: ["article", "domotique", "matériel", "réseau", "zigbee"]
-image: "/images/aqara-vs-sonoff-2026.webp"
-summary: "Analyse technique et comparative entre Aqara et Sonoff en 2026. Focus sur la stabilité du protocole Zigbee, l'interopérabilité et le verdict final pour les installations sérieuses."
+image: /images/aqara-vs-sonoff-2026.webp
+layout: article.njk
+summary: Analyse technique et comparative entre Aqara et Sonoff en 2026. Focus sur
+  la stabilité du protocole Zigbee, l'interopérabilité et le verdict final pour les
+  installations sérieuses.
+tags:
+- domotique
+- zigbee
+- réseau
+- article
+- matériel
+title: 'Aqara vs Sonoff en 2026 : quelle marque choisir pour un Zigbee stable ?'
 ---
 
 # Aqara vs Sonoff en 2026 : quelle marque choisir pour un Zigbee stable ?

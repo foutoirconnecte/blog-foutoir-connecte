@@ -1,16 +1,16 @@
 ---
-layout: article.njk
-title: 'La maison qui parle trop : pourquoi vos notifications domotiques vous stressent'
 date: 2026-03-12
-tags:
-  - Chauffage Intelligent
-  - Comparatif 2026
-  - Google / Apple / Amazon
-  - Home Assistant
 image: /images/maison-qui-parle-trop.webp
+layout: article.njk
 summary: L'art de la notification utile vs le spam domotique qui finit par nous faire
   désactiver les alertes importantes. Apprenez à filtrer le bruit pour ne garder que
   l'essentiel.
+tags:
+- comparatif 2026
+- google / apple / amazon
+- chauffage intelligent
+- home assistant
+title: 'La maison qui parle trop : pourquoi vos notifications domotiques vous stressent'
 ---
 La domotique, à ses débuts, est une quête de visibilité. On veut tout savoir, tout mesurer, tout contrôler. On installe des capteurs de température dans chaque pièce, des détecteurs d'ouverture sur chaque fenêtre, des capteurs de fuite d'eau sous chaque évier, et on active les notifications pour tout. La sensation d'avoir une "maison vivante" qui communique avec nous est grisante. 
 

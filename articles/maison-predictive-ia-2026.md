@@ -1,17 +1,17 @@
 ---
-layout: article.njk
-title: 'La maison prédictive en 2026 : quand votre IA domotique anticipe vos besoins
-  avant vous'
 date: 2026-03-13
-tags:
-  - IA Domotique
-  - Chauffage Intelligent
-  - Économies d'Énergie
-  - Cloud vs Local
 image: /images/maison-predictive-ia-2026.webp
+layout: article.njk
 summary: Fini de créer des routines manuelles complexes. La vraie évolution de la
   domotique en 2026 réside dans les systèmes prédictifs locaux capables d'anticiper
   vos habitudes sans compromettre votre vie privée.
+tags:
+- chauffage intelligent
+- cloud vs local
+- économies d'énergie
+- ia domotique
+title: 'La maison prédictive en 2026 : quand votre IA domotique anticipe vos besoins
+  avant vous'
 ---
 ## Le Mythe de la Maison Intelligente (et pourquoi vous passez encore vos soirées à coder)
 

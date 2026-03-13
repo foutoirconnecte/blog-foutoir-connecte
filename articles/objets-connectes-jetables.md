@@ -1,16 +1,16 @@
 ---
-layout: article.njk
-title: 'Objets connectés jetables : le scandale des batteries soudées dans vos capteurs'
 date: 2026-03-12
-tags:
-  - Chauffage Intelligent
-  - Zigbee & Matter
-  - Wi-Fi & Réseau
-  - Économies d'Énergie
 image: /images/obsolescence-programmee-capteurs.webp
+layout: article.njk
 summary: Pourquoi vos petits capteurs de température design sont des bombes à retardement
   environnementales. Découvrez le scandale des batteries soudées et pourquoi la réparabilité
   doit devenir un critère de choix domotique.
+tags:
+- zigbee & matter
+- économies d'énergie
+- wi-fi & réseau
+- chauffage intelligent
+title: 'Objets connectés jetables : le scandale des batteries soudées dans vos capteurs'
 ---
 La domotique, telle qu'elle est pratiquée par le grand public, est en train de devenir l'un des piliers les plus problématiques de l'obsolescence programmée. Nous avons tous chez nous ces petits capteurs adorables : un détecteur de mouvement gros comme une pièce de monnaie, un thermomètre minimaliste en plastique blanc, ou un détecteur d'inondation ultra-plat. Ils sont esthétiques, ils sont peu chers, ils s'installent en quelques secondes.
 

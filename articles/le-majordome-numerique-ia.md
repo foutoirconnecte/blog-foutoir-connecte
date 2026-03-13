@@ -1,17 +1,17 @@
 ---
-layout: article.njk
-title: 'Le majordome numérique : faut-il vraiment donner les clés de sa maison à une
-  IA ?'
 date: 2026-03-13
-tags:
-  - IA Domotique
-  - Cloud vs Local
-  - Sécurité & Caméras
-  - Wi-Fi & Réseau
 image: /images/le-majordome-numerique-ia.webp
+layout: article.njk
 summary: Confier le contrôle absolu de sa maison intelligente à une IA est séduisant
   sur le papier. Dans la réalité, le fossé entre les démonstrations technologiques
   et la fiabilité requise pour un accès physique exige une approche hybride et locale.
+tags:
+- cloud vs local
+- wi-fi & réseau
+- sécurité & caméras
+- ia domotique
+title: 'Le majordome numérique : faut-il vraiment donner les clés de sa maison à une
+  IA ?'
 ---
 L'idée d'un majordome numérique omniprésent, capable d'anticiper vos moindres désirs avant même que vous ne les formuliez, nourrit l'imaginaire collectif depuis des décennies. Aujourd'hui, avec la banalisation des modèles de langage de grande taille (LLM) et des systèmes prédictifs, ce concept frappe à la porte de nos installations domotiques. Les fabricants promettent une maison qui "comprend" et "s'adapte" de manière autonome. Mais lorsqu'il s'agit de gérer physiquement l'accès à son domicile, de contrôler la serrure de la porte d'entrée ou de désactiver l'alarme, la question de la confiance devient centrale. Faut-il réellement confier ces responsabilités critiques à une entité numérique dont les processus de décision restent souvent obscurs ?
 

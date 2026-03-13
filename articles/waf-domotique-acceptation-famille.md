@@ -1,16 +1,16 @@
 ---
-layout: article.njk
-title: 'Le WAF (Wife Acceptance Factor) : pourquoi votre famille déteste votre domotique'
 date: 2026-03-11
-tags:
-  - WAF & Famille
-  - Éclairage Connecté
-  - Débutant en Domotique
-  - DIY & Tutoriels
 image: /images/waf-domotique-acceptation-famille.webp
+layout: article.njk
 summary: C'est le concept le plus important (et le plus ignoré) de l'intégration domotique.
   Si votre conjoint(e) ou vos enfants subissent votre installation au lieu d'en profiter,
   vous avez échoué en tant qu'architecte de votre propre maison.
+tags:
+- débutant en domotique
+- diy & tutoriels
+- waf & famille
+- éclairage connecté
+title: 'Le WAF (Wife Acceptance Factor) : pourquoi votre famille déteste votre domotique'
 ---
 Il y a un moment fatidique dans la vie de tout passionné de domotique. Vous venez de passer votre dimanche après-midi à programmer un magnifique scénario complexe : *"Quand j'ouvre la porte d'entrée, que le soleil est couché, et que l'alarme était mise, allume le couloir en bleu tamisé et joue ma playlist Spotify"*.
 

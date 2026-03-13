@@ -1,10 +1,16 @@
 ---
-layout: article.njk
-title: "Le WAF en 2026 : pourquoi les interfaces murales tactiles sont indispensables"
 date: 2026-03-13
-tags: ["article", "Domotique", "WAF", "Maison Connectée"]
-image: "/images/waf-2026-interfaces-murales-tactiles.webp"
-summary: "Au-delà du simple gadget, les interrupteurs tactiles deviennent le pilier d'une domotique accessible et acceptée par toute la famille. Analyse d'un composant essentiel pour le WAF (Wife Acceptance Factor)."
+image: /images/waf-2026-interfaces-murales-tactiles.webp
+layout: article.njk
+summary: Au-delà du simple gadget, les interrupteurs tactiles deviennent le pilier
+  d'une domotique accessible et acceptée par toute la famille. Analyse d'un composant
+  essentiel pour le WAF (Wife Acceptance Factor).
+tags:
+- domotique
+- waf
+- maison connectée
+- article
+title: 'Le WAF en 2026 : pourquoi les interfaces murales tactiles sont indispensables'
 ---
 
 ## Le WAF : ce concept marketing qui révèle une vérité fondamentale

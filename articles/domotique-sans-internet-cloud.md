@@ -1,17 +1,17 @@
 ---
-layout: article.njk
-title: 'Le Cauchemar du Cloud : Pourquoi votre domotique doit fonctionner sans Internet'
 date: 2025-11-02
-tags:
-  - Cloud vs Local
-  - Wi-Fi & Réseau
-  - Zigbee & Matter
-  - Home Assistant
 image: /images/domotique-sans-internet-cloud.webp
+layout: article.njk
 summary: Découvrez l'aberration technique du contrôle déporté (Cloud). La latence,
   le risque de faillite des serveurs, et surtout, pourquoi le passage au contrôle
   réseau local via Zigbee et Home Assistant est indispensable pour une vraie tranquillité
   d'esprit.
+tags:
+- zigbee & matter
+- wi-fi & réseau
+- cloud vs local
+- home assistant
+title: 'Le Cauchemar du Cloud : Pourquoi votre domotique doit fonctionner sans Internet'
 ---
 La scène se répète à chaque panne de fournisseur d'accès internet. Vous rentrez chez vous, la box clignote en rouge, et soudainement, votre maison entière refuse de vous obéir. L'application Smart Life tourne dans le vide. Vos prises connectées ne s'activent plus. Vous êtes littéralement incapable d'allumer la lumière de votre propre salon depuis votre smartphone, simplement parce qu'un câble fibre a été coupé à trois kilomètres de là.
 

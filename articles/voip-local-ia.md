@@ -1,16 +1,16 @@
 ---
-layout: article.njk
-title: 'Voice-over-IP Local : piloter sa maison à la voix sans un gramme de Cloud
-  avec l''IA'
 date: 2026-03-13
-tags:
-  - Cloud vs Local
-  - Multimédia & Voix
-  - IA Domotique
-  - Wi-Fi & Réseau
 image: /images/voip-local.webp
+layout: article.njk
 summary: Adieu les serveurs distants lents et les pannes cloud. Découvrez l'architecture
   complète pour monter un assistant vocal 100% local, privé et extrêmement réactif.
+tags:
+- multimédia & voix
+- ia domotique
+- wi-fi & réseau
+- cloud vs local
+title: 'Voice-over-IP Local : piloter sa maison à la voix sans un gramme de Cloud
+  avec l''IA'
 ---
 L'idée de contrôler sa maison à la voix n'est pas nouvelle, mais confier chaque instruction de sa vie privée à des serveurs distants pose de sérieux problèmes. Entre les temps de latence imprévisibles, les coupures internet qui rendent la maison "muette" et la revente potentielle de vos données vocales, la dépendance au Cloud montre rapidement ses limites. La solution pour s'affranchir de ces contraintes consiste à héberger l'intégralité de la chaîne de traitement vocal en local. Dans cet article exhaustif, je déconstruis la mise en place d'un réseau Voice-over-IP (VoIP) et d'un assistant dopé à l'IA, entièrement géré par votre propre matériel, du microphone au déclenchement de l'action domotique.
 

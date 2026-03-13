@@ -1,18 +1,18 @@
 ---
-layout: article.njk
-title: 'L''enfer des 6 applications : comment unifier toute votre domotique dans une
-  seule interface'
 date: 2025-12-05
-tags:
-  - Google / Apple / Amazon
-  - DIY & Tutoriels
-  - Philips Hue
-  - Éclairage Connecté
 image: /images/unifier-applications-domotique.webp
+layout: article.njk
 summary: Fini l'application Somfy pour les volets, Hue pour la lumière et Tado pour
   le chauffage. La multiplication des applications transforme la maison intelligente
   en un fardeau numérique au quotidien. Découvrez comment tout regrouper dans un système
   nerveux central agnostique.
+tags:
+- google / apple / amazon
+- diy & tutoriels
+- éclairage connecté
+- philips hue
+title: 'L''enfer des 6 applications : comment unifier toute votre domotique dans une
+  seule interface'
 ---
 L'une des plus grandes désillusions de la maison connectée survient généralement le matin, lorsque vous êtes en retard pour partir au travail.
 
