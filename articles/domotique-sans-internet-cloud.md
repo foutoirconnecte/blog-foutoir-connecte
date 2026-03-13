@@ -2,14 +2,14 @@
 layout: article.njk
 title: "Le Cauchemar du Cloud : Pourquoi votre domotique doit fonctionner sans Internet"
 date: 2025-11-02
-tags: ["article", "Architecture", "Cloud"]
+tags: ["article", "Architecture", "cloud"]
 image: "/images/domotique-sans-internet-cloud.webp"
 summary: "Découvrez l'aberration technique du contrôle déporté (Cloud). La latence, le risque de faillite des serveurs, et surtout, pourquoi le passage au contrôle réseau local via Zigbee et Home Assistant est indispensable pour une vraie tranquillité d'esprit."
 ---
 
 La scène se répète à chaque panne de fournisseur d'accès internet. Vous rentrez chez vous, la box clignote en rouge, et soudainement, votre maison entière refuse de vous obéir. L'application Smart Life tourne dans le vide. Vos prises connectées ne s'activent plus. Vous êtes littéralement incapable d'allumer la lumière de votre propre salon depuis votre smartphone, simplement parce qu'un câble fibre a été coupé à trois kilomètres de là.
 
-C'est la cruelle réalité de la domotique dite "Cloud".
+C'est la cruelle réalité de la domotique dite "cloud".
 
 Une immense majorité des équipements connectés grand public vendus aujourd'hui, notamment sous l'écosystème Tuya, Smart Life ou Xiaomi, repose sur un modèle d'architecture déportée. L'intelligence ne se trouve pas chez vous, mais sur un serveur distant, souvent situé sur un autre continent.
 

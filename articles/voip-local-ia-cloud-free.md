@@ -2,7 +2,7 @@
 layout: article.njk
 title: "Voice-over-IP Local : piloter sa maison à la voix sans un gramme de Cloud avec l'IA"
 date: 2026-03-13
-tags: ["article", "domotique", "intelligence-artificielle", "home-assistant", "vie-privee", "voix"]
+tags: ["article", "domotique", "intelligence_artificielle", "home-assistant", "vie-privee", "voix"]
 image: "/images/voip-local-ia.webp"
 summary: "Abandonner les assistants connectés de Google ou Amazon pour une solution 100% locale, basée sur des LLM et du VoIP, afin d'assurer la confidentialité et la résilience totale du contrôle vocal de sa maison."
 ---

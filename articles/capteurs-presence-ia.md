@@ -2,12 +2,12 @@
 layout: article.njk
 title: "Capteurs de présence IA : fini les lumières qui s'éteignent quand vous lisez"
 date: 2026-03-13
-tags: ["article", "domotique", "capteurs", "IA", "présence"]
+tags: ["article", "domotique", "capteurs", "ia", "présence"]
 image: "/images/capteurs-presence-ia.webp"
 summary: "Découvrez comment les capteurs de présence IA résolvent définitivement le problème des lumières qui s'éteignent inopinément lorsque vous êtes immobile."
 ---
 
-Le scénario est familier. Vous êtes confortablement installé dans votre fauteuil, absorbé par un livre. Soudain, l'obscurité se fait. Vous agitez un bras, comme pour saluer un fantôme, afin de signaler au capteur de mouvement que vous êtes bien là. La lumière se rallume. Cinq minutes plus tard, le cycle recommence. Cette frustration est le symptôme d'une technologie dépassée. Les capteurs de mouvement traditionnels ne détectent pas la présence, ils détectent le mouvement. La solution existe et devient enfin accessible : les capteurs de présence basés sur un radar à ondes millimétriques, souvent estampillés "IA".
+Le scénario est familier. Vous êtes confortablement installé dans votre fauteuil, absorbé par un livre. Soudain, l'obscurité se fait. Vous agitez un bras, comme pour saluer un fantôme, afin de signaler au capteur de mouvement que vous êtes bien là. La lumière se rallume. Cinq minutes plus tard, le cycle recommence. Cette frustration est le symptôme d'une technologie dépassée. Les capteurs de mouvement traditionnels ne détectent pas la présence, ils détectent le mouvement. La solution existe et devient enfin accessible : les capteurs de présence basés sur un radar à ondes millimétriques, souvent estampillés "ia".
 
 Ce guide va au-delà des promesses marketing. Nous allons décortiquer le fonctionnement de cette technologie, comprendre pourquoi elle surpasse ses prédécesseurs, et voir comment l'intégrer efficacement dans un système domotique comme Home Assistant. L'objectif est simple : obtenir un éclairage qui s'adapte à votre présence réelle, et non à vos gesticulations.
 
@@ -43,9 +43,9 @@ Dans notre cas, si tout est statique dans la pièce, les ondes retournent au cap
 
 C'est là que réside toute la puissance de cette technologie. Elle ne cherche pas une large variation thermique, mais le plus petit des mouvements. Le battement de votre cœur qui soulève votre poitrine, le mouvement de vos doigts sur un clavier, le simple fait de respirer. Ces micro-mouvements sont largement suffisants pour que le radar confirme une présence humaine. Vous pouvez rester parfaitement immobile pendant une heure, le capteur saura que vous êtes là tant que vous respirez.
 
-### "IA" : simple marketing ou vraie intelligence ?
+### "ia" : simple marketing ou vraie intelligence ?
 
-Le terme "IA" est souvent utilisé à des fins marketing. Dans le contexte des capteurs de présence, il ne s'agit pas d'une conscience artificielle logée dans votre détecteur. L'intelligence réside dans les algorithmes de traitement du signal.
+Le terme "ia" est souvent utilisé à des fins marketing. Dans le contexte des capteurs de présence, il ne s'agit pas d'une conscience artificielle logée dans votre détecteur. L'intelligence réside dans les algorithmes de traitement du signal.
 
 Un capteur mmWave brut est si sensible qu'il pourrait déclencher une alerte à cause d'un rideau qui ondule sous l'effet d'une ventilation, d'un ventilateur en rotation ou des feuilles d'une plante d'intérieur. C'est là que "l'IA" entre en jeu.
 

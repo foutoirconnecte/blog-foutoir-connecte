@@ -2,7 +2,7 @@
 layout: article.njk
 title: "Le majordome numérique : faut-il vraiment donner les clés de sa maison à une IA ?"
 date: 2026-03-13
-tags: ["article", "ia", "securite", "cloud"]
+tags: ["article", "ia", "sécurité", "cloud"]
 image: "/images/le-majordome-numerique-ia.webp"
 summary: "Confier le contrôle absolu de sa maison intelligente à une IA est séduisant sur le papier. Dans la réalité, le fossé entre les démonstrations technologiques et la fiabilité requise pour un accès physique exige une approche hybride et locale."
 ---

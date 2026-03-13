@@ -2,7 +2,7 @@
 layout: article.njk
 title: "Sécurité Wi-Fi pour la Domotique : comment isoler vos objets connectés (VLAN, Réseau Invité)"
 date: 2026-03-11
-tags: ["article", "Réseau", "Sécurité"]
+tags: ["article", "Réseau", "sécurité"]
 image: "/images/securite-wifi-domotique-vlan-reseau-invite.webp"
 summary: "Vos objets connectés partagent le même réseau Wi-Fi que votre ordinateur personnel et vos données bancaires. C'est une porte d'entrée béante pour les pirates. Découvrez pourquoi et comment créer des réseaux virtuels (VLAN) ou invités pour isoler hermétiquement votre domotique et protéger votre vie numérique."
 ---
