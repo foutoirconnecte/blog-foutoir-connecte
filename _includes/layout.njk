@@ -4,6 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title | default("Le Foutoir Connecté") }}</title>
+  <meta name="description" content="{{ description | default(\"Le guide d'architecture de votre domotique locale.\") | escape }}">
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{{ title | default(\"Le Foutoir Connecté\") | escape }}">
+  <meta property="og:description" content="{{ description | default(\"Le guide d'architecture de votre domotique locale.\") | escape }}">
+  <meta property="og:url" content="https://foutoirconnecte.com{{ page.url }}">
+  <meta property="og:image" content="https://foutoirconnecte.com{{ image | default('/images/default-social.png') }}">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ title | default(\"Le Foutoir Connecté\") | escape }}">
+  <meta name="twitter:description" content="{{ description | default(\"Le guide d'architecture de votre domotique locale.\") | escape }}">
+  <meta name="twitter:image" content="https://foutoirconnecte.com{{ image | default('/images/default-social.png') }}">
+
   <link rel="icon" href="/images/favicon.webp" type="image/webp">
 
   <style>
