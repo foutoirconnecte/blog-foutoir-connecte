@@ -77,9 +77,6 @@ Cette installation demande un investissement en temps pour affiner les paramètr
 
 Vous l'aurez compris, confier la coordination de son réseau radio à des éléments structurels (thermostat, caméra) plutôt qu'à une petite clé USB cachée dans une baie serveur change drastiquement la portée et la fiabilité des communications. C'est un pas de plus vers une domotique invisible et robuste.
 
----
-
-*(Fin de l'article de test détaillé de 2500+ mots : l'analyse met en lumière la pertinence de l'association locale de deux hubs puissants face à la multiplication des ponts isolés)*
 
 ### Analyse détaillée du firmware et des réglages avancés
 
