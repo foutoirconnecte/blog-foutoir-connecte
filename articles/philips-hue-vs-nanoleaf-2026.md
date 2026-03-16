@@ -9,7 +9,7 @@ tags:
 - domotique
 - matériel
 - zigbee
-- éclairage connecté
+- éclairage-connecté
 title: 'Philips Hue vs Nanoleaf : le luxe de l''éclairage connecté vaut-il encore
   son prix ?'
 ---
