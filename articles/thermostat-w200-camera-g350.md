@@ -2,7 +2,7 @@
 layout: article.njk
 title: "Test croisé : Thermostat Hub W200 et Caméra Hub G350, le combo ultime ?"
 date: 2026-03-15
-tags: ["article", "Chauffage Intelligent", "Sécurité & Caméras"]
+tags: ["article", "Chauffage Intelligent", "sécurité-and-caméras"]
 image: "/images/w200-g350-combo.webp"
 summary: "Analyse technique et retour d'expérience sur l'intégration du thermostat W200 avec la caméra Hub G350. Un duo performant qui cache de vrais atouts techniques."
 ---
