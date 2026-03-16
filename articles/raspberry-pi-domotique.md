@@ -2,7 +2,7 @@
 layout: article.njk
 title: "Raspberry Pi 5 et domotique en 2026 : le guide définitif pour bâtir sa maison connectée souveraine"
 date: 2026-03-14
-tags: ["diy-and-tutoriels", "home assistant", "raspberry pi"]
+tags: ["diy-and-tutoriels", "home-assistant", "raspberry pi"]
 image: "/images/raspberry-pi-domotique.webp"
 summary: "Faut-il encore choisir le Raspberry Pi pour sa domotique en 2026 ? Comparatif Pi 4 vs Pi 5, le rôle crucial du SSD, l'intégration des protocoles Zigbee/Z-Wave/Matter, et les avantages de l'IA locale : tout ce qu'il faut savoir pour une installation pérenne et souveraine."
 ---
