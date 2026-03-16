@@ -2,44 +2,54 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("CNAME");
   eleventyConfig.addPassthroughCopy("images");
   
-// Filtre pour limiter le nombre d'éléments d'un tableau
-  eleventyConfig.addFilter("limit", (array, limit) => {
-    return array.slice(0, limit);
-  });
-
-  // Filtre pour fusionner deux tableaux (au cas où Nunjucks rechigne)
-  eleventyConfig.addFilter("concat", (array1, array2) => {
-    return array1.concat(array2);
-  });
 
 
+// FILTRE pour selectionner les articles à placer sous l'article en cours de lecture 
+  eleventyConfig.addFilter("getRelatedPosts", (collection, currentUrl, currentTags) => {
+    if (!collection) return [];
 
+    // 1. On exclut l'article en cours de lecture
+    const otherPosts = collection.filter(post => post.url !== currentUrl);
 
+    // 2. Les 5 plus récents (11ty trie du plus vieux au plus récent par défaut, donc on inverse)
+    const recentPosts = [...otherPosts].reverse().slice(0, 5);
+    const recentUrls = recentPosts.map(p => p.url);
 
+    // 3. Les 5 similaires (par tags)
+    let similarPosts = [];
+    if (currentTags) {
+      // On s'assure d'avoir un tableau et on ignore le tag générique 'article'
+      const tagsArray = Array.isArray(currentTags) ? currentTags : [currentTags];
+      const meaningfulTags = tagsArray.filter(t => t !== 'article'); 
 
-// Filtre pour mélanger un tableau (Fisher-Yates shuffle)
-  eleventyConfig.addFilter("shuffle", (array) => {
-    const newArray = [...array];
-    for (let i = newArray.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+      const remainingForSimilar = otherPosts.filter(p => !recentUrls.includes(p.url));
+      
+      similarPosts = remainingForSimilar.filter(post => {
+        const pTags = post.data.tags || [];
+        const pTagsArray = Array.isArray(pTags) ? pTags : [pTags];
+        return pTagsArray.some(tag => meaningfulTags.includes(tag));
+      });
+      
+      // Mélange aléatoire (Fisher-Yates simplifié)
+      similarPosts = similarPosts.sort(() => Math.random() - 0.5).slice(0, 5);
     }
-    return newArray;
+    const similarUrls = similarPosts.map(p => p.url);
+
+    // 4. Les 5 aléatoires dans ce qu'il reste
+    const usedUrls = [...recentUrls, ...similarUrls];
+    const remainingForRandom = otherPosts.filter(p => !usedUrls.includes(p.url));
+    const randomPosts = remainingForRandom.sort(() => Math.random() - 0.5).slice(0, 5);
+
+    // 5. On fusionne tout et on renvoie à Nunjucks
+    return [...recentPosts, ...similarPosts, ...randomPosts];
   });
 
-  // Filtre pour exclure des articles déjà sélectionnés par leur URL
-  eleventyConfig.addFilter("excludeUsed", (collection, usedPosts) => {
-    const usedUrls = usedPosts.map(p => p.url);
-    return collection.filter(post => !usedUrls.includes(post.url));
-  });
 
-  // Filtre pour trouver des articles ayant au moins un tag en commun
-  eleventyConfig.addFilter("similarTags", (collection, currentTags) => {
-    if (!currentTags) return [];
-    return collection.filter(post => {
-      return post.data.tags && post.data.tags.some(tag => currentTags.includes(tag));
-    });
-  });
+
+
+
+
+
 
 
   // Filtre de date
