@@ -10,7 +10,7 @@ tags:
 - domotique
 - matériel
 - réseau
-- zigbee
+- zigbee-and-matter
 title: 'Aqara vs Sonoff en 2026 : quelle marque choisir pour un Zigbee stable ?'
 ---
 
