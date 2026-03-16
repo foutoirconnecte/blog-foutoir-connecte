@@ -5,7 +5,7 @@ date: 2026-03-15
 tags:
   - article
   - sonoff
-  - zigbee & matter
+  - zigbee-and-matter
   - home assistant
 image: "/images/sonoff-zigbee-smart-switches.webp"
 summary: "Découvrez comment la gamme SONOFF Zigbee (ZBMINI, ZBMINIL2, SNZB-01 à 04) peut transformer votre installation domotique. Plongeons techniques dans l'absence de neutre, le maillage réseau, et des cas d'usage avancés sur Home Assistant."
