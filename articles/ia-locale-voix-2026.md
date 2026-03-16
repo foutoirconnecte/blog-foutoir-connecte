@@ -2,7 +2,7 @@
 layout: article.njk
 title: "L'IA locale en 2026 : pourquoi vous devez arrêter d'envoyer votre voix dans le Cloud"
 date: 2026-03-14
-tags: ["IA Domotique", "cloud-vs-local", "multimédia-and-voix"]
+tags: ["ia-domotique", "cloud-vs-local", "multimédia-and-voix"]
 image: "/images/ia-locale-voix-2026.webp"
 summary: "En 2026, confier ses requêtes vocales domestiques à des serveurs distants est un non-sens technique et éthique. Découvrez comment les LLM locaux transforment nos maisons intelligentes."
 ---
