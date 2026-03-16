@@ -2,6 +2,21 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("CNAME");
   eleventyConfig.addPassthroughCopy("images");
   
+// Filtre pour limiter le nombre d'éléments d'un tableau
+  eleventyConfig.addFilter("limit", (array, limit) => {
+    return array.slice(0, limit);
+  });
+
+  // Filtre pour fusionner deux tableaux (au cas où Nunjucks rechigne)
+  eleventyConfig.addFilter("concat", (array1, array2) => {
+    return array1.concat(array2);
+  });
+
+
+
+
+
+
 // Filtre pour mélanger un tableau (Fisher-Yates shuffle)
   eleventyConfig.addFilter("shuffle", (array) => {
     const newArray = [...array];
