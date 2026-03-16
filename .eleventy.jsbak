@@ -2,31 +2,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("CNAME");
   eleventyConfig.addPassthroughCopy("images");
   
-// Filtre pour mélanger un tableau (Fisher-Yates shuffle)
-  eleventyConfig.addFilter("shuffle", (array) => {
-    const newArray = [...array];
-    for (let i = newArray.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
-    }
-    return newArray;
-  });
-
-  // Filtre pour exclure des articles déjà sélectionnés par leur URL
-  eleventyConfig.addFilter("excludeUsed", (collection, usedPosts) => {
-    const usedUrls = usedPosts.map(p => p.url);
-    return collection.filter(post => !usedUrls.includes(post.url));
-  });
-
-  // Filtre pour trouver des articles ayant au moins un tag en commun
-  eleventyConfig.addFilter("similarTags", (collection, currentTags) => {
-    if (!currentTags) return [];
-    return collection.filter(post => {
-      return post.data.tags && post.data.tags.some(tag => currentTags.includes(tag));
-    });
-  });
-
-
   // Filtre de date
   eleventyConfig.addFilter("readableDate", (dateObj) => {
     return new Intl.DateTimeFormat('fr-FR', {
