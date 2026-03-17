@@ -30,7 +30,7 @@ Le matériel que vous avez acheté n'est que la porte d'entrée. Le service, lui
 *   **Ring Protect Basic :** Concerne un seul appareil. Pour environ 3 à 4 € par mois, vous débloquez l'historique vidéo jusqu'à 180 jours, la sauvegarde des clips et les notifications intelligentes.
 *   **Ring Protect Plus :** Concerne tous les appareils Ring de votre domicile. Pour environ 10 € par mois, vous obtenez les mêmes avantages que le plan Basic, mais pour un nombre illimité de caméras et de sonnettes, avec en prime une extension de garantie.
 
-Calculons rapidement : 10 € par mois, c'est 120 € par an. Sur cinq ans, la durée de vie raisonnable d'un tel appareil, cela représente 600 € qui s'ajoutent au prix d'achat initial de votre matériel. C'est un coût non négligeable qui transforme un achat unique en une dépense récurrente. C'est le modèle économique du "Software as a Service" appliqué à votre porte d'entrée. Pour une analyse plus globale sur ce modèle, vous pouvez consulter [mon article sur les caméras de sécurité et la dépendance aux abonnements cloud](/articles/cameras-securite-abonnement-cloud/).
+Calculons rapidement : 10 € par mois, c'est 120 € par an. Sur cinq ans, la durée de vie raisonnable d'un tel appareil, cela représente 600 € qui s'ajoutent au prix d'achat initial de votre matériel. C'est un coût non négligeable qui transforme un achat unique en une dépense récurrente. C'est le modèle économique du "Software as a Service" appliqué à votre porte d'entrée. Pour une analyse plus globale sur ce modèle, vous pouvez consulter **[mon article sur les caméras de sécurité et la dépendance aux abonnements cloud](/articles/cameras-securite-abonnement-cloud/)**.
 
 #### 2. Le point de défaillance unique : votre connexion Internet (et les serveurs d'Amazon)
 
@@ -126,7 +126,7 @@ Ces routines transforment une simple sonnette vidéo en un véritable hub de sé
 #### 3. Optimiser la performance : combattre la latence
 
 Vous ne pouvez pas éliminer la latence due au cloud, mais vous pouvez réduire toutes les autres sources de ralentissement.
-*   **Un Wi-Fi irréprochable :** C'est le prérequis absolu. Une sonnette vidéo est un appareil gourmand en bande passante (surtout en upload). Si le signal Wi-Fi à votre porte est faible, la connexion sera lente et instable. Investir dans un bon routeur ou un système maillé est souvent nécessaire. Pour en savoir plus, consultez notre guide sur [l'importance d'un bon réseau Wi-Fi pour la domotique](/articles/maison-tout-wifi-box-internet/).
+*   **Un Wi-Fi irréprochable :** C'est le prérequis absolu. Une sonnette vidéo est un appareil gourmand en bande passante (surtout en upload). Si le signal Wi-Fi à votre porte est faible, la connexion sera lente et instable. Investir dans un bon routeur ou un système maillé est souvent nécessaire. Pour en savoir plus, consultez notre guide sur **[l'importance d'un bon réseau Wi-Fi pour la domotique](/articles/maison-tout-wifi-box-internet/)**.
 *   **Réglage des zones de détection :** Dans l'application Ring, dessinez précisément les zones de détection de mouvement pour éviter de capturer les voitures qui passent dans la rue ou les feuilles qui bougent dans un arbre. Moins de fausses alertes signifie moins de trafic inutile vers le cloud et moins de "fatigue de notification" pour vous.
 
 ### Les Alternatives : Sortir de la cage dorée

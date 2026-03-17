@@ -81,7 +81,7 @@ Analysons maintenant les forces et faiblesses de Fibaro face à ses principaux r
 
 ### Fibaro (Z-Wave) vs. Shelly (Wi-Fi)
 
-Shelly a bâti sa réputation sur des produits innovants, ouverts (firmware modifiable) et très compétitifs. La gamme [Shelly Pro](/articles/shelly-pro-2026/) sur rail DIN est une alternative redoutable pour la [domotique au tableau électrique](/articles/domotique-tableau-electrique-rail-din/).
+Shelly a bâti sa réputation sur des produits innovants, ouverts (firmware modifiable) et très compétitifs. La gamme **[Shelly Pro](/articles/shelly-pro-2026/)** sur rail DIN est une alternative redoutable pour la **[domotique au tableau électrique](/articles/domotique-tableau-electrique-rail-din/)**.
 
 *   **Avantage Shelly :** Le prix, évidemment. L'absence de hub dédié est aussi un argument, chaque module se connectant directement à votre Wi-Fi. L'écosystème est riche et la communauté très active.
 *   **Inconvénient Shelly :** La dépendance au Wi-Fi est son talon d'Achille. Une installation avec 30 ou 40 modules Shelly met à rude épreuve un routeur grand public. Chaque module est un client de plus, ce qui peut engendrer des latences, des déconnexions et une saturation du réseau. Une panne de routeur ou un changement de mot de passe Wi-Fi paralyse toute l'installation.

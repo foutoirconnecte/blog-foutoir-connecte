@@ -29,7 +29,7 @@ L'installation matérielle soulève le problème récurrent du fil neutre. La ma
 
 #### Capacités de routage et maillage Zigbee
 
-En tant que coordinateur, le W200 gère jusqu'à 128 appareils enfants directs. Sa gestion de la topologie réseau est exemplaire. Dans une maison de 120 mètres carrés, avec des murs porteurs en brique, j'ai constaté que le signal traverse les obstacles avec une atténuation bien inférieure à celle d'un dongle USB classique branché derrière un serveur métallique. Le positionnement mural du thermostat (généralement à 1,50 mètre du sol, au centre de l'habitation) est optimal pour la propagation des ondes radio, créant un réseau maillé dense et réactif pour tous les petits capteurs fonctionnant sur pile (température, humidité, ouverture de porte). Vous pouvez retrouver plus de détails sur l'importance du maillage dans [notre analyse sur le chauffage](/articles/thermostat-intelligent-fenetre-ouverte-multizone).
+En tant que coordinateur, le W200 gère jusqu'à 128 appareils enfants directs. Sa gestion de la topologie réseau est exemplaire. Dans une maison de 120 mètres carrés, avec des murs porteurs en brique, j'ai constaté que le signal traverse les obstacles avec une atténuation bien inférieure à celle d'un dongle USB classique branché derrière un serveur métallique. Le positionnement mural du thermostat (généralement à 1,50 mètre du sol, au centre de l'habitation) est optimal pour la propagation des ondes radio, créant un réseau maillé dense et réactif pour tous les petits capteurs fonctionnant sur pile (température, humidité, ouverture de porte). Vous pouvez retrouver plus de détails sur l'importance du maillage dans **[notre analyse sur le chauffage](/articles/thermostat-intelligent-fenetre-ouverte-multizone)**.
 
 ### Analyse technique de la Caméra Hub G350
 
@@ -51,7 +51,7 @@ La véritable plus-value de ce duo réside dans la synergie locale de leurs capt
 
 Les capteurs de mouvement traditionnels (PIR - Infrarouge Passif) présentent un défaut majeur : ils ne détectent que le mouvement. Si vous êtes immobile sur le canapé en train de lire, le capteur considère la pièce comme vide au bout de quelques minutes, et le thermostat abaisse la température. La caméra G350, grâce à son analyse d'image par réseau neuronal, maintient l'état "Présence détectée" tant que la forme humaine est visible, même statique. 
 
-La configuration de l'automatisation s'effectue directement sur le réseau local, idéalement via un contrôleur centralisé comme décrit dans [mon article sur le comparatif Zigbee vs Matter](/articles/zigbee-vs-matter-2026). L'événement généré par la caméra est transmis sous forme de payload JSON via MQTT ou via une intégration locale directe. Le temps de réaction entre le franchissement de la porte du salon (vu par la G350) et l'activation du relais de chauffe du W200 est imperceptible, de l'ordre d'une demi-seconde.
+La configuration de l'automatisation s'effectue directement sur le réseau local, idéalement via un contrôleur centralisé comme décrit dans **[mon article sur le comparatif Zigbee vs Matter](/articles/zigbee-vs-matter-2026)**. L'événement généré par la caméra est transmis sous forme de payload JSON via MQTT ou via une intégration locale directe. Le temps de réaction entre le franchissement de la porte du salon (vu par la G350) et l'activation du relais de chauffe du W200 est imperceptible, de l'ordre d'une demi-seconde.
 
 #### Scénarios d'utilisation poussés
 

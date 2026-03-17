@@ -56,7 +56,7 @@ SONOFF propose les trois piliers de la détection domotique :
 
 ## Comprendre et optimiser le maillage Zigbee (Mesh Network)
 
-Contrairement au Wi-Fi où tous les appareils se connectent à un point central (votre routeur internet), le protocole Zigbee (tout comme Matter over Thread, voir notre [comparatif Zigbee vs Matter en 2026](/articles/zigbee-vs-matter-2026)) fonctionne en réseau maillé. C'est la clé de sa résilience et de sa portée. 
+Contrairement au Wi-Fi où tous les appareils se connectent à un point central (votre routeur internet), le protocole Zigbee (tout comme Matter over Thread, voir notre **[comparatif Zigbee vs Matter en 2026](/articles/zigbee-vs-matter-2026)**) fonctionne en réseau maillé. C'est la clé de sa résilience et de sa portée. 
 
 Pour que votre écosystème SONOFF soit parfaitement stable, il faut comprendre les trois rôles d'un réseau Zigbee :
 
@@ -79,7 +79,7 @@ Une fois le matériel en main, il faut l'interfacer avec le cerveau de la maison
 *   **Contrôle fin :** L'interface de Z2M permet de visualiser la topologie de votre réseau maillé de manière très précise, d'obliger un capteur à se lier à un routeur spécifique, ou de configurer les délais précis avant le passage en veille d'un détecteur de mouvement SNZB-03.
 *   **Mises à jour OTA (Over-The-Air) :** Z2M gère très bien la récupération et le déploiement des nouveaux firmwares officiels SONOFF sur vos appareils, assurant sécurité et corrections de bugs sans avoir besoin de la passerelle propriétaire de la marque.
 
-*Mon verdict technique :* Si vous démarrez, ZHA fait le travail. Mais si vous équipez toute une maison avec des dizaines de micromodules et de capteurs SONOFF, prenez le temps d'installer Zigbee2MQTT. C'est un investissement en temps minime qui vous offrira un contrôle absolu sur votre réseau radio. Vous n'aurez d'ailleurs aucun problème de cohabitation si vous utilisez des équipements Apple HomeKit en parallèle, comme détaillé dans notre [analyse HA vs Apple Home](/articles/ha_vs_apple_home_2026).
+*Mon verdict technique :* Si vous démarrez, ZHA fait le travail. Mais si vous équipez toute une maison avec des dizaines de micromodules et de capteurs SONOFF, prenez le temps d'installer Zigbee2MQTT. C'est un investissement en temps minime qui vous offrira un contrôle absolu sur votre réseau radio. Vous n'aurez d'ailleurs aucun problème de cohabitation si vous utilisez des équipements Apple HomeKit en parallèle, comme détaillé dans notre **[analyse HA vs Apple Home](/articles/ha_vs_apple_home_2026)**.
 
 ## Cas d'usages avancés et actions concrètes
 
@@ -94,7 +94,7 @@ La théorie est maîtrisée. Passons à la pratique. Voici comment la combinaiso
 2. Fixez un bouton sans fil **SNZB-01** au mur, près de votre canapé (avec du simple scotch double-face).
 3. Dans Home Assistant (via une automatisation native ou Node-RED), créez une règle simple : `SI l'état du SNZB-01 passe à "clic simple", ALORS "basculer" (toggle) l'état du relais du ZBMINI`.
 
-Vous venez de créer un va-et-vient parfait, invisible et réversible, en quelques minutes. Mieux encore, si vous utilisez Zigbee2MQTT, vous pouvez utiliser la fonction de **Binding** (liaison directe). Le Binding permet de lier logiciellement le bouton SNZB-01 directement au micromodule ZBMINI, sans que l'ordre n'ait à transiter par Home Assistant. Résultat : même en cas de plantage de votre serveur ou de mise à jour de votre box domotique, votre interrupteur sans fil continuera d'allumer et d'éteindre la lumière de manière instantanée. C'est le summum de la résilience, un concept critique comme abordé lors de nos tests sur les [pannes de courant en domotique](/articles/panne-courant-domotique).
+Vous venez de créer un va-et-vient parfait, invisible et réversible, en quelques minutes. Mieux encore, si vous utilisez Zigbee2MQTT, vous pouvez utiliser la fonction de **Binding** (liaison directe). Le Binding permet de lier logiciellement le bouton SNZB-01 directement au micromodule ZBMINI, sans que l'ordre n'ait à transiter par Home Assistant. Résultat : même en cas de plantage de votre serveur ou de mise à jour de votre box domotique, votre interrupteur sans fil continuera d'allumer et d'éteindre la lumière de manière instantanée. C'est le summum de la résilience, un concept critique comme abordé lors de nos tests sur les **[pannes de courant en domotique](/articles/panne-courant-domotique)**.
 
 ### 2. L'aération intelligente de la salle de bain (SNZB-02 + ZBMINI)
 

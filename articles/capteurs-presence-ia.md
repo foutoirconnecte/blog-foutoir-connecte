@@ -70,7 +70,7 @@ Le choix et le positionnement d'un capteur mmWave sont plus déterminants qu'ave
 
 #### Critères de sélection d'un capteur
 
--   **Protocole de communication :** Le Zigbee est souvent un excellent choix pour sa réactivité et son intégration aisée dans les écosystèmes existants. Il s'intègre parfaitement aux coordinateurs comme ceux utilisés dans [mon guide sur Zigbee2MQTT](/articles/zigbee2mqtt-guide). Le Wi-Fi est une autre option, mais peut encombrer votre réseau et dépend parfois du cloud du fabricant.
+-   **Protocole de communication :** Le Zigbee est souvent un excellent choix pour sa réactivité et son intégration aisée dans les écosystèmes existants. Il s'intègre parfaitement aux coordinateurs comme ceux utilisés dans **[mon guide sur Zigbee2MQTT](/articles/zigbee2mqtt-guide)**. Le Wi-Fi est une autre option, mais peut encombrer votre réseau et dépend parfois du cloud du fabricant.
 -   **Alimentation :** La grande majorité des capteurs mmWave nécessitent une alimentation filaire, généralement via un port USB-C. Leur consommation est trop élevée pour fonctionner sur pile pendant une durée raisonnable. Pensez à l'emplacement d'une prise ou à la possibilité de tirer un câble discret.
 -   **Fonctionnalités avancées :** Certains modèles, comme l'Aqara FP2, offrent la détection de zones. Vous pouvez virtuellement diviser une pièce en plusieurs secteurs (zone canapé, zone bureau, zone passage) et créer des automatisations spécifiques pour chacun. C'est un atout considérable pour la fiabilité.
 -   **Angle de détection et portée :** Vérifiez les spécifications. Un capteur monté au plafond aura typiquement un angle conique. Un capteur mural aura un angle de détection plus horizontal. Assurez-vous que la portée est suffisante pour votre pièce.
@@ -105,7 +105,7 @@ L'appairage d'un capteur Zigbee est standard. Une fois connecté, il expose plus
 -   `sensor.distance`: Certains modèles indiquent la distance de la cible détectée. Utile pour des scénarios avancés.
 -   Des contrôles de configuration (`select.sensitivity`, `number.detection_delay`, etc.).
 
-La richesse des entités dépend du modèle et de la qualité de son intégration. La communauté autour des solutions comme Zigbee2MQTT améliore constamment la prise en charge des nouveaux appareils, ce qui renforce l'intérêt d'un [réseau maillé Zigbee](/articles/reseau-maille-zigbee) bien construit.
+La richesse des entités dépend du modèle et de la qualité de son intégration. La communauté autour des solutions comme Zigbee2MQTT améliore constamment la prise en charge des nouveaux appareils, ce qui renforce l'intérêt d'un **[réseau maillé Zigbee](/articles/reseau-maille-zigbee)** bien construit.
 
 #### Paramétrage fin pour une fiabilité maximale
 

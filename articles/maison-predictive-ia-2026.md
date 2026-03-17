@@ -28,7 +28,7 @@ Le modèle déclaratif a atteint ses limites. Vous ne devriez pas avoir à coder
 
 C'est là qu'intervient le changement de paradigme fondamental de 2026. Nous ne sommes plus dans la programmation de la maison, nous entrons dans l'ère de la maison prédictive. L'objectif n'est plus de réagir à un événement isolé, mais d'anticiper un besoin basé sur l'analyse de centaines de signaux discrets.
 
-L'évolution matérielle récente rend cela possible. Les [capteurs de présence mmWave](/articles/capteur-presence-mmwave-vs-mouvement-pir) ont drastiquement réduit la latence et augmenté la précision de la détection. Les puces neuronales (NPU) embarquées dans les box domotiques permettent de faire tourner des modèles d'apprentissage automatique directement sur l'appareil. Tout cela converge vers un seul but : rendre l'intelligence artificielle invisible, locale et autonome.
+L'évolution matérielle récente rend cela possible. Les **[capteurs de présence mmWave](/articles/capteur-presence-mmwave-vs-mouvement-pir)** ont drastiquement réduit la latence et augmenté la précision de la détection. Les puces neuronales (NPU) embarquées dans les box domotiques permettent de faire tourner des modèles d'apprentissage automatique directement sur l'appareil. Tout cela converge vers un seul but : rendre l'intelligence artificielle invisible, locale et autonome.
 
 ## L'Intelligence Artificielle au Service de l'Habitude
 
@@ -36,7 +36,7 @@ L'IA domotique actuelle ne repose plus sur de simples requêtes vocales du type 
 
 Chaque interaction devient un point d'apprentissage. Vous baissez systématiquement le store du salon lorsque le soleil frappe le capteur de luminosité ouest avec une intensité supérieure à 20 000 lux en été, mais pas en hiver car vous cherchez l'apport thermique solaire ? L'IA intègre cette corrélation complexe entre la position du soleil, l'irradiation mesurée, la température intérieure et la saison. Elle ne crée pas une règle figée, elle met à jour son modèle probabiliste.
 
-La véritable puissance de ce système réside dans l'analyse multicritères. Là où un humain se contente d'associer un événement (la porte s'ouvre) à une action (allumer la lumière), l'IA corrèle simultanément l'état de l'alarme, la consommation instantanée du compteur [Linky](/articles/linky-teleinfo-local), la localisation GPS de vos smartphones, l'état de charge de vos véhicules électriques, la météo locale, le niveau sonore de la pièce et même votre calendrier professionnel.
+La véritable puissance de ce système réside dans l'analyse multicritères. Là où un humain se contente d'associer un événement (la porte s'ouvre) à une action (allumer la lumière), l'IA corrèle simultanément l'état de l'alarme, la consommation instantanée du compteur **[Linky](/articles/linky-teleinfo-local)**, la localisation GPS de vos smartphones, l'état de charge de vos véhicules électriques, la météo locale, le niveau sonore de la pièce et même votre calendrier professionnel.
 
 Je me suis longtemps battu pour optimiser les cycles de chauffage de mon domicile. J'ai passé des mois à affiner des algorithmes PID (Proportionnel, Intégral, Dérivée) pour éviter les dépassements de température. Aujourd'hui, l'IA thermique locale de mon installation prend en compte l'inertie thermique précise de chaque pièce, corrèle ces données avec les prévisions météo d'ensoleillement et ajuste la charge de la chaudière avec une précision redoutable, me faisant économiser environ 15% d'énergie par rapport à mon ancien code optimisé.
 
@@ -48,7 +48,7 @@ L'intégration de l'intelligence artificielle soulève inévitablement des quest
 
 Contrairement aux premières générations d'assistants vocaux qui envoyaient systématiquement vos requêtes audios vers des serveurs distants, l'IA domotique moderne s'exécute localement. Il est impératif que le traitement des données sensibles, comme vos habitudes de présence, la consommation de vos appareils électriques et les vidéos de vos caméras de sécurité, reste strictement confiné à l'intérieur de votre réseau physique.
 
-Les solutions [sans internet ni cloud](/articles/domotique-sans-internet-cloud) ne sont plus réservées aux ingénieurs paranoïaques, elles sont devenues la norme imposée par le bon sens et la nécessité de résilience. Une maison intelligente doit pouvoir continuer à vous protéger, à gérer votre chauffage et à sécuriser vos accès même si la fibre optique du quartier est sectionnée. L'apprentissage prédictif ne déroge pas à cette règle.
+Les solutions **[sans internet ni cloud](/articles/domotique-sans-internet-cloud)** ne sont plus réservées aux ingénieurs paranoïaques, elles sont devenues la norme imposée par le bon sens et la nécessité de résilience. Une maison intelligente doit pouvoir continuer à vous protéger, à gérer votre chauffage et à sécuriser vos accès même si la fibre optique du quartier est sectionnée. L'apprentissage prédictif ne déroge pas à cette règle.
 
 Des contrôleurs domotiques équipés de processeurs Coral TPU ou de puces Hailo effectuent l'inférence des modèles de langage et d'analyse de séries temporelles localement. L'apprentissage fédéré (Federated Learning) permet occasionnellement à ces systèmes de télécharger de nouveaux modèles affinés pour comprendre de nouveaux types de comportements, sans jamais renvoyer vos données brutes vers l'extérieur. Seules les mises à jour des poids du réseau neuronal sont échangées. 
 
@@ -58,7 +58,7 @@ Cette architecture décentralisée garantit que le profil comportemental de votr
 
 Le passage à un paradigme logiciel prédictif modifie également nos choix matériels. Auparavant, on achetait des équipements bardés d'interfaces propriétaires, de boutons physiques et de thermostats muraux complexes. Demain, le matériel sera de plus en plus minimaliste, stupide et standardisé, servant uniquement d'actionneur ou de capteur passif à l'intelligence centrale.
 
-Les protocoles interopérables locaux comme Thread ou [Zigbee et Matter](/articles/zigbee-vs-matter-2026) favorisent l'émergence d'une infrastructure robuste. Le réseau maillé, débarrassé de toute couche d'application propriétaire, se contente de remonter les états bruts des capteurs vers le cerveau local. 
+Les protocoles interopérables locaux comme Thread ou **[Zigbee et Matter](/articles/zigbee-vs-matter-2026)** favorisent l'émergence d'une infrastructure robuste. Le réseau maillé, débarrassé de toute couche d'application propriétaire, se contente de remonter les états bruts des capteurs vers le cerveau local. 
 
 L'évolution est déjà flagrante sur les récents chantiers. La pose de thermostats intelligents haut de gamme dans chaque pièce disparaît progressivement. La norme privilégie désormais des sondes de température extrêmement précises et dissimulées (intégrées dans les détecteurs de présence, par exemple), reliées à des micro-modules relais pour gérer les vannes d'eau. L'IA domotique se charge de centraliser l'intelligence, rendant l'interface murale totalement obsolète. Le mur redevient vierge.
 

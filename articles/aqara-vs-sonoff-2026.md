@@ -28,10 +28,10 @@ Le Zigbee repose sur une topologie de réseau maillé (*mesh*). Contrairement au
 Cependant, cette stabilité repose sur trois piliers : la qualité du coordinateur (le hub), la densité des routeurs, et la gestion des interférences. 
 
 ### L'approche "Hub-Centric" d'Aqara
-Aqara privilégie une approche intégrée. En utilisant leurs hubs propriétaires (M2, M3), vous bénéficiez d'une pile logicielle optimisée. Le hub gère tout : l'appairage, le maillage, et les mises à jour. Pour un utilisateur cherchant la tranquillité, c'est un avantage majeur. Toutefois, cette approche limite les possibilités de diagnostic réseau avancé. Comme je l'expliquais dans mon guide sur [les capteurs de présence IA](/articles/capteurs-presence-ia/), la stabilité commence par une bonne gestion des alertes, et les hubs Aqara automatisent cela avec brio pour le grand public.
+Aqara privilégie une approche intégrée. En utilisant leurs hubs propriétaires (M2, M3), vous bénéficiez d'une pile logicielle optimisée. Le hub gère tout : l'appairage, le maillage, et les mises à jour. Pour un utilisateur cherchant la tranquillité, c'est un avantage majeur. Toutefois, cette approche limite les possibilités de diagnostic réseau avancé. Comme je l'expliquais dans mon guide sur **[les capteurs de présence IA](/articles/capteurs-presence-ia/)**, la stabilité commence par une bonne gestion des alertes, et les hubs Aqara automatisent cela avec brio pour le grand public.
 
 ### L'approche ouverte et "DIY" de Sonoff
-Sonoff (ITEAD) s'est fait un nom en proposant du matériel abordable, compatible avec les solutions open-source. En utilisant leurs clés USB (Dongle Plus-P ou E) avec Zigbee2MQTT, vous construisez votre propre réseau. C'est l'approche que j'ai privilégiée pour ma maison principale, car elle offre une transparence totale sur le routage des paquets, essentielle pour diagnostiquer une chute de stabilité. Comme détaillé dans mon article sur [la domotique sans cloud](/articles/domotique-sans-internet-cloud/), ce niveau de contrôle est le seul qui garantit une résilience absolue à long terme.
+Sonoff (ITEAD) s'est fait un nom en proposant du matériel abordable, compatible avec les solutions open-source. En utilisant leurs clés USB (Dongle Plus-P ou E) avec Zigbee2MQTT, vous construisez votre propre réseau. C'est l'approche que j'ai privilégiée pour ma maison principale, car elle offre une transparence totale sur le routage des paquets, essentielle pour diagnostiquer une chute de stabilité. Comme détaillé dans mon article sur **[la domotique sans cloud](/articles/domotique-sans-internet-cloud/)**, ce niveau de contrôle est le seul qui garantit une résilience absolue à long terme.
 
 ## Analyse comparative : Performance et fiabilité en 2026
 
@@ -104,9 +104,9 @@ Si vous êtes un vrai acharné, l'acquisition d'un analyseur de spectre dédié 
 
 ## Le futur est là : Pourquoi la domotique doit être prédictive
 
-J'ai souvent discuté de cela dans mes articles, notamment celui sur [la domotique consciente](/articles/maison-predictive-ia-2026/). La stabilité Zigbee n'est que le moyen d'arriver à une fin : l'automatisation intelligente.
+J'ai souvent discuté de cela dans mes articles, notamment celui sur **[la domotique consciente](/articles/maison-predictive-ia-2026/)**. La stabilité Zigbee n'est que le moyen d'arriver à une fin : l'automatisation intelligente.
 
-Quand votre réseau est stable, vous ne vous contentez plus de dire "si mouvement, alors allumer". Vous passez à des scénarios où votre système domotique *apprend* vos routines. Par exemple, si vous rentrez chez vous tous les jours à 18h30, pourquoi ne pas lancer le préchauffage de votre appartement à 18h00, mais uniquement si la température intérieure est inférieure à 19°C ? Ces automatisations prédictives, que je détaille dans mes autres [guides sur l'IA](/tags/ia/), sont impossibles si vos capteurs de température Zigbee se déconnectent une fois par jour. La stabilité n'est pas un luxe, c'est la condition sine qua non pour entrer dans l'ère de la domotique intelligente.
+Quand votre réseau est stable, vous ne vous contentez plus de dire "si mouvement, alors allumer". Vous passez à des scénarios où votre système domotique *apprend* vos routines. Par exemple, si vous rentrez chez vous tous les jours à 18h30, pourquoi ne pas lancer le préchauffage de votre appartement à 18h00, mais uniquement si la température intérieure est inférieure à 19°C ? Ces automatisations prédictives, que je détaille dans mes autres **[guides sur l'IA](/tags/ia/)**, sont impossibles si vos capteurs de température Zigbee se déconnectent une fois par jour. La stabilité n'est pas un luxe, c'est la condition sine qua non pour entrer dans l'ère de la domotique intelligente.
 
 ## Automatisation avancée : Les modèles de Home Assistant
 

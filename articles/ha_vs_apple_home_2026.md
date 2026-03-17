@@ -73,7 +73,7 @@ Home Assistant a comblé ce retard ergonomique. Les tableaux de bord basés sur 
 
 Pour les utilisateurs d'iPhone, l'application compagnon Home Assistant s'intègre profondément au système via les widgets interactifs, les raccourcis Siri et les Live Activities. L'astuce consiste à utiliser Home Assistant comme le cœur du système (le back-end) et à exposer sélectivement certaines entités à Apple Home (via l'intégration HomeKit Bridge) pour bénéficier du contrôle vocal Siri depuis les appareils Apple, tout en gardant la logique complexe dans Home Assistant.
 
-Pour creuser la gestion du réseau maillé, consultez notre [guide sur le dimensionnement des réseaux Zigbee](/articles/dimensionnement-reseaux-zigbee) ou plongez dans [l'optimisation matérielle pour les serveurs locaux](/articles/optimisation-serveurs-locaux). Ces ressources vous fourniront des abaques précis pour structurer votre installation.
+Pour creuser la gestion du réseau maillé, consultez notre **[guide sur le dimensionnement des réseaux Zigbee](/articles/dimensionnement-reseaux-zigbee)** ou plongez dans **[l'optimisation matérielle pour les serveurs locaux](/articles/optimisation-serveurs-locaux)**. Ces ressources vous fourniront des abaques précis pour structurer votre installation.
 
 ## 5. Automatisation : La différence entre un gadget et une infrastructure
 
