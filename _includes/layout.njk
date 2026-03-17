@@ -200,7 +200,7 @@
   <script data-goatcounter="https://foutoirconnecte.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   <script defer src="https://cloud.umami.is/script.js" data-website-id="8f9ca174-8bf2-4a91-8d28-8436f5d47394"></script>
 </head>
-<body>
+<body {% if layout != "article.njk" %}data-pagefind-ignore="all"{% endif %}>
   <header class="site-header">
     <div class="header-content">
       <div class="logo-area">
