@@ -36,7 +36,7 @@ Pour éviter cela, il existe deux approches d'ingénierie viables :
 
 ### La solution logicielle : Le cycle de charge domotisé
 Puisque vous installez un écran domotique, utilisez la domotique pour le protéger ! 
-Branchez le chargeur USB de la tablette sur une **[prise connectée ou un micromodule de bonne qualité](/articles/danger-domotique-pas-cher-incendie/)**. 
+Branchez le chargeur USB de la tablette sur une **[prise connectée ou un micromodule de bonne qualité](/articles/faux-bon-plan-domotique-modules-dangereux/)**. 
 
 Installez une application compagnon sur la tablette (comme l'excellente application officielle *Home Assistant Companion* pour Android). Cette application est capable de lire le pourcentage de batterie de la tablette et de l'envoyer à votre cerveau domotique. 
 

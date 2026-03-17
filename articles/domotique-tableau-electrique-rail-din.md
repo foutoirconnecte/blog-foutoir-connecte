@@ -31,7 +31,7 @@ Si vous avez déjà essayé d'installer un micromodule Shelly ou Sonoff derrièr
 
 Les maisons standards (surtout celles construites avant 2010) sont équipées de boîtes d'encastrement de 40 mm de profondeur. Une fois que vous y avez rentré l'interrupteur mécanique et les fils électriques rigides de 1.5mm², l'espace restant se mesure en millimètres. Pousser en force un module domotique au fond de cette boîte, tordre les fils sans les casser, et réussir à revisser la plaque de finition est une épreuve de force qui relève souvent du miracle géométrique.
 
-Cette compression extrême des câbles pose d'ailleurs un **[vrai risque d'échauffement ou d'incendie](/articles/danger-domotique-pas-cher-incendie/)** si une borne est mal serrée ou si le module est de mauvaise qualité. 
+Cette compression extrême des câbles pose d'ailleurs un **[vrai risque d'échauffement ou d'incendie](/articles/faux-bon-plan-domotique-modules-dangereux/)** si une borne est mal serrée ou si le module est de mauvaise qualité. 
 
 En déportant ces modules au tableau électrique (grâce à des boîtiers adaptés au "Rail DIN"), vous réglez définitivement ce problème. Vos interrupteurs muraux redeviennent d'une simplicité absolue (ils ne contiennent que deux fils), et l'intelligence respire confortablement dans un tableau ventilé et conçu pour cela.
 

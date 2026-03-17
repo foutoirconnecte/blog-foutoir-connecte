@@ -28,7 +28,7 @@ La gestion du Wi-Fi pour des périphériques domotiques à haut volume est fonda
 
 Ensuite, il y a la question thermique. Un tableau électrique est un espace fermé, conçu pour une dissipation thermique spécifique. Y ajouter des dizaines de modules Wi-Fi, qui consomment de l'énergie et chauffent par nature, est une aberration technique. J'ai vu des installations où la température interne du tableau dépassait les limites de sécurité, réduisant drastiquement la durée de vie des disjoncteurs voisins et des autres composants sensibles.
 
-Enfin, la sécurité logicielle et la dépendance au cloud sont des points de friction. Beaucoup de ces modules bas de gamme exigent une connexion permanente à des serveurs distants pour fonctionner, ce qui transforme un simple interrupteur en une faille de sécurité potentielle. Pour approfondir ces risques, vous pouvez consulter mon article sur **[les modules domotiques bas de gamme et leurs dangers](/articles/danger-domotique-pas-cher-incendie/)**
+Enfin, la sécurité logicielle et la dépendance au cloud sont des points de friction. Beaucoup de ces modules bas de gamme exigent une connexion permanente à des serveurs distants pour fonctionner, ce qui transforme un simple interrupteur en une faille de sécurité potentielle. Pour approfondir ces risques, vous pouvez consulter mon article sur **[les modules domotiques bas de gamme et leurs dangers](/articles/faux-bon-plan-domotique-modules-dangereux/)**
 
 ### La solution : Pourquoi le format DIN Pro change tout
 
