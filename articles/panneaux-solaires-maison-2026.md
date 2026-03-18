@@ -129,13 +129,13 @@ Cette durée peut être considérablement réduite grâce au pilotage intelligen
 
 #### 5. L'Intégration Domotique : Le Véritable Levier d'Optimisation
 
-C'est ici que la maison connectée prend tout son sens. Un système domotique comme **[Home Assistant](/articles/home-assistant/)** transforme une installation solaire passive en un écosystème énergétique actif et intelligent. De mon point de vue, c'est l'élément qui fait basculer la rentabilité et l'intérêt du projet.
+C'est ici que la maison connectée prend tout son sens. Un système domotique comme **[Home Assistant](/articles/ha_vs_apple_home_2026/)** transforme une installation solaire passive en un écosystème énergétique actif et intelligent. De mon point de vue, c'est l'élément qui fait basculer la rentabilité et l'intérêt du projet.
 
 L'onduleur hybride et la batterie deviennent des objets connectés qui communiquent leurs données en temps réel : production solaire instantanée, état de charge de la batterie, consommation de la maison, surplus injecté sur le réseau... Avec ces informations, les possibilités d'automatisation sont infinies.
 
 *   **Décalage des Charges Énergivores :** La règle d'or est de consommer quand le soleil produit.
     *   **Automatisation du chauffe-eau :** Le ballon d'eau chaude est une "batterie thermique". Au lieu de le faire chauffer la nuit en heures creuses (qui n'ont plus beaucoup d'intérêt avec le solaire), une automatisation le déclenchera uniquement lorsque la production solaire est excédentaire (par exemple, quand la production dépasse la consommation de la maison de plus de 2000 W).
-    *   **Lave-linge, sèche-linge, lave-vaisselle :** Grâce à des **[prises connectées](/articles/guide-prises-connectees/)** ou des appareils communicants, vous pouvez créer des scénarios : "Si la batterie est chargée à plus de 80% ET qu'il est entre 12h et 16h, lancer le cycle du lave-vaisselle."
+    *   **Lave-linge, sèche-linge, lave-vaisselle :** Grâce à des **[modules électriques intelligents](/articles/shelly-pro-2026/)** ou des appareils communicants, vous pouvez créer des scénarios : "Si la batterie est chargée à plus de 80% ET qu'il est entre 12h et 16h, lancer le cycle du lave-vaisselle."
     *   **Recharge du Véhicule Électrique :** C'est le poste de consommation le plus important. Une borne de recharge intelligente intégrée à votre système domotique peut être configurée pour ne charger le véhicule qu'avec l'excédent solaire. Vous faites ainsi le plein "gratuitement".
 
 *   **Gestion Intelligente de la Batterie :**
