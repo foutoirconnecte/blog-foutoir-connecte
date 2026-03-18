@@ -1,4 +1,3 @@
-```markdown
 ---
 layout: article.njk
 title: "Panneaux solaires en 2026 : L'autonomie énergétique de votre maison connectée"
@@ -165,4 +164,3 @@ Cependant, les arguments en faveur d'une telle installation sont plus forts que 
 La véritable bascule, ce qui rend le projet non seulement viable mais stratégique, est son intégration dans un écosystème domotique. C'est le pilotage intelligent qui permet de sculpter votre consommation pour qu'elle épouse la courbe de production solaire. C'est lui qui transforme une installation statique en un organe vivant de votre maison, maximisant votre autonomie et votre rentabilité.
 
 Une installation photovoltaïque en 2026, couplée à un cerveau domotique comme Home Assistant, n'est pas une simple dépense pour réduire ses factures. C'est une reprise de contrôle sur votre énergie. C'est un investissement dans la résilience de votre foyer face aux incertitudes économiques et énergétiques futures. J'ai pu observer sur ma propre installation l'impact direct de ces automatisations, et le gain est loin d'être marginal. C'est une démarche logique, technologique et fondamentalement économique pour quiconque souhaite rendre sa maison véritablement intelligente et autonome.
-```
