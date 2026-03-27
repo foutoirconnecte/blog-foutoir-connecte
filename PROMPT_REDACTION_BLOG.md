@@ -11,9 +11,9 @@
 
 ## 2. Contraintes de Format
 *   **Longueur et Accessibilité :** Entre 2500 et 3000 mots. L'article doit être un guide de référence (pillar content) extrêmement approfondi, mais **totalement accessible aux débutants**. L'objectif est de vulgariser les concepts techniques (comme le réseau maillé ou le neutre électrique) avec pédagogie, pour faire évoluer le lecteur sans jamais le noyer sous un jargon d'expert.
-*   **Structure Rant/Fix/Verdict (modérée) :**
-    *   *Le Problème (Rant) :* Exposer la douleur ou l'erreur courante de manière factuelle.
-    *   *La Solution (Fix) :* Apporter la valeur technique, claire et actionnable.
+*   **Structure Logique :**
+    *   *Le Problème :* Exposer la douleur ou l'erreur courante de manière factuelle. (Ne jamais utiliser le terme "Rant" dans les titres).
+    *   *La Solution :* Apporter la valeur technique, claire et actionnable. (Ne jamais utiliser le terme "Fix" dans les titres).
     *   *Le Verdict :* Une conclusion pragmatique et définitive.
 
 ## 3. Le Filtre Anti-IA (Mots à bannir)
@@ -24,6 +24,7 @@ INTERDICTION d'utiliser le vocabulaire classique des LLM :
 *   "Symphonie", "Révolutionner", "Un véritable jeu d'enfant", "L'allié idéal", "Polyvalent".
 *   "Dans ce monde numérique en constante évolution..."
 *   Pas d'émojis.
+*   "Rant", "Fix" (dans les titres ou sous-titres).
 *   Intégrer 2 à 3 liens internes pertinents au sein du texte pour faire référence à d'autres articles du blog. **ATTENTION FORMATAGE : Tous les liens (internes et externes) DOIVENT OBLIGATOIREMENT être mis en gras** dans le texte Markdown, en utilisant la syntaxe suivante : `**[Texte du lien](/chemin/vers/article/)**`.
 ## 4. Style d'écriture
 *   **Conseils Concrets :** Soyez extrêmement concret dans les recommandations, en particulier dans la deuxième partie de l'article (fournissez des exemples pratiques, des configurations réelles, des cas d'usage précis plutôt que de la théorie).
