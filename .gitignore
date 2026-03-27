@@ -1,0 +1,15 @@
+node_modules/
+_site/
+.env
+*.py
+*.sh
+*.log
+.DS_Store
+_data/metadata.js
+site/node_modules/
+site/_site/
+site/.env
+site/*.py
+site/*.sh
+site/*.log
+site/_data/metadata.js
