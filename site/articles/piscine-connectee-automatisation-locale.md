@@ -79,7 +79,7 @@ La sécurité d'une piscine avec des enfants ne doit souffrir d'aucune approxima
 
 Au lieu de se fier à un capteur de mouvement qui s'active pour un chat ou une branche, un serveur comme Frigate NVR peut identifier spécifiquement la présence d'un "humain" dans la zone rouge du bassin. En cas de détection alors que le mode "Surveillance Piscine" est actif, le système peut faire hurler les enceintes extérieures, allumer les lumières du jardin en rouge et envoyer une alerte critique (qui sonne même en mode ne pas déranger) sur les téléphones des parents.
 
-Cette surveillance peut être couplée à un capteur d'état sur le volet roulant ou la bâche. Si le volet est ouvert et qu'aucune présence adulte n'est détectée dans la zone de vie par un capteur mmWave, l'alerte est immédiate. On réduit ainsi le temps de réaction, facteur crucial en cas d'accident. C'est une application concrète de la **[sécurité périmétrale par IA](/articles/securite-perimetrale-et-ia-differencier-un-cambrioleur-dun-renard-avec-99-de-precision/)**.
+Cette surveillance peut être couplée à un capteur d'état sur le volet roulant ou la bâche. Si le volet est ouvert et qu'aucune présence adulte n'est détectée dans la zone de vie par un capteur mmWave, l'alerte est immédiate. On réduit ainsi le temps de réaction, facteur crucial en cas d'accident. C'est une application concrète de la sécurité périmétrale par IA.
 
 ### Le chauffage : Optimiser l'autoconsommation solaire
 
