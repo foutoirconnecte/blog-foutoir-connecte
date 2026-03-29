@@ -1,0 +1,10 @@
+node_modules/
+_site/
+.env
+*.py
+*.sh
+*.log
+.DS_Store
+_data/metadata.js
+blog_domotique/*.py
+blog_domotique/*.sh
