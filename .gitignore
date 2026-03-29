@@ -1,15 +1,40 @@
-node_modules/
-_site/
-.env
+# Ignore OpenClaw internal files and workspace management
+.openclaw/
+memory/
+AGENTS.md
+MEMORY.md
+SOUL.md
+HEARTBEAT.md
+IDENTITY.md
+USER.md
+TOOLS.md
+BOOTSTRAP.md
+
+# Ignore internal blog planning, drafts and strategy
+ARTICLES_BACKLOG.md
+BLOG_CONTEXT.md
+PROMPT_REDACTION_BLOG.md
+SEO_STRATEGY.md
+article_brut.md
+prompt_serrure.txt
+tweet.txt
+
+# Ignore all scripts (they are internal tools)
 *.py
-*.sh
-*.log
+
+# Ignore images at root (should be in site/images)
+*.png
+*.jpg
+*.webp
+*.jpeg
+*.gif
+
+# Build and environment files
+node_modules/
+.env
 .DS_Store
-_data/metadata.js
-site/node_modules/
-site/_site/
-site/.env
-site/*.py
-site/*.sh
-site/*.log
-site/_data/metadata.js
+*.log
+
+# Allow the site directory content
+# (Note: site/ is a separate repo, it will be treated as a nested repo)
+!site/
